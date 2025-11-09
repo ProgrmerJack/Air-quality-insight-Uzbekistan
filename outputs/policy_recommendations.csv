@@ -1,0 +1,7 @@
+priority,area,recommendation,evidence
+CRITICAL,Air Quality Management,Implement emergency air quality action plan - over 75% of days exceed WHO guidelines,86.7% of days exceed WHO 24-hour guideline
+HIGH,School Health,Install air filtration systems (HEPA or Corsi-Rosenthal boxes) in all classrooms,School hours mean PM2.5 = 24.0 µg/m³ (WHO guideline = 15 µg/m³)
+HIGH,Traffic Management,"Create vehicle-free zones within 250m of schools during peak hours (07:00-09:00, 14:00-16:00)",Commute time mean PM2.5 = 24.6 µg/m³
+MEDIUM,Emission Sources,Accelerate transition from solid fuel to clean energy for residential heating and cooking,Excess exposure = 24.4 µg/m³ above WHO guideline
+MEDIUM,Data Infrastructure,Expand air quality monitoring network to capture spatial variability across city,Current analysis based on single monitoring location
+MEDIUM,Public Health Communication,Establish real-time air quality alert system for schools and vulnerable populations,Frequent guideline exceedances (86.7% of days)
