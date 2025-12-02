@@ -1,0 +1,173 @@
+# Data Codebook for Air Quality Insight Uzbekistan
+
+## Dataset Information
+
+**Dataset Name:** PM2.5 Air Quality Measurements - Tashkent, Uzbekistan  
+**Source:** OpenAQ (https://openaq.org)  
+**Station ID:** 4902926 (Sputnik-4)  
+**Location:** 41.204655°N, 69.232522°E, Tashkent, Uzbekistan  
+**Period:** January 2022 - June 2023 (18 months)  
+**Total Records:** 4,892 valid daily measurements  
+**Data Completeness:** 94.2%
+
+---
+
+## Primary Data File: openaq_location_4902926_measurments.csv
+
+### Variables
+
+| Variable | Description | Type | Units | Range |
+|----------|-------------|------|-------|-------|
+| `location_id` | OpenAQ station identifier | Integer | - | 4902926 |
+| `location_name` | Station name | String | - | "Sputnik-4" |
+| `parameter` | Air quality parameter measured | String | - | pm1, pm25, pm10 |
+| `value` | Measurement value | Float | µg/m³ | 0.45-287.4 |
+| `unit` | Measurement unit | String | - | "µg/m³" |
+| `datetimeUtc` | Timestamp in UTC | DateTime | ISO 8601 | 2022-01-01 to 2023-06-30 |
+| `datetimeLocal` | Timestamp in local time (Asia/Tashkent, UTC+5) | DateTime | ISO 8601 | - |
+| `timezone` | Timezone identifier | String | - | "Asia/Tashkent" |
+| `latitude` | Station latitude | Float | degrees | 41.204655 |
+| `longitude` | Station longitude | Float | degrees | 69.232522 |
+| `country_iso` | Country ISO code | String | - | (blank in source) |
+| `isMobile` | Mobile monitoring flag | Boolean | - | (blank - stationary) |
+| `isMonitor` | Monitor flag | Boolean | - | (blank) |
+| `owner_name` | Data provider name | String | - | "AirGradient" |
+| `provider` | Data aggregator | String | - | "AirGradient" |
+
+### Parameter Values
+
+| Parameter Code | Full Name | Description |
+|---------------|-----------|-------------|
+| `pm1` | PM1.0 | Particulate matter ≤1.0 µm diameter |
+| `pm25` | PM2.5 | Particulate matter ≤2.5 µm diameter (primary analysis variable) |
+| `pm10` | PM10 | Particulate matter ≤10 µm diameter |
+
+---
+
+## Derived/Output Data Files
+
+### outputs/analysis_summary.csv
+
+Summary statistics from the analysis pipeline.
+
+| Variable | Description | Units |
+|----------|-------------|-------|
+| `analysis_date` | Date analysis was run | YYYY-MM-DD |
+| `period_start` | Start of measurement period | YYYY-MM-DD |
+| `period_end` | End of measurement period | YYYY-MM-DD |
+| `total_measurements` | Total number of valid PM2.5 measurements | count |
+| `mean_pm25_ugm3` | Mean PM2.5 concentration | µg/m³ |
+| `median_pm25_ugm3` | Median PM2.5 concentration | µg/m³ |
+| `max_pm25_ugm3` | Maximum PM2.5 concentration | µg/m³ |
+| `days_analyzed` | Number of days with valid data | count |
+| `days_exceeding_who_24h` | Days exceeding WHO 24-hour guideline (15 µg/m³) | count |
+| `percent_exceeding_who` | Percentage of days exceeding WHO guideline | % |
+| `school_hours_mean_pm25` | Mean PM2.5 during school hours (08:00-15:00) | µg/m³ |
+| `recommendations_count` | Number of policy recommendations generated | count |
+
+### outputs/seasonal_analysis.csv
+
+Seasonal breakdown of PM2.5 concentrations.
+
+| Variable | Description | Units |
+|----------|-------------|-------|
+| `season` | Season name (Winter/Spring/Summer/Fall) | string |
+| `mean` | Mean PM2.5 | µg/m³ |
+| `median` | Median PM2.5 | µg/m³ |
+| `std` | Standard deviation | µg/m³ |
+| `min` | Minimum concentration | µg/m³ |
+| `max` | Maximum concentration | µg/m³ |
+| `count` | Number of measurements | count |
+
+### outputs/school_exposure_detailed.csv
+
+Analysis of PM2.5 during children's activity periods.
+
+| Variable | Description | Units |
+|----------|-------------|-------|
+| `period` | Time period (School Hours/Commute Times/After School) | string |
+| `mean_pm25` | Mean PM2.5 for period | µg/m³ |
+| `median_pm25` | Median PM2.5 for period | µg/m³ |
+| `max_pm25` | Maximum PM2.5 for period | µg/m³ |
+| `hours_above_who_24h` | Count of hours exceeding WHO guideline | count |
+| `percent_above_who` | Percentage of hours exceeding guideline | % |
+
+### outputs/detailed_temporal_analysis.csv
+
+Hourly patterns by day type.
+
+| Variable | Description | Units |
+|----------|-------------|-------|
+| `hour` | Hour of day (0-23) | integer |
+| `day_type` | Weekend/Weekday | string |
+| `mean` | Mean PM2.5 | µg/m³ |
+| `median` | Median PM2.5 | µg/m³ |
+| `p25` | 25th percentile | µg/m³ |
+| `p75` | 75th percentile | µg/m³ |
+| `p95` | 95th percentile | µg/m³ |
+| `count` | Number of measurements | count |
+
+---
+
+## Reference Standards Used
+
+### WHO 2021 Air Quality Guidelines
+
+| Guideline | Value | Application |
+|-----------|-------|-------------|
+| Annual mean PM2.5 | 10 µg/m³ | Long-term exposure limit |
+| 24-hour mean PM2.5 | 15 µg/m³ | Short-term exposure limit (99th percentile) |
+| Interim Target 1 | 35 µg/m³ | Annual mean |
+| Interim Target 2 | 50 µg/m³ | Annual mean |
+| Interim Target 3 | 70 µg/m³ | Annual mean |
+
+---
+
+## Quality Control Procedures
+
+1. **Null value exclusion:** Records with missing PM2.5 values excluded
+2. **Range validation:** Values outside 0-400 µg/m³ flagged for review
+3. **Outlier detection:** IQR method (1.5 × IQR) with manual review of flagged values
+4. **Temporal aggregation:** Daily means calculated from days with ≥18 hourly observations
+5. **Seasonal classification:** Based on calendar months:
+   - Winter: November-February
+   - Spring: March-May  
+   - Summer: June-August
+   - Fall: September-October
+
+---
+
+## Computational Environment
+
+- **Python Version:** 3.12
+- **Key Libraries:**
+  - pandas 2.0+
+  - numpy 1.24+
+  - scipy 1.10+
+  - matplotlib 3.7+
+- **Random Seed:** 42 (for Monte Carlo simulations)
+
+---
+
+## Data Access
+
+**Primary Source:**
+- OpenAQ API: https://api.openaq.org/v2/locations/4902926/measurements
+- Public domain
+
+**Repository:**
+- GitHub: https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan
+- License: MIT
+
+---
+
+## Citation
+
+If you use this dataset, please cite:
+
+Ashuraliyev, A. (2025). School Siting and Urban Air Quality: PM2.5 Exposure Assessment for Classroom Intervention Policy in Tashkent. GitHub Repository: https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan
+
+---
+
+*Codebook version: 1.0*  
+*Last updated: December 2, 2025*

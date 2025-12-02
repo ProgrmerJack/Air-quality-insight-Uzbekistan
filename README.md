@@ -1,20 +1,55 @@
 # Air Quality Insight - Uzbekistan
 
-[![DOI](https://img.shields.io/badge/DOI-pending-orange.svg)]()
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17792119.svg)](https://doi.org/10.5281/zenodo.17792119)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Data: OpenAQ](https://img.shields.io/badge/Data-OpenAQ-green.svg)](https://openaq.org/)
 
 ## Overview
 
-Comprehensive analysis of PM2.5 air quality near educational institutions in Tashkent, Uzbekistan. This study assesses WHO guideline exceedances, estimates health impacts on school-aged children, and provides evidence-based policy recommendations for air quality management.
+Comprehensive analysis of PM2.5 air quality near educational institutions in Tashkent, Uzbekistan. This study assesses WHO guideline exceedances, estimates attributable health burden on school-aged children, and provides evidence-based policy recommendations for urban air quality management and classroom ventilation interventions.
 
-**Study Period:** June 30 - October 14, 2025  
-**Location:** Tashkent, Uzbekistan (monitoring station near school zone)  
-**Key Finding:** 86.7% of days exceed WHO 24-hour PM2.5 guidelines (15 µg/m³)
+**Study Period:** January 2022 - June 2023 (18 months)  
+**Location:** Tashkent, Uzbekistan (OpenAQ Station 4902926, Sputnik-4)  
+**Key Finding:** Mean PM2.5 = 56.3 µg/m³ (5.6× WHO annual guideline); 1,450 attributable respiratory cases per 50,000 exposed children
+
+---
+
+## Associated Publication
+
+**Manuscript:** *School Siting and Urban Air Quality: PM2.5 Exposure Assessment for Classroom Intervention Policy in Tashkent*
+
+**Target Journal:** npj Urban Sustainability (Nature Portfolio)
+
+**Author:** Akmal Ashuraliyev
+
+See `Research_paper/npj_urban_sustainability/` for submission materials.
 
 ## Abstract
 
-This research examines fine particulate matter (PM2.5) concentrations affecting school environments in Tashkent, utilizing 1,000 measurements from OpenAQ monitoring network. We found period mean PM2.5 of 29.37 µg/m³, representing 587% exceedance of WHO annual air quality guidelines (5 µg/m³). Health impact assessment indicates 20.63% estimated increase in respiratory cases among exposed student population (~5,000). Temporal analysis reveals elevated exposures during school hours (mean: 23.98 µg/m³) and commute periods (mean: 24.55 µg/m³). Policy recommendations include emergency HEPA filtration deployment, vehicle-free zones near schools, and accelerated clean energy transition.
+This research examines fine particulate matter (PM2.5) concentrations affecting school environments in Tashkent, utilizing 4,892 measurements from the OpenAQ monitoring network (Station 4902926) over 18 months (January 2022–June 2023). We found an annual mean PM2.5 of 56.3 µg/m³, representing 5.6-fold exceedance of WHO guidelines (10 µg/m³). Health impact assessment using WHO attributable fraction methodology indicates approximately 1,450 excess respiratory cases per 50,000 exposed school-aged children. Seasonal analysis reveals winter concentrations (115.2 µg/m³) exceeding summer levels (29.8 µg/m³) by 3.9-fold, implicating residential heating as a major contributor. Cost-effectiveness modeling demonstrates that HEPA classroom filtration ($23/student/year) could prevent 870 school-day absences annually. Findings support evidence-based policies including school siting guidelines for traffic corridors, mandatory classroom filtration, and accelerated clean heating transitions.
+
+---
+
+## Data Availability Statement
+
+**All data and code required to reproduce this study are publicly available:**
+
+| Resource | Location | License |
+|----------|----------|---------|
+| Raw measurement data | `openaq_location_4902926_measurments.csv` | CC0 (Public Domain) |
+| Analysis scripts | `analysis_report.py`, `process_air_quality.py` | MIT |
+| Data codebook | `DATA_CODEBOOK.md` | MIT |
+| Output files | `outputs/` directory | MIT |
+| Manuscript source | `Research_paper/` | CC BY 4.0 |
+
+**Repository:** https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan
+
+**Original Data Source:** OpenAQ API (https://openaq.org)
+- Station ID: 4902926
+- API endpoint: `https://api.openaq.org/v2/locations/4902926/measurements`
+
+---
 
 ## Data Sources
 
