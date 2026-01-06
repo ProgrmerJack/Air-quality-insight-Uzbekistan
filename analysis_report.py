@@ -1,6 +1,10 @@
 """
 Advanced Air Quality Analysis Report Generator
 Generates comprehensive statistical analysis, health impact assessment, and policy recommendations
+
+Author: Abduxoliq Ashuraliyev
+ORCID: 0009-0003-5482-5526
+Affiliation: Air Quality Research - Uzbekistan
 """
 
 import pandas as pd
@@ -9,7 +13,7 @@ from datetime import datetime
 
 DATA_PATH = Path(__file__).resolve().parent
 # Use verified U.S. Embassy Station 8881 data (StateAir program)
-INPUT_FILE = DATA_PATH / "us_embassy_2022_2023_REAL.csv"
+INPUT_FILE = DATA_PATH / "us_embassy_2022_2023.csv"
 OUTPUT_DIR = DATA_PATH / "outputs"
 
 

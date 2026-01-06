@@ -1,5 +1,12 @@
 # Data Codebook for Air Quality Insight Uzbekistan
 
+**Author:** Abduxoliq Ashuraliyev  
+**ORCID:** [0009-0003-5482-5526](https://orcid.org/0009-0003-5482-5526)  
+**Target Journal:** Environmental Monitoring and Assessment (Springer Nature)  
+**License:** MIT License
+
+---
+
 ## Dataset Information
 
 **Dataset Name:** PM2.5 Air Quality Measurements - Tashkent, Uzbekistan  
@@ -14,9 +21,11 @@
 
 **Data Source Note:** This dataset contains verified PM2.5 measurements from the U.S. Embassy air quality monitoring station in Tashkent, retrieved via the OpenAQ API v3. The StateAir program provides research-grade measurements calibrated to U.S. EPA standards.
 
+**⚠️ IMPORTANT:** Station 4902926 data has been **DELETED** from this repository. Only Station 8881 (U.S. Embassy) data is valid and used for all analyses.
+
 ---
 
-## Primary Data File: us_embassy_2022_2023_REAL.csv
+## Primary Data File: us_embassy_2022_2023.csv
 
 ### Variables
 
@@ -44,21 +53,15 @@
 
 ---
 
-## Legacy Data File: openaq_location_4902926_measurments.csv (DEPRECATED)
+## ❌ Station 4902926 Data - DELETED FROM REPOSITORY
 
-**⚠️ WARNING:** This file contains synthetic data that does not correspond to actual OpenAQ records. Station 4902926 (Sputnik-4) only has data available from June 2025 onwards in the OpenAQ database. This file should NOT be used for analysis.
+**Status:** All data files for Station 4902926 (Sputnik-4) have been **permanently deleted** from this repository.
 
-### Variables (for reference only)
+**Reason:** This station's data was synthetic/test data that does not correspond to actual OpenAQ records. Station 4902926 only has data available from June 2025 onwards in the OpenAQ database.
 
-| Variable | Description | Type | Units |
-|----------|-------------|------|-------|
-| `location_id` | OpenAQ station identifier | Integer | - |
-| `location_name` | Station name | String | - |
-| `parameter` | Air quality parameter measured | String | - |
-| `value` | Measurement value | Float | µg/m³ |
-| `unit` | Measurement unit | String | - |
-| `datetimeUtc` | Timestamp in UTC | DateTime | ISO 8601 |
-| `datetimeLocal` | Timestamp in local time | DateTime | ISO 8601 |
+**Action Taken:** The file `openaq_location_4902926_measurments.csv` has been removed via git and should NOT be referenced in any analysis scripts or documentation.
+
+**Only Valid Data:** Station 8881 (U.S. Embassy Tashkent) data in `us_embassy_2022_2023.csv`
 
 ---
 

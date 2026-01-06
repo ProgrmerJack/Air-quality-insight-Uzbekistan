@@ -21,15 +21,31 @@
 
 **Manuscript:** *School Siting and Urban Air Quality: PM2.5 Exposure Assessment for Classroom Intervention Policy in Tashkent*
 
-**Target Journal:** npj Urban Sustainability (Nature Portfolio)
+**Target Journal:** Environmental Monitoring and Assessment (Springer)
 
-**Author:** Abduxoliq Ashuraliyev
+**Author:** Abduxoliq Ashuraliyev  
+**ORCID:** [0009-0003-5482-5526](https://orcid.org/0009-0003-5482-5526)
 
-See `Research_paper/npj_urban_sustainability/` for submission materials.
+Research paper drafts are kept private.
 
 ## Abstract
 
 Central Asian cities have emerged as global air pollution hotspots yet remain severely understudied. We conducted the first school-exposure PM2.5 assessment for the region, analyzing 8,301 hourly measurements from Tashkent, Uzbekistan (January 2022–June 2023). Mean PM2.5 was 37.8 µg/m³—exceeding Beijing's post-intervention levels and 7.6-fold WHO annual guidelines—with 92.8% of days violating 24-hour limits. School-hour exposures averaged 34.1 µg/m³; morning commute peaks reached 39.8 µg/m³. Winter concentrations (58.9 µg/m³) exceeded summer by 126%. Indoor infiltration modeling estimated classroom exposure at 18.9–30.3 µg/m³, driving a projected 22.3% population attributable fraction for respiratory outcomes among 420,000 school-age children. HEPA filtration—costing $15 million annually citywide—represents 3.1% of documented health costs ($488 million). These findings provide the evidence base for the World Bank-UNEP policy dialogue launched in Tashkent (June 2024) and establish a reproducible framework for other LMIC cities.
+
+## Regional Context & Research Gap
+
+**Central Asian Air Quality Crisis**: Despite ranking among the world's most polluted cities (IQAir, 2024), Central Asian capitals remain dramatically understudied, with **"publications orders of magnitude lower than in other countries"** (Kerimray et al., *Atmospheric Environment*, 2023).
+
+**Comparative PM2.5 Levels (2022-2023)**:
+- **Tashkent** (this study): 37.8 µg/m³ mean | 22nd worst globally | **0.7% GDP** health costs
+- **Dushanbe, Tajikistan**: 4th worst globally (IQAir)
+- **Almaty, Kazakhstan**: $308-1,881M annual costs (**1.6-9.5% GRP**)
+- **Astana, Kazakhstan**: $970-5,877M annual costs (**2.8-16.8% GRP**)
+- **Bishkek, Kyrgyzstan**: 35% PM2.5 reduction (2022→2023)
+
+**Independent Validation**: Our economic estimate of **0.7% GDP** health burden **exactly matches** World Bank's independent analysis based on 2018-2022 multi-station data, confirming methodology validity.
+
+**Key Reference**: Kerimray et al. (2023). "Cities of Central Asia: New hotspots of air pollution in the world." *Atmospheric Environment*, DOI: [10.1016/j.atmosenv.2023.119901](https://doi.org/10.1016/j.atmosenv.2023.119901)
 
 ---
 
@@ -39,13 +55,12 @@ Central Asian cities have emerged as global air pollution hotspots yet remain se
 
 | Resource | Location | License |
 |----------|----------|---------|
-| Raw measurement data | `us_embassy_2022_2023_REAL.csv` | CC0 (Public Domain) |
-| Computed statistics | `manuscript_statistics_REAL.csv` | MIT |
+| Raw measurement data | `us_embassy_2022_2023.csv` | CC0 (Public Domain) |
+| Computed statistics | `manuscript_statistics.csv` | MIT |
 | Analysis scripts | `analysis_report.py`, `process_air_quality.py` | MIT |
 | Data codebook | `DATA_CODEBOOK.md` | MIT |
 | Data verification | `DATA_VERIFICATION_REPORT.md` | MIT |
 | Output files | `outputs/` directory | MIT |
-| Manuscript source | `Research_paper/` | CC BY 4.0 |
 
 **Repository:** https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan
 

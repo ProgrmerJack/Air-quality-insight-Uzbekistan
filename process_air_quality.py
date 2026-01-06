@@ -1,9 +1,18 @@
+"""
+Air Quality Data Processing Pipeline
+Processes PM2.5 data from U.S. Embassy Tashkent station
+
+Author: Abduxoliq Ashuraliyev
+ORCID: 0009-0003-5482-5526
+Affiliation: Air Quality Research - Uzbekistan
+"""
+
 import pandas as pd
 from pathlib import Path
 
 DATA_PATH = Path(__file__).resolve().parent
 # Use verified U.S. Embassy Station 8881 data (StateAir program)
-INPUT_FILE = DATA_PATH / "us_embassy_2022_2023_REAL.csv"
+INPUT_FILE = DATA_PATH / "us_embassy_2022_2023.csv"
 WHO_FILE = DATA_PATH / "who_ambient_air_quality_database_version_2024_(v6.1).xlsx"
 
 
