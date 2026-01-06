@@ -1,1 +1,46 @@
-Research_paper/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+
+# Data files - temporary/working scripts
+real_openaq_*.csv
+us_embassy_pm25_*.csv
+fetch_*.py
+clean_*.py
+download_*.py
+verify_openaq_source.py
+comprehensive_analysis.py
+
+# WHO/reference documents (too large for repo)
+*.pdf
+*.xlsx
+
+# Intermediate/working data files
+us_embassy_2022_2023_daily.csv
+
+# IDE
+.vscode/
+
+# Research paper build artifacts
+Research_paper/**/*.aux
+Research_paper/**/*.fdb_latexmk
+Research_paper/**/*.fls
+Research_paper/**/*.log
+Research_paper/**/*.toc
+Research_paper/**/*.out
+Research_paper/**/*.synctex.gz
+Research_paper/**/*.bbl
+Research_paper/**/*.blg
+
+# DEPRECATED: Sputnik-4 station data file - DO NOT USE
+# This file is from Station 4902926 (Sputnik-4), NOT the U.S. Embassy Station 8881
+# The manuscript uses verified data from us_embassy_2022_2023_REAL.csv
+openaq_location_4902926_measurments.csv
+
+# Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+
+# Codacy local config
+.codacy/

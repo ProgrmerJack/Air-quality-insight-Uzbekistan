@@ -2,24 +2,25 @@ import pandas as pd
 from pathlib import Path
 
 DATA_PATH = Path(__file__).resolve().parent
-INPUT_FILE = DATA_PATH / "openaq_location_4902926_measurments.csv"
+# Use verified U.S. Embassy Station 8881 data (StateAir program)
+INPUT_FILE = DATA_PATH / "us_embassy_2022_2023_REAL.csv"
 WHO_FILE = DATA_PATH / "who_ambient_air_quality_database_version_2024_(v6.1).xlsx"
 
 
 def load_openaq():
-    """Load the harmonized OpenAQ measurements and return a clean DataFrame."""
+    """Load the verified U.S. Embassy PM2.5 measurements and return a clean DataFrame."""
     df = pd.read_csv(INPUT_FILE)
-    df["datetimeLocal"] = pd.to_datetime(df["datetimeLocal"])
-    df = df[df["parameter"].str.lower().isin(["pm25", "no2"])]
-    df["unit"] = df["unit"].str.replace("�", "u", regex=False)
+    df["datetime_local"] = pd.to_datetime(df["datetime_local"])
+    # Data is already PM2.5 only from US Embassy station
+    df["parameter"] = "pm25"
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     df = df.dropna(subset=["value"])
-    df["hour"] = df["datetimeLocal"].dt.hour
-    df["date"] = df["datetimeLocal"].dt.date
-    df["weekday"] = df["datetimeLocal"].dt.weekday
+    df["hour"] = df["datetime_local"].dt.hour
+    df["date"] = pd.to_datetime(df["date"]).dt.date
+    df["weekday"] = df["datetime_local"].dt.weekday
     df["is_weekend"] = df["weekday"] >= 5
     df["period"] = pd.cut(
-        df["datetimeLocal"].dt.hour,
+        df["datetime_local"].dt.hour,
         bins=[-1, 5, 10, 15, 19, 24],
         labels=["overnight", "morning_commute", "school_hours", "afternoon", "late_evening"],
     )

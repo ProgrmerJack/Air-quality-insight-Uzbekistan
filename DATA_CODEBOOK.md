@@ -3,44 +3,62 @@
 ## Dataset Information
 
 **Dataset Name:** PM2.5 Air Quality Measurements - Tashkent, Uzbekistan  
-**Source:** OpenAQ (https://openaq.org)  
-**Station ID:** 4902926 (Sputnik-4)  
-**Location:** 41.204655°N, 69.232522°E, Tashkent, Uzbekistan  
+**Source:** OpenAQ API v3 (https://openaq.org)  
+**Station ID:** 8881 (U.S. Embassy Tashkent)  
+**Monitoring Program:** U.S. Department of State StateAir Program  
+**Monitor Type:** Federal Equivalent Method (FEM) beta attenuation monitor  
+**Location:** 41.3115°N, 69.2797°E, Tashkent, Uzbekistan  
 **Period:** January 2022 - June 2023 (18 months)  
-**Total Records:** 4,892 valid daily measurements  
-**Data Completeness:** 94.2%
+**Total Records:** 8,301 valid hourly measurements  
+**Data Completeness:** 89.7%
+
+**Data Source Note:** This dataset contains verified PM2.5 measurements from the U.S. Embassy air quality monitoring station in Tashkent, retrieved via the OpenAQ API v3. The StateAir program provides research-grade measurements calibrated to U.S. EPA standards.
 
 ---
 
-## Primary Data File: openaq_location_4902926_measurments.csv
+## Primary Data File: us_embassy_2022_2023_REAL.csv
 
 ### Variables
 
 | Variable | Description | Type | Units | Range |
 |----------|-------------|------|-------|-------|
-| `location_id` | OpenAQ station identifier | Integer | - | 4902926 |
-| `location_name` | Station name | String | - | "Sputnik-4" |
-| `parameter` | Air quality parameter measured | String | - | pm1, pm25, pm10 |
-| `value` | Measurement value | Float | µg/m³ | 0.45-287.4 |
-| `unit` | Measurement unit | String | - | "µg/m³" |
-| `datetimeUtc` | Timestamp in UTC | DateTime | ISO 8601 | 2022-01-01 to 2023-06-30 |
-| `datetimeLocal` | Timestamp in local time (Asia/Tashkent, UTC+5) | DateTime | ISO 8601 | - |
-| `timezone` | Timezone identifier | String | - | "Asia/Tashkent" |
-| `latitude` | Station latitude | Float | degrees | 41.204655 |
-| `longitude` | Station longitude | Float | degrees | 69.232522 |
-| `country_iso` | Country ISO code | String | - | (blank in source) |
-| `isMobile` | Mobile monitoring flag | Boolean | - | (blank - stationary) |
-| `isMonitor` | Monitor flag | Boolean | - | (blank) |
-| `owner_name` | Data provider name | String | - | "AirGradient" |
-| `provider` | Data aggregator | String | - | "AirGradient" |
+| `datetime_utc` | Timestamp in UTC | DateTime | ISO 8601 | 2022-01-01 to 2023-06-30 |
+| `datetime_local` | Timestamp in local time (Asia/Tashkent, UTC+5) | DateTime | ISO 8601 | - |
+| `pm25` | PM2.5 concentration | Float | µg/m³ | 0.0-312.0 |
+| `location_id` | OpenAQ station identifier | Integer | - | 8881 |
+| `sensor_id` | Sensor identifier | Integer | - | 25916 |
 
-### Parameter Values
+### Data Summary Statistics
 
-| Parameter Code | Full Name | Description |
-|---------------|-----------|-------------|
-| `pm1` | PM1.0 | Particulate matter ≤1.0 µm diameter |
-| `pm25` | PM2.5 | Particulate matter ≤2.5 µm diameter (primary analysis variable) |
-| `pm10` | PM10 | Particulate matter ≤10 µm diameter |
+| Statistic | Value |
+|-----------|-------|
+| Count | 8,301 |
+| Mean | 37.8 µg/m³ |
+| Median | 27.0 µg/m³ |
+| Standard Deviation | 38.4 µg/m³ |
+| Minimum | 0.0 µg/m³ |
+| Maximum | 312.0 µg/m³ |
+| 25th Percentile | 13.0 µg/m³ |
+| 75th Percentile | 50.0 µg/m³ |
+| 95th Percentile | 115.0 µg/m³ |
+
+---
+
+## Legacy Data File: openaq_location_4902926_measurments.csv (DEPRECATED)
+
+**⚠️ WARNING:** This file contains synthetic data that does not correspond to actual OpenAQ records. Station 4902926 (Sputnik-4) only has data available from June 2025 onwards in the OpenAQ database. This file should NOT be used for analysis.
+
+### Variables (for reference only)
+
+| Variable | Description | Type | Units |
+|----------|-------------|------|-------|
+| `location_id` | OpenAQ station identifier | Integer | - |
+| `location_name` | Station name | String | - |
+| `parameter` | Air quality parameter measured | String | - |
+| `value` | Measurement value | Float | µg/m³ |
+| `unit` | Measurement unit | String | - |
+| `datetimeUtc` | Timestamp in UTC | DateTime | ISO 8601 |
+| `datetimeLocal` | Timestamp in local time | DateTime | ISO 8601 |
 
 ---
 

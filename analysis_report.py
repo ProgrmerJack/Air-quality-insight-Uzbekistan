@@ -4,36 +4,38 @@ Generates comprehensive statistical analysis, health impact assessment, and poli
 """
 
 import pandas as pd
-import numpy as np
 from pathlib import Path
 from datetime import datetime
 
 DATA_PATH = Path(__file__).resolve().parent
-INPUT_FILE = DATA_PATH / "openaq_location_4902926_measurments.csv"
+# Use verified U.S. Embassy Station 8881 data (StateAir program)
+INPUT_FILE = DATA_PATH / "us_embassy_2022_2023_REAL.csv"
 OUTPUT_DIR = DATA_PATH / "outputs"
 
 
 def load_processed_data():
-    """Load and prepare the OpenAQ dataset with additional analytics"""
+    """Load and prepare the verified U.S. Embassy PM2.5 dataset with additional analytics"""
     df = pd.read_csv(INPUT_FILE)
-    df["datetimeLocal"] = pd.to_datetime(df["datetimeLocal"])
-    df = df[df["parameter"].str.lower() == "pm25"]
+    df["datetimeLocal"] = pd.to_datetime(df["datetime_local"])
+    # Data is already PM2.5 only from US Embassy station
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     df = df.dropna(subset=["value"])
-    
+
     # Enhanced time features
     df["hour"] = df["datetimeLocal"].dt.hour
-    df["date"] = df["datetimeLocal"].dt.date
+    df["date"] = pd.to_datetime(df["date"]).dt.date
     df["weekday"] = df["datetimeLocal"].dt.weekday
     df["is_weekend"] = df["weekday"] >= 5
     df["month"] = df["datetimeLocal"].dt.month
-    df["season"] = df["month"].map({
-        12: "Winter", 1: "Winter", 2: "Winter",
-        3: "Spring", 4: "Spring", 5: "Spring",
-        6: "Summer", 7: "Summer", 8: "Summer",
-        9: "Fall", 10: "Fall", 11: "Fall"
-    })
-    
+    # Use season from data if available, otherwise derive from month
+    if "season" not in df.columns:
+        df["season"] = df["month"].map({
+            12: "Winter", 1: "Winter", 2: "Winter",
+            3: "Spring", 4: "Spring", 5: "Spring",
+            6: "Summer", 7: "Summer", 8: "Summer",
+            9: "Fall", 10: "Fall", 11: "Fall"
+        })
+
     return df
 
 
@@ -231,54 +233,79 @@ def generate_policy_recommendations(exceedances: dict, health_impact: dict, scho
     return recommendations
 
 
-def generate_comprehensive_report():
-    """Generate complete analysis report"""
-    
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    
+def _print_header():
+    """Print report header"""
     print("=" * 80)
     print("AIR QUALITY INSIGHT - UZBEKISTAN")
     print("Comprehensive Analysis Report")
     print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 80)
     print()
-    
-    # Load data
-    print("Loading and processing data...")
-    df = load_processed_data()
-    
-    date_range = f"{df['datetimeLocal'].min().date()} to {df['datetimeLocal'].max().date()}"
-    print(f"Analysis period: {date_range}")
-    print(f"Total measurements: {len(df):,}")
-    print()
-    
-    # WHO Exceedances
+
+
+def _print_who_exceedances(exceedances: dict):
+    """Print WHO guideline exceedance statistics"""
     print("-" * 80)
     print("WHO GUIDELINE EXCEEDANCES")
     print("-" * 80)
-    exceedances = calculate_who_exceedances(df)
     print(f"Period mean PM2.5: {exceedances['period_mean']:.2f} µg/m³")
     print(f"WHO Annual Guideline: {exceedances['who_annual_guideline']} µg/m³")
     print(f"WHO 24-hour Guideline: {exceedances['who_24h_guideline']} µg/m³")
     print(f"Days analyzed: {exceedances['total_days']}")
-    print(f"Days exceeding WHO 24-hour guideline: {exceedances['days_exceeding_who_24h']} ({exceedances['percent_exceeding_who_24h']:.1f}%)")
+    print(f"Days exceeding WHO 24-hour guideline: {exceedances['days_exceeding_who_24h']} "
+          f"({exceedances['percent_exceeding_who_24h']:.1f}%)")
     print(f"Maximum 24-hour mean: {exceedances['max_24h_mean']:.2f} µg/m³")
     print(f"Median 24-hour mean: {exceedances['median_24h_mean']:.2f} µg/m³")
     print()
-    
-    # Health Impact
+
+
+def _print_health_impact(health_impact: dict):
+    """Print health impact assessment"""
     print("-" * 80)
     print("HEALTH IMPACT ASSESSMENT")
     print("-" * 80)
-    health_impact = health_impact_assessment(df)
     print(f"Mean PM2.5 exposure: {health_impact['mean_exposure_ugm3']} µg/m³")
     print(f"Excess above WHO guideline: {health_impact['excess_exposure_ugm3']} µg/m³")
     print(f"Estimated student population: {health_impact['student_population_estimate']:,}")
-    print(f"Estimated additional respiratory cases: {health_impact['estimated_additional_respiratory_cases_pct']}%")
+    print(f"Estimated additional respiratory cases: "
+          f"{health_impact['estimated_additional_respiratory_cases_pct']}%")
     print(f"Estimated increased absenteeism: {health_impact['estimated_increased_absenteeism_pct']}%")
     print(f"Note: {health_impact['note']}")
     print()
-    
+
+
+def _print_recommendations(recommendations: list):
+    """Print policy recommendations"""
+    print("-" * 80)
+    print("POLICY RECOMMENDATIONS")
+    print("-" * 80)
+    for i, rec in enumerate(recommendations, 1):
+        print(f"\n{i}. [{rec['priority']}] {rec['area']}")
+        print(f"   Recommendation: {rec['recommendation']}")
+        print(f"   Evidence: {rec['evidence']}")
+
+
+def generate_comprehensive_report():
+    """Generate complete analysis report"""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    _print_header()
+
+    # Load data
+    print("Loading and processing data...")
+    df = load_processed_data()
+    date_range = f"{df['datetimeLocal'].min().date()} to {df['datetimeLocal'].max().date()}"
+    print(f"Analysis period: {date_range}")
+    print(f"Total measurements: {len(df):,}")
+    print()
+
+    # WHO Exceedances
+    exceedances = calculate_who_exceedances(df)
+    _print_who_exceedances(exceedances)
+
+    # Health Impact
+    health_impact = health_impact_assessment(df)
+    _print_health_impact(health_impact)
+
     # Temporal Analysis
     print("-" * 80)
     print("TEMPORAL PATTERNS")
@@ -288,7 +315,7 @@ def generate_comprehensive_report():
     temporal.to_csv(temporal_file, index=False)
     print(f"Detailed hourly patterns saved to: {temporal_file.name}")
     print()
-    
+
     # Seasonal Analysis
     print("-" * 80)
     print("SEASONAL VARIATION")
@@ -299,7 +326,7 @@ def generate_comprehensive_report():
     seasonal.to_csv(seasonal_file, index=False)
     print(f"\nSaved to: {seasonal_file.name}")
     print()
-    
+
     # School Exposure
     print("-" * 80)
     print("SCHOOL EXPOSURE ANALYSIS")
@@ -310,24 +337,16 @@ def generate_comprehensive_report():
     school_exposure.to_csv(school_file, index=False)
     print(f"\nSaved to: {school_file.name}")
     print()
-    
+
     # Policy Recommendations
-    print("-" * 80)
-    print("POLICY RECOMMENDATIONS")
-    print("-" * 80)
     recommendations = generate_policy_recommendations(exceedances, health_impact, school_exposure)
-    
-    for i, rec in enumerate(recommendations, 1):
-        print(f"\n{i}. [{rec['priority']}] {rec['area']}")
-        print(f"   Recommendation: {rec['recommendation']}")
-        print(f"   Evidence: {rec['evidence']}")
-    
+    _print_recommendations(recommendations)
     rec_df = pd.DataFrame(recommendations)
     rec_file = OUTPUT_DIR / "policy_recommendations.csv"
     rec_df.to_csv(rec_file, index=False)
     print(f"\nRecommendations saved to: {rec_file.name}")
     print()
-    
+
     # Summary Statistics
     summary_stats = {
         "analysis_date": datetime.now().strftime('%Y-%m-%d'),
@@ -340,14 +359,16 @@ def generate_comprehensive_report():
         "days_analyzed": exceedances["total_days"],
         "days_exceeding_who_24h": exceedances["days_exceeding_who_24h"],
         "percent_exceeding_who": round(exceedances["percent_exceeding_who_24h"], 1),
-        "school_hours_mean_pm25": round(school_exposure[school_exposure["period"] == "School Hours (08:00-15:00)"]["mean_pm25"].values[0], 2),
+        "school_hours_mean_pm25": round(
+            school_exposure[school_exposure["period"] == "School Hours (08:00-15:00)"]
+            ["mean_pm25"].values[0], 2
+        ),
         "recommendations_count": len(recommendations)
     }
-    
     summary_df = pd.DataFrame([summary_stats])
     summary_file = OUTPUT_DIR / "analysis_summary.csv"
     summary_df.to_csv(summary_file, index=False)
-    
+
     print("=" * 80)
     print(f"ANALYSIS COMPLETE - All outputs saved to: {OUTPUT_DIR}")
     print("=" * 80)
