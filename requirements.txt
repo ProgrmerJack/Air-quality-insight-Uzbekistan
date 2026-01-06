@@ -1,0 +1,15 @@
+# Air Quality Insight - Uzbekistan
+# Python package requirements for reproducing all analyses
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistical analysis
+scipy>=1.10.0
+
+# Data fetching (optional - only needed for raw data collection)
+requests>=2.31.0
+
+# Python version: 3.12 or higher recommended

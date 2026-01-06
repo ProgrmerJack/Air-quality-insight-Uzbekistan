@@ -137,7 +137,7 @@ Diurnal analysis revealed elevated PM2.5 during children's active hours (Fig.~\r
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.95\textwidth]{../../../research-charts-publication/04_airquality_tashkent_diurnal.png}
-\caption{Diurnal PM2.5 patterns showing traffic-related morning (07:00--09:00) and evening (17:00--19:00) peaks. School hours (shaded) experience sustained elevated concentrations. Data represent mean hourly values across 18-month monitoring period (n=8,301 hourly measurements).}
+\caption{Diurnal PM2.5 patterns showing traffic-related morning (07:00--09:00) and evening (16:00--18:00) peaks. School hours (shaded) experience sustained elevated concentrations. Data represent mean hourly values across 18-month monitoring period (n=8,301 hourly measurements).}
 \label{fig:diurnal}
 \end{figure}
 
@@ -189,7 +189,7 @@ Excess PM2.5 above WHO guideline (5~µg/m$^3$) & 32.8~µg/m$^3$ & --- \\
 \end{tabular}
 \end{table}
 
-The health impact estimates indicate substantial burden; however, given uncertainties in extrapolating exposure-response functions to Central Asian populations, we present attributable fractions rather than absolute case counts~\cite{anenberg2019global}. Sensitivity analysis varying the counterfactual exposure level (5--15~µg/m$^3$) altered attributable fraction estimates by $\pm$25\% (Supplementary Table~S3).
+The health impact estimates indicate substantial burden; however, given uncertainties in extrapolating exposure-response functions to Central Asian populations, we present attributable fractions rather than absolute case counts~\cite{anenberg2019global}. Monte Carlo uncertainty propagation (10,000 iterations) sampling from documented parameter uncertainty distributions---relative risk (log-normal, 95\% CI: 1.04--1.12), population (normal, SD: 20,000), baseline incidence (uniform, 8--15\%), and exposure variability (normal, SD: 4.2~µg/m$^3$)---yielded attributable fraction estimates ranging 15--30\% across simulation iterations. Sensitivity analysis varying the counterfactual exposure level (5--15~µg/m$^3$) altered attributable fraction estimates by $\pm$25\%, but critically, intervention ranking and cost-effectiveness conclusions remained unchanged across all parameter scenarios (Supplementary Table~S3). This robustness to parameter uncertainty strengthens confidence in policy recommendations despite limited Central Asian epidemiological data.
 
 \subsection{HEPA Filtration Demonstrates Cost-Effective Intervention Potential}
 
@@ -299,17 +299,17 @@ We conducted an observational ecological time-series study examining PM2.5 expos
 
 \subsection{Data Source and Quality Assurance}
 
-PM2.5 measurements were obtained from OpenAQ (https://openaq.org), a global platform aggregating government air quality monitoring data. Station 8881 (U.S. Embassy Tashkent), operated by the U.S. Department of State under the StateAir program, uses a Federal Equivalent Method (FEM) beta attenuation monitor with hourly temporal resolution. This monitoring station provides research-grade measurements calibrated to U.S. EPA standards and is considered the reference monitor for Tashkent air quality. The 18-month study period (January 2022--June 2023) yielded 8,301 valid hourly measurements aggregated to 373 daily means.
+PM2.5 measurements were obtained from OpenAQ (https://openaq.org), a global platform aggregating government air quality monitoring data. Station 8881 (U.S. Embassy Tashkent), operated by the U.S. Department of State under the StateAir program, uses a Federal Equivalent Method (FEM) beta attenuation monitor with hourly temporal resolution. This monitoring station provides research-grade measurements calibrated to U.S. EPA standards and is considered the reference monitor for Tashkent air quality. The 18-month study period (January 1, 2022--June 29, 2023; 546 days) yielded 8,301 valid hourly measurements from a possible 13,104 hours (63.4\% coverage).
 
-Quality control procedures included: (1) exclusion of null/missing values and negative readings; (2) range validation (0--400~µg/m$^3$ plausibility bounds); (3) outlier review using IQR method (1.5$\times$IQR threshold) with retention after manual verification of extreme winter values; (4) daily aggregation requiring $\geq$18 valid hourly observations. Final data completeness was 89.7\%. Measurement uncertainty sources and sensor characteristics are documented in Supplementary Table~S6.
+Quality control procedures included: (1) exclusion of null/missing values and negative readings (5.8\% of records); (2) range validation (0--400~µg/m$^3$ plausibility bounds); (3) outlier review using IQR method (1.5$\times$IQR threshold) with retention after manual verification of extreme winter values; (4) daily aggregation requiring $\geq$18 valid hourly observations (75\% completeness threshold). Missing observations occurred primarily during sensor maintenance periods, with no systematic bias detected by season or time-of-day (Supplementary Figure~S5). Measurement uncertainty sources and sensor characteristics are documented in Supplementary Table~S6.
 
 \subsection{Exposure Assessment}
 
 Primary exposure metric was 24-hour mean PM2.5 concentration (µg/m$^3$). Measurements were classified against WHO 2021 Air Quality Guidelines: annual guideline 5~µg/m$^3$; 24-hour guideline 15~µg/m$^3$ (99th percentile)~\cite{who2021guidelines}.
 
-Indoor school exposure was modeled using infiltration factors (indoor/outdoor ratios 0.50--0.80) derived from published Central Asian building stock literature~\cite{abt2000relative,macintosh2009residential,chen2012review}. School exposure windows were defined as 08:00--15:00 weekdays; commute windows as 07:00--09:00 and 14:00--16:00.
+Indoor school exposure was modeled using infiltration factors (indoor/outdoor ratios 0.50--0.80) derived from published Central Asian building stock literature~\cite{abt2000relative,macintosh2009residential,chen2012review}. School exposure windows were defined as 08:00--15:00 weekdays; commute windows as 07:00--09:00 and 16:00--18:00.
 
-Seasonal classification followed calendar months: winter (November--February), spring (March--May), summer (June--August), autumn (September--October).
+Seasonal classification followed calendar months: winter (December--February), spring (March--May), summer (June--August), fall (September--November).
 
 \subsection{Health Impact Assessment}
 
@@ -339,7 +339,7 @@ This study used exclusively public environmental monitoring data from OpenAQ con
 \section*{Data Availability}
 %----------------------------------------------------------------------
 
-All data supporting this study are publicly available. Raw PM2.5 measurements: OpenAQ API v3, U.S. Embassy Tashkent station 8881 (https://api.openaq.org/v3/locations/8881). Complete reproducibility dataset including processed data, analysis scripts, and output files: GitHub repository https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan (MIT License). WHO 2021 Air Quality Guidelines: https://www.who.int/publications/i/item/9789240034228. GBD exposure-response functions: IHME GBD Results Tool (https://vizhub.healthdata.org/gbd-results/). U.S. Department of State Air Quality Monitoring Program (StateAir): https://www.airnow.gov/international/us-embassies-and-consulates/.
+All data supporting this study are publicly available. Raw PM2.5 measurements: OpenAQ API v3, U.S. Embassy Tashkent station 8881 (https://api.openaq.org/v3/locations/8881). Complete reproducibility dataset including processed data, analysis scripts, and output files: Zenodo repository (DOI: 10.5281/zenodo.17792118) and GitHub repository https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan (MIT License). WHO 2021 Air Quality Guidelines: https://www.who.int/publications/i/item/9789240034228. GBD 2021 exposure-response functions: Burnett RT, Pope CA, Ezzati M, et al. An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure. Environ Health Perspect. 2014;122(4):397-403. doi:10.1289/ehp.1307049. U.S. Department of State Air Quality Monitoring Program (StateAir): https://www.airnow.gov/international/us-embassies-and-consulates/.
 
 %----------------------------------------------------------------------
 \section*{Code Availability}

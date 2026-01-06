@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code in your research, please cite it as below."
+type: dataset
+title: "Air Quality Crisis in Tashkent, Uzbekistan: PM2.5 Monitoring and Health Impact Assessment (2022-2023)"
+authors:
+  - family-names: "Ashuraliyev"
+    given-names: "Abduxoliq"
+    orcid: "https://orcid.org/0009-0003-5482-5526"
+    affiliation: "Independent Researcher"
+version: "1.0.0"
+date-released: "2026-01-06"
+doi: "10.5281/zenodo.17792118"
+url: "https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan"
+repository-code: "https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan"
+license: "MIT"
+keywords:
+  - "air quality"
+  - "PM2.5"
+  - "Tashkent"
+  - "Uzbekistan"
+  - "Central Asia"
+  - "health impact assessment"
+  - "school exposure"
+  - "environmental monitoring"
+  - "OpenAQ"
+  - "U.S. Embassy"
+abstract: >
+  First comprehensive school-exposure PM2.5 assessment for Central Asia, 
+  analyzing 8,301 hourly measurements from Tashkent, Uzbekistan (January 
+  2022 - June 2023). Study quantifies PM2.5 health impacts on 420,000 
+  school-age children and provides evidence base for World Bank-UNEP 
+  High-Level Policy Dialogue on Air Quality Management in Central Asia.
+  
+  Dataset includes: Raw hourly PM2.5 measurements from U.S. Embassy 
+  Tashkent (OpenAQ Station 8881, Federal Equivalent Method monitor), 
+  complete analysis scripts, statistical outputs, and reproducibility 
+  materials.
+
+preferred-citation:
+  type: article
+  title: "Air Quality Crisis in Tashkent, Uzbekistan: Health Impacts and Policy Imperatives from 18 Months of PM2.5 Monitoring"
+  authors:
+    - family-names: "Ashuraliyev"
+      given-names: "Abduxoliq"
+      orcid: "https://orcid.org/0009-0003-5482-5526"
+  journal: "Environmental Monitoring and Assessment"
+  publisher:
+    name: "Springer Nature"
+  year: 2026
+  status: "submitted"
