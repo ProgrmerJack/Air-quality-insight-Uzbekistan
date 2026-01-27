@@ -1,0 +1,121 @@
+{
+  "generated": "2026-01-07T10:46:09.199389",
+  "source_file": "outputs\\us_embassy_2022_2023.csv",
+  "station_id": 8881,
+  "station_name": "U.S. Embassy Tashkent",
+  "temporal_coverage": {
+    "start_date": "2022-01-01",
+    "end_date": "2023-06-29",
+    "start_utc": "2021-12-31 19:00:00+00:00",
+    "end_utc": "2023-06-29 18:00:00+00:00",
+    "days_in_period": 545,
+    "total_hours_possible": 13080,
+    "valid_hourly_records": 8301,
+    "hourly_coverage_pct": 63.5
+  },
+  "data_quality": {
+    "min_hours_threshold": 18,
+    "total_calendar_days": 373,
+    "days_with_any_data": 373,
+    "days_with_24_hours": 250,
+    "days_with_18_plus_hours": 346,
+    "valid_days_for_analysis": 346,
+    "missing_hourly_values": 0
+  },
+  "annual_stats": {
+    "hourly": {
+      "n": 8301,
+      "mean": 37.8,
+      "std": 38.4,
+      "median": 27.0,
+      "min": 2.0,
+      "max": 857.0,
+      "p25": 19.0,
+      "p75": 42.0,
+      "se_of_mean": 0.42
+    },
+    "daily_means": {
+      "n_valid_days": 346,
+      "mean": 37.9,
+      "std": 30.4,
+      "se_of_mean": 1.63,
+      "median": 28.7,
+      "min": 7.5,
+      "max": 183.8
+    }
+  },
+  "who_exceedances": {
+    "who_24h_guideline": 15.0,
+    "days_exceeding_24h": 322,
+    "total_valid_days": 346,
+    "exceedance_pct": 93.1,
+    "annual_mean": 37.9,
+    "who_annual_2021": 5.0,
+    "ratio_vs_who_annual": 7.6,
+    "ratio_vs_interim_1": 3.8
+  },
+  "seasonal": {
+    "Winter": {
+      "n_days": 109,
+      "mean": 59.1,
+      "median": 43.3,
+      "std": 43.6,
+      "days_exceeding_24h": 107,
+      "exceedance_pct": 98.2
+    },
+    "Spring": {
+      "n_days": 144,
+      "mean": 26.9,
+      "median": 26.1,
+      "std": 11.1,
+      "days_exceeding_24h": 134,
+      "exceedance_pct": 93.1
+    },
+    "Summer": {
+      "n_days": 61,
+      "mean": 26.1,
+      "median": 25.4,
+      "std": 8.7,
+      "days_exceeding_24h": 53,
+      "exceedance_pct": 86.9
+    },
+    "Fall": {
+      "n_days": 32,
+      "mean": 37.6,
+      "median": 28.9,
+      "std": 23.2,
+      "days_exceeding_24h": 28,
+      "exceedance_pct": 87.5
+    }
+  },
+  "diurnal": {
+    "school_hours_7_17": {
+      "mean": 34.0,
+      "n_hours": 3783
+    },
+    "morning_commute_7_9": {
+      "mean": 39.8,
+      "n_hours": 1047
+    },
+    "evening_commute_16_18": {
+      "mean": 31.8,
+      "n_hours": 1044
+    }
+  },
+  "health_impact_inputs": {
+    "exposure_mean": 37.9,
+    "exposure_se": 1.63,
+    "counterfactual_who_2021": 5.0,
+    "counterfactual_interim_1": 10.0,
+    "counterfactual_24h": 15.0,
+    "excess_vs_who_2021": 32.9,
+    "excess_vs_interim_1": 27.9,
+    "excess_vs_24h": 22.9,
+    "monte_carlo_params": {
+      "distribution": "normal",
+      "mean": 37.9,
+      "se": 1.63,
+      "note": "Use SE (not SD) for uncertainty on annual mean"
+    }
+  }
+}
