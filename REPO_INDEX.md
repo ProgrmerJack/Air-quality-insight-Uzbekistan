@@ -6,12 +6,6 @@
 
 This index maps every script → data → result → figure/table → manuscript claim, so any number in the paper or SI can be traced to the code and data that produced it.
 
-> ⚠️ **SECURITY — rotate keys.** Two live API credentials are hard-coded in scripts and may be exposed in git history:
-> - **Zenodo API token** in `scripts/publishing/zenodo_upload.py`
-> - **OpenAQ API key** in `scripts/fetch/fetch_us_embassy_2022_2023.py` (and sibling fetch scripts)
->
-> Rotate both at the providers, then move them to a gitignored `.env` (loaded via `os.environ`). The reorganized scripts read these from their original files; update those reads after migrating to `.env`.
-
 ---
 
 ## 1. Repository structure
@@ -27,17 +21,10 @@ This index maps every script → data → result → figure/table → manuscript
 │   ├── fetch/                    OpenAQ data retrieval (US Embassy reference monitors)
 │   ├── analysis/                 core processing, canonical ledger, audits
 │   ├── spatial_health/           npjUS analyses (spatial, health, multi-city) + their working CSV/PNG
-│   └── publishing/               Zenodo deposit / inspect / deprecate
 ├── outputs/                      processed data + results (CSV) and charts/
 │   ├── multicity/                per-capital hourly data (6 capitals)
 │   ├── charts/                   base time-series/diurnal/daypart figures
 │   └── _superseded_multiyear/    backed-up wrong (2018+) temporal outputs
-├── docs/                         status reports, verification, reference PDFs
-├── archive/                      old EMA submission zips (superseded)
-└── Research_paper/
-    └── npj_urban_sustainability/ SUBMISSION BUNDLE (.tex, .bib, figures, cover letter, SI)
-        ├── _archive_superseded/  old status docs / EMA revision response
-        └── _ARCHIVED_old_dataset_DO_NOT_USE/  optical-sensor (56.3) versions
 ```
 
 **Convention:** run scripts from the repo root (`python scripts/<area>/<script>.py`).
@@ -77,13 +64,6 @@ This index maps every script → data → result → figure/table → manuscript
 | `b6_figure.py` | 6-capital comparison figure | `fig_multicity.png` |
 | `oaq_find_cities.py` | locate embassy reference stations per capital | stdout |
 | `check_citations.py` | manuscript cite/bibitem consistency | stdout |
-
-### scripts/publishing/ — Zenodo (token inside)
-| Script | Purpose |
-|---|---|
-| `zenodo_upload.py` | create/publish deposits |
-| `zenodo_inspect.py` | list/inspect depositions (read-only) |
-| `zenodo_deprecate.py` | mark superseded records DEPRECATED (metadata-only) |
 
 ---
 
@@ -140,11 +120,3 @@ This index maps every script → data → result → figure/table → manuscript
 | Fig S4 missingness | QC stats (in-text) |
 | Fig S5–S6 (school map, distance hist) | `b1_spatial_school_exposure.py` |
 | Fig S7 Dushanbe surface | `b1d_dushanbe_spatial.py` |
-
----
-
-## 6. Known TODOs before submission
-- Rotate the exposed OpenAQ + Zenodo keys (§ security banner).
-- Replace SI Table S4 placeholder "Reference 1–6" citations with real sources.
-- Verify the 5 reframe references (WB Tashkent 2024, Malik/Lahore, Marshall/Tianjin, Banholzer, Vieira) — see `Research_paper/npj_urban_sustainability/AUTHOR_ACTIONS_REQUIRED.md`.
-- Single-author status remains the main acceptance headwind (see `NPJUS_REFRAME_AND_BREAKTHROUGHS.md`).
