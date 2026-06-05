@@ -20,8 +20,8 @@
 \linenumbers
 \onehalfspacing
 
-% Title for Environmental Monitoring and Assessment
-\title{\Large\textbf{School Siting and Urban Air Quality: PM2.5 Exposure Assessment for Classroom Intervention Policy in Tashkent, Uzbekistan}}
+% Title for npj Urban Sustainability (must be <=15 words, NO punctuation -- see reframe note; current title is a PLACEHOLDER pending reframe)
+\title{\Large\textbf{School-age PM2.5 exposure and classroom protection across six Central Asian capitals}}
 
 \author{Abduxoliq Ashuraliyev$^{1,*}$}
 
@@ -42,9 +42,9 @@ $^{*}$Corresponding author: Abduxoliq Ashuraliyev (jack00040008@outlook.com)
 
 \noindent\vspace{0.3cm}
 
-% Abstract (≤250 words, structured format for Environmental Monitoring and Assessment)
+% Abstract (npj Urban Sustainability: <=150 words, NO subheadings -- currently ~165 words, needs trimming in format pass)
 \begin{abstract}
-\noindent Central Asian cities have emerged as global air pollution hotspots yet remain severely understudied. We conducted the first school-exposure PM2.5 assessment for the region, analyzing 8,301 hourly measurements from Tashkent, Uzbekistan (January 2022--June 2023). Mean PM2.5 was 37.9~µg/m$^3$---exceeding Beijing's post-intervention levels and 7.6-fold WHO annual guidelines---with 93.1\% of days violating 24-hour limits. School-hour exposures averaged 34.0~µg/m$^3$; morning commute peaks reached 39.8~µg/m$^3$. Winter concentrations (59.1~µg/m$^3$) exceeded summer by 126\%. Indoor infiltration modeling estimated classroom exposure at 18.9--30.3~µg/m$^3$, driving a projected 22.3\% population attributable fraction for respiratory outcomes among 420,000 school-age children. HEPA filtration---costing \$15~million annually citywide---represents 3.1\% of documented health costs (\$488~million). These findings provide the evidence base for the World Bank-UNEP policy dialogue launched in Tashkent (June 2024) and establish a reproducible framework for other LMIC cities.
+\noindent Central Asian cities are emerging air-pollution hotspots, yet children's exposure and protection remain unquantified. Using reference-grade monitors at six U.S. embassies, we characterize school-age PM2.5 exposure across the region's capitals (January 2022--June 2023) and demonstrate a low-resource framework transferable to data-scarce cities. Five of six capitals exceeded the WHO annual guideline 4.6--10.7-fold, with school-hours concentrations of 17.5--52.1~µg/m$^3$ and steep winter amplification from heating and inversions; Dushanbe was worst (annual 53.3~µg/m$^3$) and Tashkent mid-range (37.9). For Tashkent we map 605 schools: 15\% lie within 100~m of major roads, and modeled classroom concentrations span 18.9--33.9~µg/m$^3$---a within-city equity gradient by building age. Paediatric exposure--response functions attribute a large share of childhood asthma to this exposure. Classroom HEPA filtration---about 3\% of documented citywide health costs---offers near-term, equity-aware protection where ambient controls require decades, providing a template for data-scarce cities region-wide.
 \end{abstract}
 
 \noindent\textbf{Keywords:} urban air quality; school siting; PM2.5; built environment; traffic corridors; ventilation policy; Central Asia; sustainable cities
@@ -58,41 +58,17 @@ $^{*}$Corresponding author: Abduxoliq Ashuraliyev (jack00040008@outlook.com)
 
 Central Asian cities have emerged as global hotspots of air pollution, yet remain among the least-studied regions for air quality-health relationships~\cite{worldbank2024centralasia}. Recent assessments rank Central Asian capitals among the world's most polluted, with PM2.5 concentrations exceeding WHO guidelines by 4--13-fold despite relatively low population densities---indicating severe anthropogenic impact and limited technological penetration for emission control~\cite{tursumbayeva2023}. As documented by Kerimray et al. (2023), air quality research publications for Central Asian cities are "orders of magnitude lower" than for comparably polluted cities in other regions, creating a severe evidence-publication disparity~\cite{tursumbayeva2023}. This stark knowledge gap leaves policymakers in a region of 75 million people without the exposure assessments required for evidence-based urban planning and child health protection.
 
-Table~\ref{tab:regional} contextualizes Tashkent within the broader Central Asian air quality crisis, showing IQAir global rankings and documented economic burdens where available. Dushanbe (Tajikistan) ranks as the 4th most polluted capital globally, while Tashkent ranks 22nd---both substantially higher than Beijing's current ranking following China's decade-long pollution control interventions.
+Independent assessments rank three Central Asian capitals---Dushanbe, Tashkent, and Bishkek---among the world's thirty most polluted, with documented air-pollution health costs ranging from 0.7\% of GDP in Uzbekistan to as much as 16.8\% of city-level gross regional product in Kazakhstan, depending on city and valuation method~\cite{worldbank2024centralasia,unece2024uzbekistan,tursumbayeva2023}. These assessments, however, characterize ambient, whole-population exposure; none resolves what children breathe during school hours. We therefore apply a single common framework---one reference-grade monitor per city combined with open spatial and health-burden data---across all six capitals, using Tashkent as the worked example for the spatial, infiltration, health, and intervention analyses that follow.
 
-\begin{table}[H]
-\centering
-\caption{Central Asian capitals: PM2.5 pollution severity and economic burden (2023--2024 data). IQAir rankings among ~7,000 monitored cities globally. Economic burden estimates from World Bank (Tashkent) and CAREC Energy assessments (Kazakhstan cities).}
-\label{tab:regional}
-\small
-\begin{tabular}{llccl}
-\toprule
-\textbf{City} & \textbf{Country} & \textbf{IQAir} & \textbf{Mean PM2.5} & \textbf{Economic Burden} \\
- & & \textbf{Rank} & \textbf{(µg/m$^3$)} & \textbf{(Health Costs)} \\
-\midrule
-Dushanbe & Tajikistan & 4th & 28.6 & Not available \\
-\textbf{Tashkent} & \textbf{Uzbekistan} & \textbf{22nd} & \textbf{37.9} & \textbf{\$488M (0.7\% GDP)} \\
-Bishkek & Kyrgyzstan & 29th & --- & Not available \\
- & & & (35\% improvement) & \\
-Almaty & Kazakhstan & Not top 50 & --- & \$308--1,881M \\
- & & & & (1.6--9.5\% GRP) \\
-Astana & Kazakhstan & Not top 50 & --- & \$970--5,877M \\
- & & & & (2.8--16.8\% GRP) \\
-\bottomrule
-\end{tabular}
-\end{table}
+Children spend 30--40 hours weekly in schools during critical developmental years, making the school microenvironment a decisive determinant of cumulative exposure~\cite{gauderman2015association,gehring2013air}. Where schools sit near busy roads, near-road microenvironments add a traffic-related increment to the ambient burden~\cite{who2021guidelines,apte2017high}. Fine particulate matter (PM2.5)---the most health-relevant air pollutant---penetrates deep into the respiratory system, translocates to systemic circulation, and exhibits particularly severe effects on developing children due to higher ventilation rates per unit body weight and ongoing lung development~\cite{pope2004cardiovascular,brook2010particulate,schwartz2004air}.
 
-The regional comparison reveals both the severity of Central Asian exposure (three capitals in global top 30) and the variability in documented economic impacts. Notably, Tashkent's 0.7\% GDP health burden---while substantial in absolute terms (\$488 million annually)---is moderate compared with Kazakhstan's major cities (up to 16.8\% of city-level GRP), suggesting dose-response consistency where lower PM2.5 concentrations yield proportionally lower economic burden. This regional pattern underscores both the public health urgency and the transferability of school-based intervention frameworks across Central Asian capitals.
-
-Children attending schools proximal to traffic corridors face disproportionate air pollution exposure---a consequence of urban planning decisions that historically prioritized land availability over environmental quality~\cite{who2021guidelines,apte2017high}. In rapidly urbanizing cities, 30--40 hours of weekly school occupancy during developmental years creates cumulative exposure burdens with lasting health consequences~\cite{gauderman2015association,gehring2013air}. Fine particulate matter (PM2.5)---the most health-relevant air pollutant---penetrates deep into the respiratory system, translocates to systemic circulation, and exhibits particularly severe effects on developing children due to higher ventilation rates per unit body weight and ongoing lung development~\cite{pope2004cardiovascular,brook2010particulate,schwartz2004air}.
-
-Tashkent, Uzbekistan (population 2.6 million; 2.5 million metropolitan vehicles) exemplifies this urban sustainability challenge. World Bank analyses estimate that air pollution costs Uzbekistan 6.5\% of GDP annually, with Tashkent-specific health costs reaching \$488 million (0.7\% of national GDP)~\cite{worldbank2024uzbekistan,unece2024uzbekistan}. The city's enclosed basin geography, winter thermal inversions, and coal-dependent heating create seasonal pollution episodes---yet Tashkent has no school ventilation standards, no systematic exposure assessment, and no policy framework for classroom intervention.
+Tashkent, Uzbekistan (population 2.6 million; 2.5 million metropolitan vehicles) exemplifies this urban sustainability challenge. World Bank analyses estimate that air pollution costs Uzbekistan 6.5\% of GDP annually, with Tashkent-specific health costs reaching \$488 million (0.7\% of national GDP)~\cite{worldbank2024uzbekistan,unece2024uzbekistan}. The city's enclosed basin geography, winter thermal inversions, and coal-dependent heating create seasonal pollution episodes with documented population-health consequences~\cite{ashuraliyev2025pm25tashkent}---yet Tashkent has no school ventilation standards, no systematic child-exposure assessment, and no policy framework for classroom intervention.
 
 Critically, Tashkent's ambient PM2.5 now exceeds that of Beijing, which achieved substantial improvements through aggressive policy intervention (annual mean 29--33~µg/m$^3$ by 2022--2023 versus Tashkent's 37.9~µg/m$^3$)~\cite{crea2023china}. This comparison demonstrates both the severity of Central Asian exposure and the policy opportunity: school-based interventions proven effective in China and India offer transferable solutions before ambient pollution is addressed through long-term emission control~\cite{landrigan2017lancet,khreis2017exposure}.
 
 Data-scarce LMICs rarely have dense monitoring networks for school-specific air quality assessments~\cite{cohen2017estimates}. This study develops a scalable framework requiring only: (1) a single reference-grade monitor (U.S.\ Embassy stations operate in most capitals), (2) published building infiltration literature, and (3) open-source health burden functions. We demonstrate that this minimal-data approach---replicable across LMIC cities facing similar constraints---can generate actionable policy evidence within available resource envelopes.
 
-This study addresses three questions directly relevant to urban sustainability policy. First, what is the magnitude and temporal pattern of PM2.5 exposure during school hours relative to WHO guidelines? Second, how do seasonal dynamics and building characteristics affect classroom exposure heterogeneity? Third, what is the cost-effectiveness of HEPA filtration compared with established global health interventions? We present the first comprehensive school-exposure assessment for Central Asia, timed to inform the World Bank-UNEP policy dialogue series launched in Tashkent in June 2024~\cite{worldbank2024dialogue}.
+A 2024 World Bank assessment using chemical-transport modelling has since established the authoritative ambient and emissions baseline for Tashkent---a population-weighted annual mean of 38.8~µg/m$^3$, approximately 3,000 attributable premature deaths annually, and a source mix dominated by residential heating in winter (28\% of annual concentration, up to $\sim$45\% in peak months) and windblown dust (36\%) rather than transport (16\%)~\cite{worldbank2024tashkent}. That assessment treats the whole population and ambient-emissions policy; it does not resolve where children are exposed, how classroom environments modify that exposure, or which near-term protections are warranted. We address this gap. This study asks four questions relevant to urban sustainability policy: (i) what is the magnitude and temporal pattern of school-hour PM2.5 exposure relative to WHO guidelines; (ii) how are schools distributed relative to major-road microenvironments, and how does building-envelope quality create within-city exposure inequities; (iii) what share of childhood respiratory and asthma burden is attributable to this exposure; and (iv) how cost-effective is classroom filtration as a near-term, equity-aware protection. By building the analysis from a single open reference monitor combined with open spatial and health-burden data, we also demonstrate a minimal-resource template transferable to the many data-scarce cities that share Tashkent's constraints~\cite{worldbank2024dialogue}.
 
 %----------------------------------------------------------------------
 \section{Results}
@@ -100,17 +76,17 @@ This study addresses three questions directly relevant to urban sustainability p
 
 \subsection{PM2.5 Concentrations Exceed Guidelines Year-Round}
 
-Analysis of 8,301 hourly PM2.5 measurements from the U.S.\ Department of State's air quality monitoring station at the U.S.\ Embassy in Tashkent (January 2022--June 2023) revealed chronic guideline exceedances (Table~\ref{tab:descriptive}). Mean PM2.5 concentration was 37.9~µg/m$^3$ (SD 38.4), with median 27.0~µg/m$^3$ and 75th percentile 42.0~µg/m$^3$. This mean represents 7.6-fold the WHO 2021 annual guideline (5~µg/m$^3$) and exceeds WHO Interim Target 2 (25~µg/m$^3$)~\cite{who2021guidelines}.
+Analysis of 8,301 hourly PM2.5 measurements from the U.S.\ Department of State's air quality monitoring station at the U.S.\ Embassy in Tashkent (January 2022--June 2023) revealed chronic guideline exceedances (Table~\ref{tab:descriptive}). Mean PM2.5 concentration was 37.9~µg/m$^3$ (annual average computed as the mean of 346 daily means; arithmetic mean of the 8,301 hourly values 37.8~µg/m$^3$, SD 38.4), with median 27.0~µg/m$^3$ and 75th percentile 42.0~µg/m$^3$. This mean represents 7.6-fold the WHO 2021 annual guideline (5~µg/m$^3$) and exceeds WHO Interim Target 2 (25~µg/m$^3$)~\cite{who2021guidelines}.
 
 \begin{table}[H]
 \centering
-\caption{Descriptive statistics for PM2.5 concentrations (µg/m$^3$) in Tashkent, Uzbekistan (n=8,301 hourly measurements, January 2022--June 2023). Data from U.S.\ Embassy monitoring station via OpenAQ (Station ID 8881, StateAir program).}
+\caption{Descriptive statistics for PM2.5 concentrations (µg/m$^3$) in Tashkent, Uzbekistan (n=8,301 hourly measurements, January 2022--June 2023). Values describe the hourly distribution; the hourly arithmetic mean is 37.8~µg/m$^3$, while the WHO-comparison annual average (mean of 346 daily means) is 37.9~µg/m$^3$. Data from U.S.\ Embassy monitoring station via OpenAQ (Station ID 8881, StateAir program).}
 \label{tab:descriptive}
 \begin{tabular}{lcccccccc}
 \toprule
 & Mean & Median & SD & Min & Max & P25 & P75 & P95 \\
 \midrule
-PM2.5 & 37.9 & 27.0 & 38.4 & 2.0 & 857.0 & 19.0 & 42.0 & 101.0 \\
+PM2.5 & 37.8 & 27.0 & 38.4 & 2.0 & 857.0 & 19.0 & 42.0 & 108.0 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -119,7 +95,7 @@ The 24-hour WHO guideline (15~µg/m$^3$) was exceeded on 322 of 346 analyzed day
 
 \subsection{Seasonal Patterns Reflect Urban Heating and Atmospheric Dynamics}
 
-PM2.5 concentrations demonstrated pronounced seasonal variation (Fig.~\ref{fig:seasonal}). Winter (December--February) mean concentrations reached 58.9~µg/m$^3$ (SD 53.2), with 100\% of winter days exceeding the 24-hour guideline. Summer (June--August) concentrations averaged 26.1~µg/m$^3$ (SD 13.2), representing a 126\% winter-to-summer increase (Kruskal-Wallis $H$=847.3, $p<$0.001). This pattern reflects thermal inversion trapping of heating emissions, reduced atmospheric ventilation, and cold-start vehicle emissions characteristic of continental climates~\cite{zhang2017drivers,li2017wintertime}. December showed the highest monthly mean (78.5~µg/m$^3$), coinciding with peak residential heating demand.
+PM2.5 concentrations demonstrated pronounced seasonal variation (Fig.~\ref{fig:seasonal}). Winter (December--February) mean concentrations reached 59.1~µg/m$^3$ (SD 53.2), with 98.2\% of winter days exceeding the 24-hour guideline. Summer (June--August) concentrations averaged 26.1~µg/m$^3$ (SD 13.2), representing a 126\% winter-to-summer increase (Kruskal-Wallis $H$=847.3, $p<$0.001). This pattern reflects thermal inversion trapping of heating emissions, reduced atmospheric ventilation, and cold-start vehicle emissions characteristic of continental climates~\cite{zhang2017drivers,li2017wintertime}. December showed the highest monthly mean (78.5~µg/m$^3$), coinciding with peak residential heating demand.
 
 \begin{figure}[H]
 \centering
@@ -141,7 +117,20 @@ Diurnal analysis revealed elevated PM2.5 during children's active hours (Fig.~\r
 \label{fig:diurnal}
 \end{figure}
 
-Weekday-weekend analysis revealed comparable school-hour concentrations with weekday means (33.7~µg/m$^3$) slightly lower than weekend means (35.1~µg/m$^3$), suggesting heating emissions dominate over traffic contributions in this continental climate. The temporal coincidence of elevated exposures with school arrival times nonetheless represents a modifiable risk factor amenable to traffic management interventions~\cite{nieuwenhuijsen2019influence,morawska2019applications}.
+Weekday-weekend analysis revealed comparable school-hour concentrations, with weekday means (33.7~µg/m$^3$) slightly \textit{lower} than weekend means (35.1~µg/m$^3$). The near-absence of a weekday traffic signature---and overnight concentrations rivalling the commute peak---indicates that residential heating and regional dust, not local traffic, dominate the source mix, consistent with the World Bank's chemical-transport source apportionment~\cite{worldbank2024tashkent}. This source profile is consequential for policy: because the dominant drivers are diffuse and seasonal, the most tractable near-term lever for protecting children is the school microenvironment itself rather than localized traffic control~\cite{nieuwenhuijsen2019influence,morawska2019applications}.
+
+\subsection{A Reference-Anchored School Exposure Surface}
+
+To resolve \textit{where} children are exposed, we first established that the regional PM2.5 field is spatially near-uniform. Satellite-derived estimates (ACAG, 1~km) place the Tashkent annual mean within $\sim$10\% of our reference-monitor value, and the World Bank CAMx assessment reports inter-station correlation $r>0.85$ across the metropolitan area~\cite{worldbank2024tashkent,acag2022satpm25}. Coarse global reanalysis products do not resolve the city---a 25-point CAMS-global grid over the metropolitan area returns only two distinct values and under-reads the reference monitor by $\sim$50\%---underscoring that intra-urban differentials must be modelled from local predictors rather than read from global grids. We therefore treat the reference-monitor annual mean (37.9~µg/m$^3$) as a homogeneous background and model the within-city differential from two local predictors.
+
+The first is near-road position. Geolocating 605 schools from OpenStreetMap and computing each school's distance to the nearest major road (motorway, trunk, or primary), we found the distribution strongly right-skewed: 93 schools (15.4\%) lie within 100~m of a major road and 153 (25.3\%) within 200~m. Applying a standard near-road decay (increment $= A\,e^{-d/L}$, with $A=5$~µg/m$^3$ at the roadside and $L=150$~m)~\cite{apte2017high,khreis2017exposure} yields outdoor exposures of 37.9--42.5~µg/m$^3$ across the network. The second is the building envelope; combining the outdoor surface with construction-era infiltration factors gives modelled indoor classroom concentrations of 19.0--33.9~µg/m$^3$ (Fig.~\ref{fig:exposuresurface}), a 1.7-fold gap between the most- and least-exposed deciles of schools. The building envelope dominates this differential while near-road position compounds it, together providing concrete criteria for school siting, renovation prioritisation, and dismissal-time traffic policy.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{fig_school_exposure_surface.png}
+\caption{Modelled indoor classroom PM2.5 across 605 Tashkent schools (OpenStreetMap), combining a satellite/CAMx-corroborated homogeneous regional background (37.9~µg/m$^3$), a near-road increment from road proximity (exponential decay, $A=5$~µg/m$^3$, $L=150$~m), and construction-era building-envelope infiltration. The reference monitor (Station 8881) is starred. Values are first-order proximity-model estimates pending in-classroom measurement.}
+\label{fig:exposuresurface}
+\end{figure}
 
 \subsection{Indoor Infiltration Reveals Classroom Exposure Heterogeneity}
 
@@ -164,7 +153,7 @@ Poorly-sealed (Soviet-era) & 0.80 & 30.3 & 6.1$\times$ \\
 
 Even well-sealed post-2010 construction (infiltration 0.50) experiences indoor PM2.5 3.8-fold above WHO guidelines. Poorly-sealed Soviet-era buildings---comprising approximately 60\% of Tashkent's school infrastructure---reach 6.1-fold exceedances, creating substantial within-city exposure inequities based on school building age and maintenance~\cite{fisk2017association,allen2016associations}.
 
-Winter indoor exposures showed additional amplification: applying seasonal outdoor means (58.9~µg/m$^3$) to the typical school infiltration ratio (0.65) yields estimated winter classroom concentrations of 38.3~µg/m$^3$---coinciding with peak school occupancy and respiratory infection season (Supplementary Table~S2).
+Winter indoor exposures showed additional amplification: applying seasonal outdoor means (59.1~µg/m$^3$) to the typical school infiltration ratio (0.65) yields estimated winter classroom concentrations of 38.4~µg/m$^3$---coinciding with peak school occupancy and respiratory infection season (Supplementary Table~S2).
 
 \subsection{Health Impact Assessment Projects Substantial Disease Burden}
 
@@ -181,7 +170,7 @@ Parameter & Central Estimate & 95\% CI/Range \\
 School-age population (5--18 years) & 420,000 & 380,000--460,000 \\
 Baseline respiratory incidence & 10\% & 8--15\% \\
 Relative risk per 10~µg/m$^3$ & 1.08 & 1.04--1.12 \\
-Excess PM2.5 above WHO guideline (5~µg/m$^3$) & 32.8~µg/m$^3$ & --- \\
+Excess PM2.5 above WHO guideline (5~µg/m$^3$) & 32.9~µg/m$^3$ & --- \\
 \addlinespace
 \textbf{Relative risk at observed exposure} & \textbf{1.29} & --- \\
 \textbf{Attributable fraction (approximate)} & \textbf{22.3\%} & 15--30\% \\
@@ -190,6 +179,15 @@ Excess PM2.5 above WHO guideline (5~µg/m$^3$) & 32.8~µg/m$^3$ & --- \\
 \end{table}
 
 The health impact estimates indicate substantial burden; however, given uncertainties in extrapolating exposure-response functions to Central Asian populations, we present attributable fractions rather than absolute case counts~\cite{anenberg2019global}. Monte Carlo uncertainty propagation (10,000 iterations) sampling from documented parameter uncertainty distributions---relative risk (log-normal, 95\% CI: 1.04--1.12), population (normal, SD: 20,000), baseline incidence (uniform, 8--15\%), and exposure measurement uncertainty (normal, SE: 1.63~µg/m$^3$ representing standard error of the annual mean)---yielded attributable fraction estimates ranging 15--30\% across simulation iterations. Sensitivity analysis varying the counterfactual exposure level (5--15~µg/m$^3$) altered attributable fraction estimates by $\pm$25\%, but critically, intervention ranking and cost-effectiveness conclusions remained unchanged across all parameter scenarios (Supplementary Table~S3). This robustness to parameter uncertainty strengthens confidence in policy recommendations despite limited Central Asian epidemiological data.
+
+The respiratory attributable fraction above uses a deliberately conservative log-linear function (RR~1.08 per 10~µg/m$^3$) appropriate for all-cause respiratory outcomes. Applying paediatric-asthma-specific exposure--response functions yields substantially larger fractions (Fig.~\ref{fig:paferfs}). Using the traffic-related air pollution meta-analysis of Khreis et al.\ (RR~1.03 per 1~µg/m$^3$)~\cite{khreis2017exposure} and the paediatric incidence functions of Anenberg et al.\ (RR~1.34--1.93 per 10~µg/m$^3$)~\cite{anenberg2019global}---and capping the exposure increment at the upper bound of the epidemiological derivation range to limit extrapolation---the attributable fraction for childhood asthma incidence reaches approximately 58\% (95\% CI 26--76\%) and 76\% (59--85\%), respectively. These magnitudes are consistent with global estimates that more than half of paediatric asthma incidence is attributable to anthropogenic PM2.5 in comparably polluted settings such as India and China~\cite{anenberg2019global}. We therefore interpret the 22.3\% respiratory attributable fraction as a conservative floor: the child-specific asthma burden is plausibly two- to three-fold higher, which strengthens rather than weakens the case for protective intervention.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{fig_paf_erfs.png}
+\caption{Population attributable fraction of childhood disease from PM2.5 in Tashkent (annual mean 37.9~µg/m$^3$; counterfactual 5~µg/m$^3$), under a conservative all-respiratory function and two paediatric-asthma exposure--response functions (increment capped at the derivation ceiling). Error bars are 95\% intervals from 10$^5$ Monte Carlo draws (seed 42).}
+\label{fig:paferfs}
+\end{figure}
 
 \subsection{HEPA Filtration Demonstrates Cost-Effective Intervention Potential}
 
@@ -221,71 +219,54 @@ Post-intervention indoor exposure & 3.8--15.2~µg/m$^3$ \\
 
 At these intervention costs, classroom HEPA filtration compares favorably with established global health interventions~\cite{jamison2017disease,allen2016associations}. A detailed sensitivity analysis of cost-effectiveness parameters is provided in Supplementary Table~S5. From an urban sustainability and equity perspective, this framework directly addresses Sustainable Development Goal 11 (safe, inclusive cities and communities), SDG 4 (quality education and learning environments), and SDG 3 (health and wellbeing), demonstrating how school-based interventions can serve as co-benefit strategies linking urban planning, education, and health systems in rapidly urbanizing regions.
 
+\subsection{Regional Generalization: A Six-Capital Comparison}
+
+To test whether the framework generalizes and to place Tashkent in regional context, we applied the identical pipeline to the U.S. Embassy reference monitors in all six Central Asian capitals over the same window (Table~\ref{tab:regional}, Fig.~\ref{fig:multicity}). Five of the six capitals exceeded the WHO annual guideline 4.6--10.7-fold. Dushanbe was the most polluted (annual 53.3~µg/m$^3$; school-hours 52.1; 97\% of days above the 24-hour guideline), followed by Tashkent (37.9), Bishkek (35.6), and Almaty (34.2); Ashgabat (22.8) and Astana (18.5; partial 2022--2023 coverage) were lower but still well above guideline. School-hours concentrations tracked annual means closely (17.5--52.1~µg/m$^3$), and every city showed pronounced winter amplification driven by heating and inversions (winter means 28--84~µg/m$^3$). Applying the conservative respiratory function, the population attributable fraction for school-age children ranged from 10\% (Astana) to 31\% (Dushanbe). The consistency of these patterns---high winter-dominated exposure during peak school occupancy across five capitals---demonstrates that the school-exposure problem is regional rather than Tashkent-specific, and that a single open reference monitor per city is sufficient to flag it. This is the core transferability claim of the framework: the same minimal inputs that characterized Tashkent immediately extend to its neighbours, identifying Dushanbe in particular as warranting priority attention. Extending the full spatial layer to Dushanbe confirms the pattern: across 178 mapped schools, modelled indoor classroom concentrations span 26.7--46.1~µg/m$^3$ (Supplementary Fig.~S7), so that even the best-sealed Dushanbe classroom exceeds the WHO annual guideline more than fivefold and the worst by ninefold---a larger absolute burden than any Tashkent school.
+
+\begin{table}[H]
+\centering
+\caption{School-age PM2.5 exposure across six Central Asian capitals from U.S. Embassy reference monitors (OpenAQ; January 2022--June 2023). PAF is the conservative all-respiratory population attributable fraction (RR 1.08 per 10~µg/m$^3$, counterfactual 5~µg/m$^3$); typical-classroom is the annual mean times a 0.65 infiltration factor. $^{\dagger}$Astana had partial coverage (77 valid days) and is reported for completeness only.}
+\label{tab:regional}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+City & Annual & School-hrs & Winter & Days $>$15 & PAF & Typical \\
+ & (µg/m$^3$) & (µg/m$^3$) & (µg/m$^3$) & (\%) & (\%) & classroom \\
+\midrule
+Dushanbe & 53.3 & 52.1 & 84.2 & 96.7 & 31.0 & 34.6 \\
+\textbf{Tashkent} & \textbf{37.9} & \textbf{33.7} & \textbf{59.1} & \textbf{93.1} & \textbf{22.4} & \textbf{24.6} \\
+Bishkek & 35.6 & 35.7 & 79.2 & 68.1 & 21.0 & 23.1 \\
+Almaty & 34.2 & 39.5 & 66.7 & 70.1 & 20.2 & 22.3 \\
+Ashgabat & 22.8 & 23.1 & 28.3 & 66.1 & 12.8 & 14.8 \\
+Astana$^{\dagger}$ & 18.5 & 17.5 & 31.3 & 41.6 & 9.9 & 12.1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{fig_multicity.png}
+\caption{Annual-mean and school-hours PM2.5 across six Central Asian capitals (U.S. Embassy reference monitors, January 2022--June 2023), with WHO guidelines and the conservative respiratory attributable fraction (PAF) per city. $^{*}$Astana has partial coverage (77 valid days).}
+\label{fig:multicity}
+\end{figure}
+
 %----------------------------------------------------------------------
 \section{Discussion}
 %----------------------------------------------------------------------
 
-This study provides the first comprehensive school-exposure PM2.5 assessment for Central Asia, revealing pollution levels that now exceed Beijing's post-intervention concentrations and demonstrating that classroom filtration offers cost-effective protection while systemic emission reductions are implemented. Our findings have five key implications for sustainable urban development in rapidly urbanizing contexts globally.
+This study reframes Tashkent's well-documented air-pollution crisis around the population most exposed during its developmental years---school-age children---and the building environments in which they spend their days. Rather than re-deriving the city's ambient burden, which the World Bank's 2024 chemical-transport assessment has authoritatively quantified (population-weighted annual mean 38.8~µg/m$^3$; approximately 3,000 attributable premature deaths; US\$488~million in annual welfare loss)~\cite{worldbank2024tashkent}, we add the exposure-and-protection layer that ambient assessments omit: where schools sit, how classroom envelopes modify exposure, what share of childhood disease is attributable, and which near-term protections are justified. Our screening-level burden estimate is consistent with the World Bank's independent figure, which we adopt as the reference baseline; we do not treat the numerical proximity as validation, since both ultimately rest on the same reference-monitor record.
 
-\subsection{External Plausibility Check: Comparison with World Bank Assessment}
+The exposure documented here is severe and chronic rather than episodic. An annual mean of 37.9~µg/m$^3$ (7.6 times the WHO guideline), 93.1\% of days above the 24-hour guideline, and a 126\% winter amplification place Tashkent above Beijing's post-intervention concentrations (29--33~µg/m$^3$)~\cite{crea2023china}. The temporal structure points away from local traffic: weekday and weekend school-hour concentrations are indistinguishable, overnight levels rival the morning peak, and the World Bank source apportionment attributes only 16\% of ambient concentration to transport against 28\% to residential heating and 36\% to windblown dust~\cite{worldbank2024tashkent}. Because the dominant sources are diffuse, seasonal, and partly transboundary, they cannot be controlled on the timescale relevant to children currently in school---which shifts the locus of near-term protection from the ambient airshed to the classroom.
 
-Our health burden estimate of \$488 million annually (0.7\% of Uzbekistan's GDP) shows close agreement with the World Bank's parallel assessment of Tashkent air quality~\cite{worldbank2024uzbekistan}, which calculated health costs at \$488.4 million using different methodological approaches and multi-year data (2018--2022). While this numerical similarity ($<$0.1\% difference) is notable, we interpret this as a \textit{plausibility check} rather than independent validation, since both analyses draw on the same underlying monitoring data sources (primarily U.S. Embassy Station 8881). The convergence is valuable for several reasons:
+Two within-city dimensions determine how that ambient burden reaches children. First, although the basin produces a comparatively uniform regional field, schools are not uniformly placed: 15.4\% of the 605 schools we mapped lie within 100~m of a major road and a quarter within 200~m, where traffic and resuspended-dust increments concentrate~\cite{apte2017high,khreis2017exposure}. Second, and more consequentially, the building envelope governs how much outdoor PM2.5 penetrates the classroom. Across the school stock, modelled indoor concentrations span 18.9--30.3~µg/m$^3$---a 1.6-fold gradient---so that children in poorly sealed Soviet-era buildings (about 60\% of the stock) experience indoor exposures 60\% higher than peers in post-2010 construction, an equity gradient aligned with building age and, by extension, neighbourhood resourcing. Even the best-sealed classrooms remain at 3.8 times the WHO guideline.
 
-\begin{enumerate}[leftmargin=*]
-\item \textbf{Methodological consistency:} The World Bank assessment employed proprietary health impact assessment tools and different economic valuation parameters, while our study used screening-level exposure-response functions. The similar burden estimates suggest that different methodological approaches yield consistent results within the same order of magnitude, reducing concern about method-specific artifacts.
+The health stakes for children are correspondingly large. Our conservative respiratory attributable fraction (22.3\%) rests on an all-cause respiratory slope; applying paediatric-asthma-specific functions raises the attributable fraction for childhood asthma incidence to roughly 58--76\%, consistent with global estimates that more than half of paediatric asthma in comparably polluted countries is attributable to anthropogenic PM2.5~\cite{khreis2017exposure,anenberg2019global}. We present these as a graded set---a conservative floor and a child-specific ceiling---rather than a single point estimate; the policy implication is robust to that uncertainty, since the burden borne by children is substantial under any defensible function.
 
-\item \textbf{Temporal stability:} The World Bank analysis aggregated 2018--2022 data (48 months) while our study examined January 2022--June 2023 (18 months). The convergence despite different time periods suggests temporal stability of the pollution-health burden relationship in Tashkent.
+Framed this way, classroom filtration is not merely a health measure but a human-capital one. Observational studies already link traffic-related pollution at schools to slower cognitive development in children~\cite{sunyer2015association}, and randomized trials now connect reductions in classroom PM2.5 to measurable cognitive and educational gains: a trial in Lahore found a 0.15 standard-deviation improvement in test scores, concentrated in mathematics and fluid reasoning, within weeks of installing purifiers~\cite{malik2024classroom}, and a double-blind crossover in Tianjin found higher standardized-test scores under active filtration~\cite{marshall2024testscores}. Filtration also reduces in-school respiratory infection (relative risk approximately 0.73 in a controlled study)~\cite{banholzer2024aircleaners}, and portable HEPA units typically lower indoor PM2.5 by 40--60\% in classrooms~\cite{carmona2022schools,chen2015effectiveness,allen2011}. The marginal benefit is concentration-dependent: a large Los Angeles trial found little incremental health effect because baseline classroom concentrations were already near 1.5~µg/m$^3$~\cite{vieira2025hifive}, whereas Tashkent classrooms sit an order of magnitude higher---precisely the regime in which the Lahore and Tianjin benefits were observed. At an estimated US\$15~million per year for citywide deployment---about 3\% of the documented annual health cost---filtration is favourable even before its learning co-benefits are counted, and it can be targeted first to the high-infiltration, near-road schools our mapping identifies.
 
-\item \textbf{Spatial representativeness support:} The World Bank employed both U.S. Embassy and Uzhydromet monitoring stations distributed across Tashkent. Their multi-station analysis found high spatial correlation (r $>$ 0.85) across monitoring locations, supporting the representativeness of single-station temporal characterization for population-level exposure assessment.
+These findings should be read with their limitations. The temporal characterization rests on a single, centrally located reference monitor; while the basin's homogeneity (World Bank inter-station correlation $r>0.85$) supports its use for citywide temporal burden, it cannot resolve near-road or indoor microenvironments, which warrant direct school monitoring~\cite{wilson2005spatial,jerrett2005spatial}. The 18-month record spans multiple heating seasons but not full inter-annual variability. Classroom concentrations are modelled from literature infiltration factors rather than measured in situ~\cite{abt2000relative,chen2012review,macintosh2009residential}, and school locations are drawn from OpenStreetMap, which is near-complete for Tashkent but not authoritative. Our exposure-response functions are transferred from North American and European cohorts and, for the higher childhood-asthma estimates, extrapolated toward the upper bound of their derivation range; we therefore report attributable fractions rather than case counts~\cite{burnett2014integrated,cohen2017estimates}. Finally, an earlier phase of this work used a low-cost optical sensor that over-read the reference monitor by roughly 50\% (annual mean 56 versus 38~µg/m$^3$) under high-humidity winter conditions; propagated through the same burden model, this single data-source choice would raise the respiratory attributable fraction from 22\% to 33\% and inflate estimated health costs commensurately. That experience is itself a governance lesson: in data-scarce cities increasingly reliant on low-cost or citizen networks, anchoring exposure assessment to a reference-grade instrument is essential before such estimates inform policy~\cite{morawska2019applications}.
 
-\item \textbf{Convergent severity assessment:} The World Bank analysis documented "more than 3,000 premature deaths annually" from air pollution in Tashkent and ranked Uzbekistan as having the "2nd highest PM2.5 concentrations in Central Asia"---findings that corroborate the severity of the problem.
-\end{enumerate}
-
-We note that true independent validation would require completely independent data sources (e.g., satellite-derived exposure estimates, cohort studies with primary health outcome data). The agreement with World Bank estimates provides plausibility support for our methods but should not be overinterpreted as definitive validation of either the absolute burden estimate or the underlying exposure characterization. The regional comparison (Table~\ref{tab:regional}) provides additional context: Tashkent's 0.7\% GDP burden is moderate compared with Kazakhstan cities (Almaty 1.6--9.5\%, Astana 2.8--16.8\% of city-level GRP), demonstrating dose-response consistency where higher pollution concentrations yield proportionally higher economic costs~\cite{worldbank2024centralasia}.
-
-\subsection{Tashkent as a Regional Warning: Central Asia's Emerging Air Quality Crisis}
-
-The severity of PM2.5 exposure documented here---7.6-fold annual WHO guideline exceedance with 93.1\% of days exceeding 24-hour limits---positions Tashkent among the world's most polluted capitals. Critically, our measured annual mean (37.9~µg/m$^3$) exceeds Beijing's 2022--2023 levels (29--33~µg/m$^3$) achieved after China's decade-long "war on pollution"~\cite{crea2023china}. This comparison is instructive: Beijing's improvement from 72~µg/m$^3$ (2013) demonstrates that aggressive policy intervention works, while Tashkent's current trajectory without such intervention creates an urgent policy window. The 126\% winter amplification---driven by thermal inversions trapping heating emissions---indicates that seasonal behavioral adaptations provide insufficient protection; built environment interventions are required~\cite{landrigan2017lancet}.
-
-Recent World Bank analyses estimate Central Asian air pollution health costs at \$15--21~billion annually (3--5\% of regional GDP), with Tashkent-specific costs reaching \$488~million (0.7\% of Uzbekistan's GDP)~\cite{worldbank2024centralasia,unece2024uzbekistan}. The June 2024 World Bank-UNEP High-Level Policy Dialogue on Air Quality Management in Central Asia---held in Tashkent---signals high-level recognition of this crisis~\cite{worldbank2024dialogue}. Our school-focused analysis provides the granular exposure data this policy process requires.
-
-\subsection{School-Based Interventions: Addressing Exposure Where Children Are}
-
-School-hour and commute exposures create concentrated vulnerability windows that merit particular policy attention. The 39.8~µg/m$^3$ morning commute peak---coinciding precisely with school arrival times---represents a modifiable exposure that traffic management interventions could address without capital investment. Evidence from European cities demonstrates that traffic restriction zones around schools during arrival and dismissal periods can achieve 10--30\% PM2.5 reductions within the restricted zone~\cite{nieuwenhuijsen2019influence,morawska2019applications}. Such interventions warrant pilot evaluation in Tashkent given the documented temporal exposure pattern.
-
-Classroom HEPA filtration emerges as particularly suited to contexts where ambient pollution control requires long-term systemic changes. Recent intervention studies demonstrate 40--60\% indoor PM2.5 reductions from portable HEPA units in school settings~\cite{carmona2022schools,allen2011}, with co-benefits for viral transmission reduction (30--50\%) increasingly relevant post-COVID~\cite{chen2015effectiveness,qi2017large}. Our cost-effectiveness modeling suggests that Tashkent's \$15~million annual investment for citywide deployment would represent 3.1\% of documented annual health costs (\$488~million)---a favorable ratio compared with established global health interventions~\cite{jamison2017disease}.
-
-\subsection{Methodological Approach: Addressing Limitations Through Evidence}
-
-We explicitly address four common methodological limitations through empirical evidence and cross-validation rather than merely acknowledging uncertainty:
-
-\textbf{Limitation 1: Single-station spatial coverage.} This study analyzes data from a single centrally-located monitoring station (U.S. Embassy, Station 8881), which may not capture spatial heterogeneity across Tashkent's urban area. However, we address this concern through three independent lines of validation. First, the World Bank's independent assessment (2024) employed both U.S. Embassy and Uzhydromet monitoring stations distributed across Tashkent over 2018--2022, finding \textit{high spatial correlation} (r $>$ 0.85) across monitoring locations during typical pollution episodes~\cite{worldbank2024uzbekistan}. Second, satellite-derived PM2.5 estimates from the Atmospheric Composition Analysis Group (ACAG) at Washington University in St. Louis---which provide complete spatial coverage of the Tashkent metropolitan area---show annual mean concentrations closely matching our ground-based measurements, with grid-cell values for the U.S. Embassy location within 10\% of monitored values~\cite{acag2022satpm25,ashuraliyev2025pm25tashkent}. This indicates that Tashkent's enclosed basin geography and regional meteorological drivers create relatively homogeneous citywide pollution patterns, particularly during winter inversion events that dominate annual health burden. Third, the World Bank's multi-station network arrived at the identical economic burden estimate (\$488.4 million) as our single-station analysis (\$488 million), providing direct empirical validation that centrally-located reference monitors capture population-level exposure dynamics. Our temporal characterization is therefore representative for health burden estimation, while acknowledging that near-road microenvironments and localized hotspots require school-specific monitoring for equity analyses. Published geostatistical methods demonstrate that central regulatory monitors reliably capture temporal pollution dynamics relevant for population-level assessments, while spatial heterogeneity primarily affects localized hotspot identification~\cite{wilson2005spatial,jerrett2005spatial}. Future work should expand to school-specific monitoring, but our findings establish the baseline temporal burden against which interventions can be evaluated.
-
-\textbf{Limitation 2: 18-month observation period representativeness.} The January 2022--June 2023 study period (18 months, 546 days) may not encompass full climatological variability or capture extreme pollution episodes occurring outside this window. However, the World Bank's parallel 2018--2022 assessment (48 months) provides direct temporal validation~\cite{worldbank2024uzbekistan}. Comparing our seasonal means to the World Bank's multi-year data reveals that our measurements fall within their documented historical ranges and capture the key pollution drivers: winter heating season emissions, spring transitional meteorology, summer atmospheric mixing, and autumn inversion onset. The exact convergence of economic burden estimates (\$488M vs \$488.4M) despite different temporal windows demonstrates that 18-month monitoring spanning multiple heating seasons provides sufficient temporal resolution for health burden quantification. Our maximum hourly concentration (857 µg/m$^3$) represents a severe winter pollution episode comparable to documented regional dust storm events, indicating we captured high-severity episodes. The World Bank's finding that Tashkent shows "consistent seasonal patterns with PM2.5 peaks in winter months coinciding with heating demand" matches our observed 126\% winter amplification (58.9 µg/m$^3$ winter vs 26.1 µg/m$^3$ summer). While continuous long-term monitoring (5+ years) would strengthen inter-annual variability assessment, the 18-month period combined with World Bank multi-year validation provides robust characterization of typical exposure conditions and seasonal dynamics.
-
-\textbf{Limitation 3: Exposure-response function transferability to Central Asian populations.} We use log-linear exposure-response functions derived predominantly from North American and European cohorts~\cite{burnett2014integrated,cohen2017estimates}, raising concerns about extrapolation to Central Asian populations with different baseline health status, co-exposures, and genetic susceptibilities. We address this limitation through multiple approaches: (1) \textit{Monte Carlo sensitivity analysis} (10,000 iterations) varying RR parameters across published ranges, revealing that attributable fraction estimates remain within 15--30\% under conservative (RR=1.04 per 10 µg/m$^3$), central (RR=1.08), and high-sensitivity (RR=1.12) scenarios---demonstrating that health burden estimates converge within the same order of magnitude despite RR uncertainty; (2) \textit{presentation of attributable fractions} (22.3\%) rather than absolute case counts, explicitly acknowledging extrapolation uncertainty while providing actionable bounds for policy planning; (3) \textit{recognition that these functions likely underestimate} effects in populations with higher baseline respiratory susceptibility due to co-exposures (household air pollution, tobacco smoke), nutritional deficiencies, and limited healthcare access characteristic of LMIC contexts~\cite{landrigan2017lancet,cohen2017estimates}. Alternative exposure-response functions (GEMM model) yield 50--100\% higher burden estimates, suggesting our estimates are conservative~\cite{burnett2014integrated}. The World Bank's independent health impact assessment---using different exposure-response functions and arriving at similar economic burden---provides cross-methodological plausibility support. Prospective Central Asian cohort development remains a research priority, but current meta-analytic functions represent best-available evidence synthesis for screening-level health burden quantification.
-
-\textbf{Limitation 4: Indoor infiltration modeling uncertainty.} We model classroom exposure using literature-derived infiltration ratios (indoor/outdoor ratios 0.50--0.80) rather than direct school-specific measurements~\cite{abt2000relative,chen2012review}. However, our chosen range explicitly spans published values for Central Asian building stock across construction eras---from Soviet-era poorly-sealed buildings (infiltration 0.80) to post-2010 well-sealed construction (infiltration 0.50)---rather than assuming homogeneous exposure. This range-based approach captures heterogeneity and enables policymakers to target interventions toward high-infiltration facilities (older schools near traffic corridors). Our presentation of estimates across building scenarios (Table~\ref{tab:infiltration}) shows that even well-sealed post-2010 classrooms experience 3.8-fold WHO guideline exceedances, while Soviet-era buildings reach 6.1-fold exceedances, creating substantial within-city exposure inequities. The infiltration parameters are conservative: published studies from similar continental climates demonstrate that mechanical ventilation-free buildings (characteristic of Tashkent schools) show infiltration factors of 0.60--0.85 during winter heating~\cite{macintosh2009residential}. HEPA filtration cost-effectiveness remains favorable across the entire infiltration range (50--80\% indoor exposure reduction achievable regardless of baseline infiltration). While school-specific infiltration measurements would refine estimates, the literature-derived range provides actionable guidance for intervention prioritization.
-
-\subsection{Scalable Framework for Data-Scarce LMIC Contexts}
-
-Our methodological approach---using a single U.S.\ Embassy monitor, published infiltration literature, and open-source health burden functions---is explicitly designed as a reproducible template for LMIC cities facing comparable data constraints. U.S.\ diplomatic missions operate air quality monitors in most capital cities globally; combining these with OpenAQ data access and GBD exposure-response functions enables similar assessments without capital investment in monitoring infrastructure. This "minimal viable monitoring" framework offers an immediate pathway for other Central Asian capitals (Almaty, Bishkek, Dushanbe, Ashgabat) facing documented pollution burdens~\cite{worldbank2024centralasia,tursumbayeva2023}.
-
-\subsection{Policy Implications}
-
-Our findings support immediate policy actions aligned with the World Bank-UNEP policy dialogue agenda:
-
-\begin{enumerate}[leftmargin=*]
-\item \textbf{Classroom filtration standards:} Mandate HEPA filtration in schools with documented high infiltration (Soviet-era construction), prioritizing schools near traffic corridors. Cost-effectiveness is favorable at documented health cost levels.
-
-\item \textbf{School siting guidance:} Incorporate traffic corridor proximity as a formal health criterion in new school construction and renovation decisions.
-
-\item \textbf{Traffic management pilots:} Implement arrival/dismissal traffic restriction zones around selected schools to evaluate exposure reduction feasibility.
-
-\item \textbf{Regional monitoring expansion:} Extend school-specific monitoring to enable equity analyses and intervention targeting, building on the temporal baseline established here.
-\end{enumerate}
-
-These measures align with Sustainable Development Goals 3 (health), 4 (quality education), and 11 (sustainable cities), demonstrating how school-based interventions serve as co-benefit strategies linking urban planning, education, and health systems~\cite{nieuwenhuijsen2019influence}.
+The broader contribution is a transferable template. Combining one open reference monitor, open building-stock and school-location data, and published exposure-response and infiltration functions, the workflow converts minimal inputs into a spatially explicit, equity-aware, child-focused exposure and intervention assessment, without new monitoring infrastructure. U.S. diplomatic missions operate reference monitors in most capitals, and the same open data layers exist globally, so the approach extends directly to other Central Asian capitals---Almaty, Bishkek, Dushanbe, Ashgabat---and to data-scarce cities more widely~\cite{worldbank2024centralasia,tursumbayeva2023}. For Tashkent specifically, the analysis supports four actions: prioritising classroom filtration in high-infiltration, near-road schools; incorporating major-road proximity into school-siting and renovation standards; piloting arrival- and dismissal-time traffic management at the near-road schools identified here; and extending direct monitoring into classrooms to convert this baseline into routine, equity-targeted management. Connecting air quality, education, and equity, these measures advance Sustainable Development Goals 3, 4, and 11 together~\cite{nieuwenhuijsen2019influence,landrigan2017lancet}.
 
 %----------------------------------------------------------------------
 \section{Methods}
@@ -297,7 +278,7 @@ We conducted an observational ecological time-series study examining PM2.5 expos
 
 \subsection{Data Source and Quality Assurance}
 
-PM2.5 measurements were obtained from the OpenAQ platform aggregating government air quality monitoring data. Station 8881 (U.S. Embassy Tashkent), operated by the U.S. Department of State under the StateAir program, uses a Federal Equivalent Method (FEM) beta attenuation monitor with hourly temporal resolution. This monitoring station provides research-grade measurements calibrated to U.S. EPA standards and is considered the reference monitor for Tashkent air quality. The 18-month study period (January 1, 2022--June 29, 2023; 545 days) yielded 8,301 valid hourly measurements from a possible 13,080 hours (63.5\% coverage).
+PM2.5 measurements were obtained from the OpenAQ platform aggregating government air quality monitoring data. Station 8881 (U.S. Embassy Tashkent), operated by the U.S. Department of State under the StateAir program, uses a Federal Equivalent Method (FEM) beta attenuation monitor with hourly temporal resolution. This monitoring station provides research-grade measurements calibrated to U.S. EPA standards and is considered the reference monitor for Tashkent air quality. The 18-month study period (January 1, 2022--June 29, 2023; 545 days) yielded 8,301 valid hourly measurements from a possible 13,080 hours (63.5\% coverage). For transparency, we note that an exploratory phase of this project evaluated a co-located low-cost optical sensor; all analyses reported here use exclusively the reference-grade FEM record from Station 8881, and the optical comparison is retained only as a data-governance caveat (Discussion). For the six-capital comparison (Table~\ref{tab:regional}), we applied the identical retrieval and quality-control pipeline to the U.S. Embassy reference monitors in Almaty (OpenAQ location 8876), Astana (7094), Bishkek (8827), Dushanbe (8684), and Ashgabat (8870) over the same period, using the same $\geq$18-hour daily-completeness threshold; Astana returned only 77 valid days and is reported for completeness only.
 
 Quality control procedures employed a two-tier validation system: (1) \textit{instrument validity bounds} (0--1000~µg/m$^3$) reflecting the BAM-1020 measurement range, with values outside these bounds excluded as sensor errors; (2) \textit{extreme-event flagging} ($>$400~µg/m$^3$) requiring manual review---12 flagged records (0.02\%) were retained as valid winter pollution episodes consistent with documented Central Asian thermal inversions. Additional QC included exclusion of null/missing values and negative readings (5.8\% of records), outlier review using IQR method (1.5$\times$IQR threshold) with retention after verification of extreme winter values, and daily aggregation requiring $\geq$18 valid hourly observations (75\% completeness threshold). Missing observations occurred primarily during sensor maintenance periods, with no systematic temporal bias detected (Supplementary Figure~S4). Measurement uncertainty sources and sensor characteristics are documented in Supplementary Table~S6.
 
@@ -309,9 +290,13 @@ Indoor school exposure was modeled using infiltration factors (indoor/outdoor ra
 
 Seasonal classification followed calendar months: winter (December--February), spring (March--May), summer (June--August), fall (September--November).
 
+\subsection{Spatial School Analysis}
+
+School locations were obtained from OpenStreetMap (OSM; \texttt{amenity=school}) within the Tashkent metropolitan bounding box (41.15--41.42$^{\circ}$N, 69.10--69.45$^{\circ}$E), yielding 605 geolocated schools. Major roads (OSM \texttt{highway} classes motorway, trunk, and primary) were retrieved for the same extent. Coordinates were projected to a local metric frame, and each school's Euclidean distance to the nearest major-road segment was computed using an R-tree spatial index; schools within 100~m and 200~m were flagged as near-road microenvironments. The regional background was anchored to the reference-monitor annual mean and checked for spatial homogeneity against satellite-derived ACAG estimates and the World Bank CAMx inter-station correlation ($r>0.85$); a 25-point grid of CAMS-global reanalysis annual means (retrieved via the Open-Meteo Air Quality API for 2022--2023) confirmed that coarse global products do not resolve intra-urban gradients here (two distinct cells across the metro; $\sim$50\% under-read of the reference monitor). The outdoor exposure surface added a near-road increment, $\mathrm{inc}(d)=A\,e^{-d/L}$ ($A=5$~µg/m$^3$, $L=150$~m; sensitivity $A\in\{3,5,8\}$, $L\in\{100,200\}$~m), to this background. Building-envelope heterogeneity was represented by assigning each school a construction-era infiltration factor sampled from the documented stock composition (60\% Soviet-era, 0.80; 30\% 1990--2010, 0.65; 10\% post-2010, 0.50); indoor classroom concentrations were obtained by multiplying the outdoor surface by this factor. These are first-order proximity-model estimates pending in-classroom measurement; all spatial code and retrieved grids are archived with the analysis scripts.
+
 \subsection{Health Impact Assessment}
 
-Attributable respiratory cases were estimated using the population attributable fraction approach with Global Burden of Disease Integrated Exposure-Response (IER) functions~\cite{burnett2014integrated,cohen2017estimates}:
+Attributable respiratory burden was estimated using the population attributable fraction approach with Global Burden of Disease Integrated Exposure-Response (IER) functions and the associated global exposure framework~\cite{burnett2014integrated,cohen2017estimates,brauer2016ambient,shaddick2018data,lelieveld2015contribution}:
 
 \begin{equation}
 \text{AF} = \frac{RR^{(C-C_0)/10} - 1}{RR^{(C-C_0)/10}}
@@ -322,6 +307,8 @@ Attributable respiratory cases were estimated using the population attributable 
 Monte Carlo uncertainty propagation (10,000 iterations; random seed=42) sampled from: RR (log-normal distribution based on 95\% CI); population (normal; mean 420,000, SD 20,000); baseline incidence (uniform; 8--15\%); exposure (normal; mean 37.9, SE 1.63~µg/m$^3$ representing standard error of the annual mean---distinct from SD 38.4~µg/m$^3$ describing hourly concentration variability).
 
 \textbf{Uncertainty decomposition:} The SE of 1.63~µg/m$^3$ reflects sampling uncertainty on the annual mean (i.e., precision of the central estimate), while the SD of 38.4~µg/m$^3$ reflects day-to-day PM2.5 variability driven by meteorology and emission patterns. Additionally, systematic measurement uncertainty from the BAM-1020 instrument (±7.8~µg/m$^3$ combined from calibration, temperature, and humidity effects; Supplementary Table~S6) was incorporated through sensitivity analysis rather than the primary Monte Carlo simulation, as this uncertainty affects the mean estimate location rather than parameter sampling distributions.
+
+\textbf{Paediatric asthma functions.} In addition to the conservative all-respiratory function (RR 1.08 per 10~µg/m$^3$), we computed attributable fractions for childhood asthma incidence using two paediatric exposure--response functions: Khreis et al.\ (2017), RR 1.03 per 1~µg/m$^3$ (95\% CI 1.01--1.05), and Anenberg et al.\ (2018), RR 1.34--1.93 per 10~µg/m$^3$~\cite{khreis2017exposure,anenberg2019global}. To limit extrapolation beyond the epidemiological derivation range, the exposure increment was capped at 29~µg/m$^3$ (observed concentration capped at $\sim$34~µg/m$^3$) for these functions. Attributable fractions and 95\% intervals were obtained from $10^5$ Monte Carlo draws (seed 42).
 
 \subsection{Intervention Cost-Effectiveness}
 
@@ -339,7 +326,7 @@ This study used exclusively public environmental monitoring data from OpenAQ con
 \section*{Data Availability}
 %----------------------------------------------------------------------
 
-All data supporting this study are publicly available. Raw PM2.5 measurements: OpenAQ API v3, U.S. Embassy Tashkent station 8881 (https://api.openaq.org/v3/locations/8881). Complete reproducibility dataset including processed data, analysis scripts, and output files: Zenodo repository (DOI: 10.5281/zenodo.17792118) and GitHub repository https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan (MIT License). WHO 2021 Air Quality Guidelines: https://www.who.int/publications/i/item/9789240034228. GBD 2021 exposure-response functions: Burnett RT, Pope CA, Ezzati M, et al. An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure. Environ Health Perspect. 2014;122(4):397-403. doi:10.1289/ehp.1307049. U.S. Department of State Air Quality Monitoring Program (StateAir): https://www.airnow.gov/international/us-embassies-and-consulates/.
+All data supporting this study are publicly available. Raw PM2.5 measurements: OpenAQ API v3, from the U.S. Embassy reference monitors in Tashkent (location 8881), Almaty (8876), Astana (7094), Bishkek (8827), Dushanbe (8684), and Ashgabat (8870) (e.g.\ https://api.openaq.org/v3/locations/8881). Complete reproducibility dataset including processed data, analysis scripts, and output files: Zenodo concept DOI 10.5281/zenodo.17792118 (resolving to the current reference-grade version) and GitHub repository https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan (MIT License). School and road geodata: OpenStreetMap. Satellite PM2.5 cross-check: Atmospheric Composition Analysis Group (ACAG). WHO 2021 Air Quality Guidelines: https://www.who.int/publications/i/item/9789240034228. GBD 2021 exposure-response functions: Burnett RT, Pope CA, Ezzati M, et al. An integrated risk function for estimating the global burden of disease attributable to ambient fine particulate matter exposure. Environ Health Perspect. 2014;122(4):397-403. doi:10.1289/ehp.1307049. U.S. Department of State Air Quality Monitoring Program (StateAir): https://www.airnow.gov/international/us-embassies-and-consulates/.
 
 %----------------------------------------------------------------------
 \section*{Code Availability}
@@ -360,16 +347,10 @@ A.A. conceived the study, obtained and processed data, performed all analyses, c
 The author declares no competing financial or non-financial interests.
 
 %----------------------------------------------------------------------
-\section*{Funding}
-%----------------------------------------------------------------------
-
-Funding: Not applicable. This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
-
-%----------------------------------------------------------------------
 \section*{Acknowledgments}
 %----------------------------------------------------------------------
 
-The author acknowledges OpenAQ for providing open access to real-time air quality data, the U.S. Department of State for operating the StateAir monitoring program that provided reference-grade PM2.5 measurements, and the Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan for supporting environmental monitoring initiatives.
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors. The author acknowledges OpenAQ for providing open access to real-time air quality data, the U.S. Department of State for operating the StateAir monitoring program that provided reference-grade PM2.5 measurements, OpenStreetMap contributors for the school and road geodata, and the Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan for supporting environmental monitoring initiatives.
 
 %----------------------------------------------------------------------
 % REFERENCES - Expanded to 36 citations including World Bank/UNECE policy documents
@@ -497,6 +478,22 @@ World Bank \& UNEP. (2024). First High-Level Policy Dialogue on Air Quality Mana
 
 \bibitem[Zhang et al.(2019)]{zhang2017drivers}
 Zhang, Q., Zheng, Y., Tong, D., Shao, M., Wang, S., Zhang, Y., Xu, X., Wang, J., He, H., Liu, W., Ding, Y., Lei, Y., Li, J., Wang, Z., Zhang, X., Wang, Y., Cheng, J., Liu, Y., Shi, Q., ... Hao, J. (2019). Drivers of improved PM2.5 air quality in China from 2013 to 2017. \textit{Proceedings of the National Academy of Sciences}, 116(49), 24463--24469.
+
+% ---- References added for the npjUS reframe (VERIFY final bibliographic details before submission) ----
+\bibitem[World Bank(2024c)]{worldbank2024tashkent}
+World Bank. (2024c). \textit{Air Quality Assessment for Tashkent and the Roadmap for Air Quality Management Improvement in Uzbekistan}. World Bank, Washington, DC.
+
+\bibitem[Malik et al.(2024)]{malik2024classroom}
+Malik, S., et al. (2024). Clean air in the classroom: environmental inputs and human capital formation. Working paper (AEA RCT Registry AEARCTR-0012772).
+
+\bibitem[Marshall et al.(2024)]{marshall2024testscores}
+Marshall, J. D., et al. (2024). Reducing indoor particulate air pollution improves student test scores: a randomized double-blind crossover study. \textit{Environmental Science \& Technology}.
+
+\bibitem[Banholzer et al.(2024)]{banholzer2024aircleaners}
+Banholzer, N., Jent, P., Bittel, P., et al. (2024). Air cleaners and respiratory infections in schools: a modeling study using epidemiological, environmental, and molecular data. \textit{The Lancet Regional Health -- Europe}.
+
+\bibitem[Vieira et al.(2025)]{vieira2025hifive}
+Vieira, V., et al. (2025). Classroom air quality in a randomized crossover trial with portable HEPA air cleaners (HIFIVE). California Air Resources Board.
 
 \end{thebibliography}
 

@@ -48,3 +48,13 @@ openaq_location_4902926_measurments.csv
 Research_paper/
 
 # Research paper drafts and submission materials are kept private
+
+# Secrets (keep tokens/keys out of git)
+.env
+*.secret
+
+docs/
+archive/
+.remember/
+research_paper/
+scripts/publishing/
