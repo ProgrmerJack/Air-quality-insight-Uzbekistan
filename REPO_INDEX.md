@@ -74,6 +74,7 @@ Format/compliance checker: `scripts/pipeline/count_v2.py` (abstract ≤150 words
 ---
 
 ## 4. Known TODOs before submission
+
 - Rotate the Zenodo token in `scripts/publishing/zenodo_upload.py`; confirm all keys load from `.env`.
 - Author/infra items tracked in `Research_paper/npj_urban_sustainability/AUTHOR_ACTIONS_REQUIRED.md`.
 - Optional: re-run `equity_robustness.py` + `viirs_crosscheck_regional.py` with the canonical decile cut so their
