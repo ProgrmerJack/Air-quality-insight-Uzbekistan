@@ -1,0 +1,4 @@
+city,iso,continent,n_schools,pct_soviet_era,k,topdecile_via_equity,spearman
+Accra,GHA,Africa,598,85.0,59,58/59,0.16
+Kathmandu,NPL,South Asia,600,73.0,60,36/60,0.85
+Lima,PER,South America,600,92.0,60,53/60,0.77

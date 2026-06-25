@@ -1,0 +1,4 @@
+Almaty: schools=261 roads=0 -- skipped
+Bishkek: schools=194 roads=537 within100m=9.8% indoor 17.8-31.8
+Dushanbe: schools=0 roads=0 -- skipped
+saved data/reframe/multicity_school_summary.csv

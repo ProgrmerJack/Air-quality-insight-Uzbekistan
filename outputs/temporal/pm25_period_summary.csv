@@ -1,0 +1,2 @@
+parameter,mean_overnight,count_overnight,mean_morning_commute,count_morning_commute,mean_school_hours,count_school_hours,mean_evening_commute,count_evening_commute,mean_late_evening,count_late_evening
+pm25,39.57,1376,39.79,1047,34.07,2742,31.77,1044,43.07,1401

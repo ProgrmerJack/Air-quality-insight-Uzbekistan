@@ -52,6 +52,8 @@ Research_paper/
 # Secrets (keep tokens/keys out of git)
 .env
 *.secret
+gee-service-account.json
+*-service-account*.json
 
 docs/
 archive/

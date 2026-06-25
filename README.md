@@ -10,14 +10,14 @@ A reproducible, low-resource framework for assessing **school-age PM2.5 exposure
 
 **Headline findings (Jan 2022 – Jun 2023):**
 - Five of six capitals exceed the WHO annual guideline **4.6–10.7×**. **Dushanbe is worst** (annual 53.3 µg/m³; school-hours 52.1; 97% of days over the 24-h guideline); **Tashkent** is mid-range (37.9).
-- In Tashkent, **15% of 605 schools** sit within 100 m of a major road; modeled indoor classroom PM2.5 spans **18.9–33.9 µg/m³** (a 1.7× equity gradient by building age).
-- Paediatric exposure–response functions attribute a large share of childhood asthma to this exposure; classroom HEPA filtration (~3% of documented citywide health costs) offers near-term protection.
+- In Tashkent, **8.5% of 434 schools** (authoritative GIGA census) sit within 100 m of a major road; modelled indoor classroom PM2.5 spans **19.0–33.9 µg/m³**, driven more by building-envelope age than road proximity.
+- A transparent, equity-weighted retrofit-priority index **reprioritises at least half** of the highest-need schools in every capital relative to exposure-only ranking — exposure-blind targeting prioritises a systematically different set of schools.
 
-> 📑 **Start here:** [`REPO_INDEX.md`](REPO_INDEX.md) — the master index mapping every script → data → result → figure/table → manuscript claim.
+> 📑 **Start here:** [`REPO_INDEX.md`](REPO_INDEX.md) (repository map) and [`CLAIM_INDEX.md`](CLAIM_INDEX.md) (every manuscript number → dataset → original code).
 
 ## Associated manuscript
 
-- **Title:** *School-age PM2.5 exposure and classroom protection across six Central Asian capitals*
+- **Title:** *An open environmental-justice method for prioritising protection of schoolchildren from air pollution in Central Asia*
 - **Target journal:** *npj Urban Sustainability* (Nature Portfolio)
 - **Author:** Abduxoliq Ashuraliyev · ORCID [0009-0003-5482-5526](https://orcid.org/0009-0003-5482-5526)
 - **Location:** `Research_paper/npj_urban_sustainability/` (kept private; not tracked in git)
@@ -25,13 +25,14 @@ A reproducible, low-resource framework for assessing **school-age PM2.5 exposure
 ## Repository layout
 
 ```
-scripts/   fetch/ · analysis/ · spatial_health/ · publishing/
-outputs/   processed data + results (CSV) and charts/ ; multicity/ per-capital data
+scripts/   pipeline/ (live v2 method) · temporal/ (time-series) · legacy_v1/ · fetch/ · publishing/
+data/      pipeline/ (v2 derived datasets) · air_tashkent/ (municipal network archive)
+outputs/   reference/ · temporal/ · multicity/ · charts/ · who_db/
 docs/      status reports, verification, reference docs
-archive/   superseded submission bundles
+archive/   superseded scripts, data, and submission bundles
 Research_paper/npj_urban_sustainability/   submission bundle (.tex, .bib, figures, SI)
 ```
-See `REPO_INDEX.md` for the full catalog. **Run scripts from the repo root**, e.g. `python scripts/spatial_health/b6_multicity_fetch_analyze.py`.
+See `REPO_INDEX.md` for the full catalog. **Run scripts from the repo root**, e.g. `python scripts/pipeline/build_regional_index.py`.
 
 ## Data sources
 
@@ -48,12 +49,13 @@ Reproducibility archive: Zenodo concept DOI **10.5281/zenodo.17792118** (resolve
 ```bash
 pip install -r requirements.txt
 # from repo root:
-python scripts/spatial_health/regenerate_repo_outputs.py     # rebuild temporal outputs from the canonical dataset
-python scripts/spatial_health/b6_multicity_fetch_analyze.py  # 6-capital comparison (needs OpenAQ key)
-python scripts/spatial_health/b2_pediatric_health_model.py   # PAF under multiple ERFs
+python scripts/pipeline/build_regional_index.py            # canonical equity result (32/43 etc.)
+python scripts/pipeline/count_v2.py                        # npjUS format/cite compliance
+python scripts/temporal/regenerate_repo_outputs.py         # rebuild temporal outputs from the canonical dataset
+python scripts/temporal/b6_multicity_fetch_analyze.py      # 6-capital comparison (needs OpenAQ key)
 ```
 
-> ⚠️ **Security:** API credentials (OpenAQ key, Zenodo token) are currently hard-coded in `scripts/fetch/` and `scripts/publishing/`. **Rotate them** and move to a gitignored `.env` before sharing. See the security banner in `REPO_INDEX.md`.
+> ⚠️ **Security:** API credentials load from a gitignored `.env` (OpenAQ, CDS, GIGA, Google OAuth). `scripts/publishing/zenodo_upload.py` may still carry a Zenodo token — **rotate it** and read from `.env`. See the security banner in `REPO_INDEX.md`.
 
 ## License & citation
 

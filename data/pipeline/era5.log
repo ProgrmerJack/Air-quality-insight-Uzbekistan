@@ -1,0 +1,31 @@
+2026-06-16 21:35:48,463 INFO Request ID is 27010e85-9c91-497b-aa4e-08768cd9feb5
+2026-06-16 21:35:48,612 INFO status has been updated to accepted
+2026-06-16 21:36:04,229 INFO status has been updated to running
+2026-06-16 21:36:11,960 INFO status has been updated to successful
+b8b13ec801985dec4687779dc851763f.nc:   0%|          | 0.00/35.0k [00:00<?, ?B/s]b8b13ec801985dec4687779dc851763f.nc: 100%|##########| 35.0k/35.0k [00:00<00:00, 59.2kB/s]                                                                                         saved C:\Users\Jack0\GitHub\Air-quality-insight-Uzbekistan\data\reframe\era5_tashkent_monthly.nc
+ERA5 boundary-layer height (m), monthly mean over Tashkent:
+valid_time
+2022-01-01    157.0
+2022-02-01    192.0
+2022-03-01    276.0
+2022-04-01    346.0
+2022-05-01    503.0
+2022-06-01    799.0
+2022-07-01    817.0
+2022-08-01    784.0
+2022-09-01    509.0
+2022-10-01    331.0
+2022-11-01    192.0
+2022-12-01     77.0
+2023-01-01     91.0
+2023-02-01    178.0
+2023-03-01    270.0
+2023-04-01    466.0
+2023-05-01    698.0
+2023-06-01    850.0
+2023-07-01    788.0
+2023-08-01    702.0
+2023-09-01    502.0
+2023-10-01    336.0
+2023-11-01    159.0
+2023-12-01    112.0

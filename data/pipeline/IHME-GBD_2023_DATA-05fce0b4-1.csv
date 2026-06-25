@@ -1,0 +1,481 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,787.9095519938819,1102.9829782601405,500.5335711519549
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0169628186384617,0.0222897054100802,0.0126231974897708
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,84.58482541087,118.40905140851001,53.73401632336
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,56.88160869319137,85.18442718653203,32.200466799617445
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0012391199315656,0.0019201214159138,0.0006927591821712
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,6.106438141570001,9.144843952030001,3.45683188572
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.0786616233187107,0.1446702612398987,0.0363160211405361
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.7027917142e-06,3.1788927802e-06,6.857196471e-07
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00844459831,0.015530854729999998,0.0038986509300000002
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.8038722407367649,3.697198400745711,0.6433145229019075
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.9717124648e-06,5.5674503156e-06,9.571169303e-07
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.01414987498,0.029001441450000002,0.0050462665099999995
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,266.06758399406647,394.1096137857993,147.4401564609283
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0004399329792338,0.0006804636412178,0.0002378727363255
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.0870785447199998,3.0914616010400002,1.15654520013
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,515,Asthma,1,Number,2021,708.0852671661399,1015.0619902583528,441.9737846849601
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0152239513713919,0.0203054995568392,0.0107337808431866
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,76.01541134726999,108.97042815377,47.44741997245
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.1228170483772639,0.2460028120753354,0.050299819404292
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.657407313e-06,5.0525102137e-06,1.0692638584e-06
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.013184836469999999,0.02640925581,0.00539986021
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,22.741197462854213,34.0513337724275,12.877826999716788
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0004953871364768,0.0007672152403529,0.0002772037458832
+1,All Population,3,YLDs (Years Lived with Disability),35,Georgia,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.44134648725,3.6555288800100003,1.38247943014
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,2869.647341701439,4324.304407337386,1840.464087474204
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0198960159889973,0.0274784940547419,0.0140879809587802
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,99.69801635469,150.23608136802,63.94187049633
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,222.01176501114028,332.5819258134467,149.87184623855714
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0015511114486849,0.0022447963121571,0.0009967365290256
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,7.71318909378,11.55464568665,5.20688572434
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.064001706215207,0.1917738214389716,0.0120493702763347
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,4.474076394e-07,1.2576064866e-06,8.33030795e-08
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00222356352,0.00666265478,0.00041862228
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,2558.598712768984,3974.976176137064,1559.1821807999306
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0177228391195813,0.0252860512672143,0.0114865950819294
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,88.89148593411,138.09963128886,54.16950309621
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.3579963711078227,0.7191430651183617,0.1171164737944291
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.5001041026e-06,5.0853672402e-06,7.68465287e-07
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.0124376008,0.02498465091,0.00406889026
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,88.61486584399385,132.62704398977354,59.82746725937605
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.000619117908989,0.0008951521604388,0.0003975214712536
+1,All Population,3,YLDs (Years Lived with Disability),37,Kyrgyzstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,3.0786801624700004,4.60776242733,2.07854105367
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,70.34059372066805,106.38017181421264,38.74939813070637
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0012569804536532,0.0019676833859831,0.0007176701763492
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,5.3249368641,8.053211787659999,2.9334142300100003
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.0478399614470754,0.1159686886877115,0.0090667724704021
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,8.484168893e-07,2.1004843972e-06,1.64501003e-07
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00362158977,0.0087790835,0.00068637452
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,515,Asthma,1,Number,2021,836.4793984834978,1218.260782174407,534.7191611484375
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0147578673315011,0.0201854725883934,0.0100710405734366
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,63.32332085125999,92.22500701153,40.47941057258
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.1793538870722886,0.3699768183248548,0.0657362832586369
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,3.1884938263e-06,5.963758917e-06,1.1756877904e-06
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.01357748171,0.02800805473,0.00497638049
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,28.113335590442706,42.4989079929327,15.505363223190402
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0005023737539612,0.0007857929119679,0.0002871776979014
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.1282410218599996,3.21726033127,1.1737899248700001
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,726.5582333352536,1058.294680508107,475.8800041035912
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0176657340402861,0.0246470767178946,0.0122383743337885
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,96.42050234922,140.44477104014,63.15335364515
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,53.96836190487232,79.86077642477952,31.130249189766857
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0013264878328216,0.0019528336593027,0.0008125946148279
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,7.16206399857,10.59820923854,4.1312507758
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.0668927437358616,0.1372541666544463,0.0269772566373954
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.6378947039e-06,3.5259274233e-06,6.101904208e-07
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.008877240199999999,0.018214803840000002,0.00358011308
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,4090.2046359336423,6198.907548194553,2619.928759825517
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0186267360794112,0.0253241248500568,0.0124450357785568
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,88.44834231257,134.04784004445,56.65446509639
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,337.07568343156834,491.3783869324108,211.0101822163291
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0015504956622476,0.0022697044084666,0.0009441148941069
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,7.289069395569999,10.62577734878,4.5629748360599995
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.1062413697031625,0.2838208374421235,0.0191206165136485
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,4.873185092e-07,1.3611716794e-06,8.97191991e-08
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00229740902,0.00613746373,0.00041347243000000003
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,1920.835546732589,2759.6020350940857,1260.0886384637408
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0193063119216018,0.0267844287907911,0.0134500076924051
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,89.21859120552,128.1774518791,58.528348930780005
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,150.87664563936,217.60299289060595,89.54308567823325
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0015290590652829,0.0022165051831281,0.0009149385323705
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,7.007888724600001,10.10718096134,4.15907960991
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.0569055282066281,0.1662591946505499,0.0089287566456107
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,5.707790113e-07,1.7343626541e-06,9.87341767e-08
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00264313677,0.007722374329999999,0.00041472113
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,1709.094330108547,2526.300860294446,1069.693811228908
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0171604432723792,0.0247321360282663,0.0109488972364171
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,79.38367687384999,117.34112485588,49.68492748972999
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.4845591654073599,0.8759167975112687,0.2231046079988916
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,4.9007542758e-06,8.7140281293e-06,2.1379500532e-06
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.02250670869,0.04068441092,0.0103627189
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,60.32310629106772,87.04145555265433,35.79879899859927
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0006113380506524,0.000884358077368,0.0003660983274923
+1,All Population,3,YLDs (Years Lived with Disability),40,Turkmenistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.8018757616100003,4.04288438648,1.6627755660499999
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,3617.1918071689274,5668.600872055431,2211.65539093318
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0164509688725776,0.0231648547527116,0.010528686917406
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,78.21970968396,122.58026064519,47.82578636192
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.073941660373544,2.043244568356413,0.4644749291759127
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,4.9283540125e-06,8.500959604e-06,2.0009998683e-06
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.02322337586,0.04418399838,0.01004400542
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,134.75696230307227,196.6330947853832,84.4369024481339
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0006198558720642,0.0009059328103643,0.0003780986627979
+1,All Population,3,YLDs (Years Lived with Disability),39,Tajikistan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.91404244816,4.2520785206600005,1.8258998549699998
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,2806.348740295487,4111.731406037548,1854.1626196215268
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0179129999452397,0.0247740964397083,0.0126916289380131
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,90.34811779146,132.37385221070002,59.69325920073
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,208.0345602521465,323.64167897753725,118.27943539969908
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0013406382369777,0.0020929749075386,0.0007284701838496
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,6.69750365822,10.41938092534,3.8079103314400005
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.0733099077085164,0.224491498533512,0.0123541881715308
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,4.699504773e-07,1.3258692225e-06,7.92128829e-08
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00236015292,0.00722732142,0.00039773305
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,515,Asthma,1,Number,2021,2514.5653910179653,3810.528375937667,1577.629060378664
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0160326773670064,0.0229922036287961,0.0107197460152516
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,80.95438990883001,122.67686535661,50.790485919190004
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.5491125412249325,1.10817583663575,0.1980435524686481
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,3.5279497692e-06,6.7567648997e-06,1.2627773552e-06
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.01767823216,0.03567682077,0.00637585128
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,83.12636657644065,129.13023182535804,47.34957356000055
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.000535686441009,0.0008351342260964,0.000291294440532
+1,All Population,3,YLDs (Years Lived with Disability),34,Azerbaijan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.67618583934,4.1572429070800005,1.52438105356
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,5928.928937642991,8635.908376284287,3887.480115699024
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.017807130152389,0.0245616487348622,0.0125479266519938
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,82.62034397869999,120.34243083723999,54.17250699873
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,444.7118975205798,655.5791640253759,274.8434559764475
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0013482256558071,0.001997391050188,0.0008678224361442
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,6.197114239519999,9.135575178369999,3.82997690003
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.1625095450933207,0.4577311237085525,0.0312183516670002
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,4.909800909e-07,1.3985695359e-06,9.92415506e-08
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00226459022,0.006378538740000001,0.00043503152
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,5305.472636648622,8002.814203942138,3383.436067367972
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0159170165154922,0.0225551591876756,0.0108537377264107
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,73.93240479346001,111.5201867456,47.14859204014
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.9649834738192044,1.9788283380794551,0.3480975984229602
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.9211783006e-06,5.6388583273e-06,9.710393382e-07
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.013447161769999999,0.02757521294,0.00485078226
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,177.61691045487777,261.6591633702729,109.84323432379932
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.000538475822698,0.0007971087677791,0.0003467753378001
+1,All Population,3,YLDs (Years Lived with Disability),36,Kazakhstan,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.47511319372,3.64625218319,1.53067879528
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,12825.636240540676,19109.95046781982,8240.085706665874
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0209484101472026,0.0291153887139554,0.0146681442474636
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,100.60643171230001,149.90164158009,64.63660783787999
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,665.7588588878376,987.0731136171818,368.49721355671966
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0011008237292446,0.0017052562146165,0.0005914882392256
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,5.22232362726,7.74276627979,2.89055365805
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.2982804521053706,0.7840823431396462,0.0603390695341522
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,4.88214827e-07,1.3338803131e-06,9.36570527e-08
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00233976166,0.006150472790000001,0.00047330972999999995
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,11891.707644965927,18065.551333435436,7251.102621852643
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0194041935114323,0.0273744978999655,0.0131498714822772
+1,All Population,3,YLDs (Years Lived with Disability),41,Uzbekistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,93.28053990368,141.7092004237,56.878859425179996
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,32891.22974981911,48338.15995304623,21508.5835242635
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0192321819716065,0.0260626501018958,0.0134281657396656
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,92.15221903800999,135.4302875803,60.261161264
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,2209.659975061365,2959.9219168444984,1554.0838925735447
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0013054666632461,0.0018014548152256,0.0008695272557095
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,6.19086217117,8.29289068518,4.35411750674
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.9546428375338528,2.4488227229314603,0.2407208179952907
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,5.607199632e-07,1.4234732992e-06,1.38045395e-07
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.0026746478200000002,0.0068609307,0.00067443381
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,515,Asthma,1,Number,2021,29791.980205802516,45210.763623298655,18698.915090577208
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0174011627824989,0.0240780026744013,0.0116835282368372
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,83.46897049407,126.66817945026999,52.38923969419
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,5.687512066474486,11.269518324299336,2.296310196575046
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,3.3514425974e-06,6.2140601289e-06,1.2420442865e-06
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.01593485138,0.03157410437,0.00643363236
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,882.9474140512156,1182.3100579896643,620.4252625311285
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0005216403633008,0.0007194902832651,0.0003474659180715
+1,All Population,3,YLDs (Years Lived with Disability),32,Central Asia,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.47377687358,3.3125090263700003,1.73826169238
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,935.160521643129,1334.938765937212,620.5583690621881
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0165212584498312,0.0221828683814665,0.0116482624072258
+1,All Population,3,YLDs (Years Lived with Disability),38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,70.7936978087,101.05778569739999,46.9776264452
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,515,Asthma,1,Number,2021,650.7850174738904,987.538288235462,393.24577436094296
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0158033330921109,0.022389091627513,0.0107034743793764
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,86.3647474176,131.05479158036002,52.18708338976
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.1508756783553062,0.3071987064645047,0.0588316688372272
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,3.6944856158e-06,6.8838467658e-06,1.2943905316e-06
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.02002249514,0.04076790027,0.00780746649
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,520,Other chronic respiratory diseases,1,Number,2021,21.5870855343996,31.87713559093113,12.49257922513122
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,520,Other chronic respiratory diseases,2,Percent,2021,0.0005305807350339,0.0007802518287575,0.0003257000069143
+1,All Population,3,YLDs (Years Lived with Disability),33,Armenia,3,Both,158,<20 years,520,Other chronic respiratory diseases,3,Rate,2021,2.8647911977100002,4.2303690001900005,1.65787229331
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,21118.2782787172,27379.587689536693,16791.44397138297
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0182803301149173,0.0235259112006667,0.0144844210297322
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,1598.69987676203,2072.69470017214,1271.14905170845
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,470.3463499692928,578.2560564184255,334.8581005603314
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0004071919527319,0.0005035383191922,0.0002882591055968
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,35.60624790559,43.77524881205,25.349490949650004
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.3017422287447653,0.7316368962854742,0.0601530194339711
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,2.612600976e-07,6.272752073e-07,5.23854784e-08
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.02284254699,0.05538651402,0.0045537152
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,515,Asthma,1,Number,2021,20651.591233009025,26920.17885461983,16330.47557895622
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0178763042996397,0.0230916018979629,0.0141770204758461
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,1563.3706461963,2037.9164460895101,1236.2527357096901
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.467808458566937,2.832478419055634,0.5702598269460069
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.2711283807e-06,2.4502701868e-06,4.85700215e-07
+1,All Population,5,Prevalence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.11111631218,0.21442481436,0.04316991674
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,92085.27957967788,125618.5345635804,68210.04609683622
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0220680710560207,0.0300416052394034,0.0163298665393869
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,1991.29164801641,2716.4291606030197,1475.00334172216
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,2227.934874897812,2619.200961642028,1800.07767568288
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0005340091124104,0.0006245550532478,0.0004290223025924
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,48.17782091729,56.63872687578999,38.925653022169996
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.6709014445198699,2.0285030366229893,0.1383544342700108
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.608839597e-07,4.833009834e-07,3.30365677e-08
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.014507861070000001,0.04386522116,0.00299183573
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,515,Asthma,1,Number,2021,16150.533807130632,22029.13905281366,11836.758199190535
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0243735788555639,0.0331561005115992,0.0179979692070348
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,2143.3142058594804,2923.4554868956297,1570.8392244253698
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.2339611869797769,2.305898568221939,0.5147639425088232
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.8630593161e-06,3.4673283463e-06,7.677586071e-07
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.16375722147000002,0.30601249578,0.06831358541
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,42378.5685943011,57417.54122861779,31055.38507711221
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0227667103834502,0.0307036825485302,0.016640940427744
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,1968.3914084793998,2666.91864778136,1442.45441034144
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,4.0367983595159656,7.256106759913521,1.846897830895968
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.1698714176e-06,3.9174050657e-06,9.795125041e-07
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.18750041524,0.33703021784000003,0.08578434674
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,89881.16368347783,123285.41262542905,65639.19580299727
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0215397688209382,0.0295300766745398,0.0157254137781699
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,1943.62889892777,2665.9767294386597,1419.41017045973
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,8.794231701991608,15.371449254560094,3.850984044474588
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.1081047999e-06,3.6966668017e-06,9.109596993e-07
+1,All Population,5,Prevalence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.19017024456999998,0.33239882268,0.08327533347
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,515,Asthma,1,Number,2021,739482.0484473665,995338.2424453812,549947.1249922363
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0234206171371884,0.0316015998850113,0.017211284319281
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,2071.82620478271,2788.66519836483,1540.80125027528
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,46.777208196236266,85.61626912449219,19.29399998721916
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.4822552337e-06,2.7391163059e-06,5.953480726e-07
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.1310569282,0.23987334148,0.05405650462000001
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,299722.69381494576,409058.8064974701,219340.98114251287
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0265535960322316,0.0358898726202955,0.0192045928331469
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2351.07484435008,3208.72556420388,1720.5472716644601
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,4585.363078848868,5892.419841059938,3147.1878137271224
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0004063010111801,0.0005271246729887,0.0002779907128035
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,35.96835344589,46.22112488158,24.68706658517
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,1.8780206182591588,4.860358692323133,0.3826855306313106
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.664659578e-07,4.332066123e-07,3.34057393e-08
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.01473150724,0.03812546494,0.00300184919
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,295202.0493485207,405591.8346693205,215109.36973585983
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0261530276886078,0.0354947374365975,0.0187827601259976
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,2315.6141545038,3181.53005842658,1687.3538053886298
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,754102.2688324623,1006847.7372531544,563981.6213749177
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0238837555515005,0.0319597777611615,0.017656269880822
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2112.78805879544,2820.91165113082,1580.12206602411
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,14796.79492303806,18128.86842841841,11321.719309972224
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0004687297699517,0.0005731995402942,0.0003576629521816
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,41.456567516019994,50.7921250447,31.720357240370003
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,6.012532496307309,14.774799956844182,1.5481808167208737
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.905219386e-07,4.655054063e-07,4.99114761e-08
+1,All Population,5,Prevalence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.01684546962,0.04139494364,0.0043375787
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,14.826544434564454,28.014098816867648,5.842818496104151
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.3144319399e-06,2.5162285804e-06,5.105224082e-07
+1,All Population,5,Prevalence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.11630188960999999,0.21974726764,0.04583204365
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,63902.22566135098,86536.17104790469,47719.14688405131
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0231637804687709,0.0309919560433904,0.0173325758968976
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2057.28024043826,2785.96172414249,1536.27916647832
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,1384.9357648334294,1733.4154555861123,974.0009456202954
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0005021452402545,0.0006389934710828,0.0003547007210966
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,44.58688181484,55.80590235066,31.357169157319998
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.462765410696584,1.4166246556000437,0.0754248090638111
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.678255923e-07,5.098436271e-07,2.73214328e-08
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.01489835644,0.04560707991,0.00242824045
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,1,Number,2021,62533.33659804778,85230.84911322582,46409.099384452085
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0226674505847385,0.0305246576789695,0.0168114281620036
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,2013.2099691427,2743.9379449105,1494.10325152281
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,4.539111621447177,8.674036692886713,1.8215753317490249
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.6462156622e-06,3.1540176451e-06,6.576076899e-07
+1,All Population,5,Prevalence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.14613301103999998,0.27925356446,0.058644137939999993
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,43384.72474396114,58393.50388237349,31988.94311751088
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0233073922560521,0.0311971817206836,0.0171685013348636
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2015.1251511770201,2712.2499689272,1485.8161303568002
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,1016.64024480483,1211.854618315395,772.6430004887571
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0005463117111358,0.0006556695150083,0.0004133613220728
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,47.220705884270004,56.287984661630006,35.88756993053
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.3570544735088001,1.0874757540763451,0.0620381408513957
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.919630871e-07,5.933570103e-07,3.32913881e-08
+1,All Population,5,Prevalence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.01658439587,0.05051085967,0.00288153535
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,16511.563778261054,22421.17544360088,12234.839443430312
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0249185084633018,0.0337186526745776,0.0186085913438656
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2191.22597615175,2975.48207472377,1623.6680160959302
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,365.294103978509,448.04491277865975,265.72414938643965
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.000551363042703,0.0006828100064032,0.0004016296478705
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,48.47765725416,59.45939854926,35.26387121448
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.423082097322155,0.8129994069931163,0.1700112174465943
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,6.386535343e-07,1.2402840405e-06,2.612421401e-07
+1,All Population,5,Prevalence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.05614661907,0.10789198668,0.02256194513
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,134386.3007364728,181434.1877449329,100562.46328779373
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0215869367082447,0.0288017371267974,0.0161219700186862
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,1872.68940303534,2528.30741583205,1401.35012505088
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,2917.8215707940813,3566.1319084704933,2108.563868424382
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0004688342113543,0.0005744729326241,0.0003388331529584
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,40.660197547130004,49.694480748560004,29.383093294340004
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,1.021143990617522,2.935915740701989,0.2009956796759161
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.641417294e-07,4.703047895e-07,3.22339722e-08
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.014229765379999999,0.040912342000000004,0.00280089918
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,131497.7970531513,178455.52626128923,97755.66767301952
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0211228117787069,0.0284276908729018,0.0157335069778219
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,1832.43775380665,2486.79940671892,1362.2370876693299
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,7.947416472908933,15.74596504758993,2.9406752774119083
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.2771444813e-06,2.5152478495e-06,4.679207248e-07
+1,All Population,5,Prevalence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.11074821264000001,0.21942193307,0.04097866672
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,17903.015043753196,21814.817259174222,15187.315776173891
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0217913802800084,0.0266618828199433,0.0182140906128756
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,1921.95081018126,2341.8963567176097,1630.41106702756
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,391.0811119753342,497.2569803156888,274.9619985209296
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0004760668619005,0.0006075280204973,0.000333012295845
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,41.98391489761,53.38226292333,29.51812499374
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.4969889538732511,0.8840738981803153,0.2306803417008153
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,6.050096043e-07,1.0797369312e-06,2.82990622e-07
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.05335348935,0.09490840178,0.02476433542
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,515,Asthma,1,Number,2021,17515.679159466108,21399.84003913369,14756.731132175748
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.021319870876816,0.0261244323914274,0.0177116101114853
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,1880.3689584764802,2297.34711167064,1584.186310842
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.0029827137081326,1.8835653035616768,0.4337975885252748
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.2211091643e-06,2.2765303775e-06,5.29711549e-07
+1,All Population,5,Prevalence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.10767367589,0.2022072736,0.04656967693
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,65088.18719532215,87623.68680155397,48343.36356207653
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0247660816805057,0.0333463202490684,0.0180498899146595
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,2261.31032102678,3044.24436858509,1679.5574079827802
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,1437.3778229358943,1711.723949027123,1175.2639773979568
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,0.0005469794794372,0.0006524767734587,0.0004411933601182
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,49.937745177409994,59.46914792799,40.83131942276
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.400833278765203,1.2178989381273608,0.0787294612932648
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.525730771e-07,4.619872914e-07,3.02529719e-08
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.01392585152,0.04231255405,0.00273523893
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,63671.3289702621,86264.75427274447,46908.38406938672
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0242269085919089,0.0328048205162203,0.0175153835806673
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,2212.0854729272996,2997.0319897281697,1629.70298620355
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,2.9283532465532147,5.880062346759545,1.0549494616724673
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.1147837093e-06,2.2499500325e-06,3.948547425e-07
+1,All Population,5,Prevalence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.10173759180000001,0.2042866186,0.03665132198
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,102909.7797270816,141344.8405054604,73760.48110804263
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0021952088484103,0.0031267486281183,0.0015557743148464
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,807.2414913744601,1108.7325242586999,578.58952698239
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,386.4815988099638,587.8973293983676,203.66782310280988
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,8.2479615481e-06,1.28066810807e-05,4.4200140193e-06
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.03162617819,4.61156479216,1.59760440361
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.9088795136186522,2.335551819214778,0.1827604731891364
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.93729692e-08,4.99797632e-08,3.9679892e-09
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00712940263,0.01832045835,0.00143360366
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,102513.49901898588,141036.2139493568,73408.8509154477
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0021867517634073,0.0031193861816177,0.001549023761213
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,804.1329993472301,1106.31160603219,575.83128105246
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,8.890229772238648,16.859649313637426,3.489743502476939
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.897504857e-07,3.600796012e-07,6.9661696e-08
+1,All Population,6,Incidence,41,Uzbekistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.06973644642,0.13224990367,0.02737413059
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,258408.5397005252,350684.8512874925,188213.9334840296
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0018908797193427,0.0026234333031866,0.0013638927285061
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,723.98996732276,982.5229240429201,527.32390233973
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,1375.3315933780411,1880.2576434981995,903.79617809676
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.00631107142e-05,1.40110363769e-05,6.4348122907e-06
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.8533025127599996,5.26796703953,2.53218940135
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,2.910173486240123,7.118356940947026,0.7511883337479001
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,2.12945237e-08,5.1921489e-08,5.367558e-09
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00815350921,0.0199436869,0.00210462401
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,4673.964510507706,6314.721345060025,3377.121550069492
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.001446019037661,0.0019989335444327,0.0010201117238665
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,620.27513472225,838.01762384693,448.17296317366
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,33.49083337259528,48.2671472236554,20.736081346322365
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.03572300499e-05,1.52896303971e-05,6.249273544e-06
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,4.444520521159999,6.405463965230001,2.75185565098
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.2047451516412295,0.3935902790988256,0.0831258985263084
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,6.33638352e-08,1.279150199e-07,2.37611081e-08
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.02717143578,0.05223280212,0.01103151892
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,515,Asthma,1,Number,2021,4639.531207664214,6270.553359519779,3350.7534705503567
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0014353703660632,0.0019912049268125,0.0010094471666479
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,615.70554042769,832.15615375665,444.67369311301997
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.7377243192517597,1.3815071745042684,0.3071123182516598
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.280777128e-07,4.270497184e-07,9.24993174e-08
+1,All Population,6,Incidence,33,Armenia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.09790233762000002,0.18333783812,0.04075643582
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,515,Asthma,1,Number,2021,257002.25040756864,349300.2418266452,186583.1033369394
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0018805900981689,0.0026122739152925,0.0013554113835293
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,720.04992981303,978.64362748609,522.75476284353
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,28.04752609242114,51.54063224718711,11.568589860174264
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.052159359e-07,3.758842773e-07,8.20824066e-08
+1,All Population,6,Incidence,32,Central Asia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.07858148776,0.144402738,0.03241202092
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,20378.70314241936,27319.461965309223,15006.704076554422
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.001673374587454,0.0022698714872295,0.0011942548124284
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,656.07579183291,879.52788340247,483.12864616658
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,119.3678599511384,177.87648533868793,69.5537023810421
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,9.7981210315e-06,1.42938288485e-05,5.4820141579e-06
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.84295127563,5.72658893706,2.23922494212
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.2240104288071924,0.6860567324660825,0.036152800082251
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.84102882e-08,5.47941596e-08,2.9363145e-09
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.0072118337699999995,0.02208703914,0.0011639100299999999
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,1,Number,2021,20256.389758355028,27243.09511210101,14837.733109354482
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0016633347448666,0.0022584893559205,0.0011849423759969
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,652.13801180143,877.0693146045301,477.68876315107
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,2.7215136843929577,5.223570143596733,1.099657957524318
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.233112677e-07,4.327844156e-07,9.18256079e-08
+1,All Population,6,Incidence,34,Azerbaijan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.08761692209,0.16816859709999998,0.03540259457
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,5349.562723247966,7161.270324440697,3997.058763456515
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0012738228584415,0.0017287029159064,0.0009438693630256
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,574.29412782901,768.78722764567,429.09813291185
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,34.097481625676075,50.69118814162988,19.16746848381839
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,8.1123696751e-06,1.20487065467e-05,4.4529746247e-06
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.6604830122400003,5.44187500707,2.05769427616
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.2405591142138086,0.42635279884357,0.1120733330986448
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,5.72188272e-08,1.014037699e-07,2.66092191e-08
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.025824855940000002,0.045770452919999996,0.01203146134
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,515,Asthma,1,Number,2021,5314.623674680423,7112.424715741394,3968.4967608291454
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0012655102861993,0.0017218720062808,0.0009347909794549
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,570.54329968429,763.54348199814,426.03190278491996
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.6010078276520708,1.1197587354199952,0.2574033803123612
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.4298374e-07,2.636372874e-07,5.98914085e-08
+1,All Population,6,Incidence,35,Georgia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.06452027652999999,0.12020998717,0.02763314638
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,44988.15869915595,60197.70953464052,32833.32480599574
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0015937583744466,0.0022051740272901,0.0011450037482604
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,626.9154489429,838.86238489132,457.53636415053
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,287.01330238068914,396.5627053766022,182.77332875547512
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.01693285981e-05,1.41850038345e-05,6.2385650971e-06
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.99956518598,5.52614940606,2.54696850826
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.4944047832259423,1.413151116741823,0.0973723362605046
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.75271332e-08,4.78898902e-08,3.4820022e-09
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00688959063,0.019692432240000002,0.0013568953200000001
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,44695.89404915747,59911.65205556806,32492.66933221293
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.001583403216514,0.0021938017932306,0.0011341901494088
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,622.84270559082,834.87613921909,452.78928879878
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,4.75694283453305,9.409496305496726,1.7662842504862717
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.683022012e-07,3.328687887e-07,6.15050931e-08
+1,All Population,6,Incidence,36,Kazakhstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.06628857546,0.13112247247,0.0246133853
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,21081.615328261025,28792.928330511582,15155.708721699137
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0019925924466026,0.0027835336747541,0.0014338280106258
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,732.4228309302,1000.3312246350199,526.54347941828
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,146.9627127947262,181.03021433820976,105.11149892870873
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.38857772649e-05,1.77060452986e-05,9.828783444e-06
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,5.1058158718,6.28939765786,3.65181037648
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.1939566831086883,0.5907574674311644,0.038342434702132
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.83220139e-08,5.66309474e-08,3.5813391e-09
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.006738492320000001,0.02052424589,0.0013321026000000001
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,1,Number,2021,20932.703821404622,28645.170177180316,15007.779539983558
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0019785225653157,0.002770739853566,0.0014185704659576
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,727.24930956044,995.1977733661801,521.40408623791
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,1.7548373785720817,3.5406672930949474,0.6307468169917319
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.657820082e-07,3.407872834e-07,5.6954974e-08
+1,All Population,6,Incidence,37,Kyrgyzstan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.060967005639999995,0.12301076183,0.02191356602
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,35051.41927938897,47901.70414879028,25224.980197927773
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0019766815480152,0.0027307486259759,0.0014113392180339
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,757.96694955761,1035.84703041168,545.47580914983
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,229.56483997077615,280.71126853179123,174.02326331312395
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.29427854336e-05,1.61860136294e-05,9.6289161894e-06
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,4.96420872694,6.07022107206,3.76315381109
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.3247202120674813,0.9572757022809956,0.0679804474457031
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,1.83312644e-08,5.42006339e-08,3.7704555e-09
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00702188937,0.02070054106,0.0014700383999999998
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,8413.986150475017,11484.010943255304,6189.930207583522
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.0015284068439528,0.0021889247104036,0.0011159113516628
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,636.9571630940201,869.36475774252,468.59126153300997
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,41.80715281086224,61.47367411752395,24.1008259204076
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,7.586589926e-06,1.10350794671e-05,4.4757044429e-06
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,3.16489295029,4.65369164753,1.82448525966
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.1460509650879094,0.35610416229915,0.0289279727015305
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,2.64673301e-08,6.42362122e-08,5.1078496e-09
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.011056377650000001,0.02695786431,0.00218991083
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,515,Asthma,1,Number,2021,8371.150632459437,11435.03977566566,6155.660968279675
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0015206336234916,0.0021813991488225,0.0011092910582785
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,515,Asthma,3,Rate,2021,633.71442064747,865.6575331971599,465.99700512969
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,0.8823142396203438,1.7101766340089362,0.3441845223379812
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,1.601632051e-07,3.030936682e-07,6.11495156e-08
+1,All Population,6,Incidence,38,Mongolia,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.06679311862,0.12946411341,0.026055521489999997
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,1,Number,2021,15561.35013998764,21196.516056529552,11004.102234466478
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,2,Percent,2021,0.001932852755136,0.0026943459838185,0.0013729641766293
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,508,Chronic respiratory diseases,3,Rate,2021,722.79052681384,984.5316035751899,511.11637355457
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,1,Number,2021,96.5458116616134,128.87786452770644,63.37848474114903
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,2,Percent,2021,1.19913502765e-05,1.61864014492e-05,8.0943438464e-06
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,509,Chronic obstructive pulmonary disease,3,Rate,2021,4.4843408473399995,5.98609367173,2.94379137817
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,1,Number,2021,0.172846634469218,0.5255816112479522,0.0302013209490251
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,2,Percent,2021,2.14790096e-08,6.26015194e-08,3.6941362e-09
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,510,Pneumoconiosis,3,Rate,2021,0.00802834644,0.02441211118,0.00140278501
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,15462.211720620153,21095.23446454388,10895.174862869444
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0019205392892287,0.0026818182551683,0.0013646325684244
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,718.18576503433,979.82729613596,506.05693644964003
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,2.419761071418697,4.334960880478173,1.0957911876939856
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,3.006366212e-07,5.37641743e-07,1.332233011e-07
+1,All Population,6,Incidence,40,Turkmenistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.11239258572,0.20134940929,0.050897093289999994
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,1,Number,2021,34816.246524241404,47659.72008776484,24966.4356428636
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,2,Percent,2021,0.0019634224918066,0.0027171796635384,0.0013993420067779
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,515,Asthma,3,Rate,2021,752.88147286358,1030.61426311302,539.88493061322
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,1,Number,2021,5.283194964741548,9.215435664058273,2.3062055664497465
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,2,Percent,2021,2.979395106e-07,5.267503708e-07,1.28869878e-07
+1,All Population,6,Incidence,39,Tajikistan,3,Both,158,<20 years,516,Interstitial lung disease and pulmonary sarcoidosis,3,Rate,2021,0.11424607771999999,0.19927854001,0.04987037998

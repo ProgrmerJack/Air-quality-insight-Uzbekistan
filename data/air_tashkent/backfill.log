@@ -1,0 +1,307 @@
+stations: 10 (5 on school/kindergarten grounds) -> C:\Users\Jack0\GitHub\Air-quality-insight-Uzbekistan\data\air_tashkent\stations.csv
+  Peoples' Friendship Square         2023-06: 674 rows
+  Peoples' Friendship Square         2023-07: 695 rows
+  Peoples' Friendship Square         2023-08: 730 rows
+  Peoples' Friendship Square         2023-09: 597 rows
+  Peoples' Friendship Square         2023-10: 610 rows
+  Peoples' Friendship Square         2023-11: 551 rows
+  Peoples' Friendship Square         2023-12: 637 rows
+  Peoples' Friendship Square         2024-01: 517 rows
+  Peoples' Friendship Square         2024-02: 604 rows
+  Peoples' Friendship Square         2024-03: 730 rows
+  Peoples' Friendship Square         2024-04: 745 rows
+  Peoples' Friendship Square         2024-05: 734 rows
+  Peoples' Friendship Square         2024-06: 711 rows
+  Peoples' Friendship Square         2024-07: 734 rows
+  Peoples' Friendship Square         2024-08: 734 rows
+  Peoples' Friendship Square         2024-09: 705 rows
+  Peoples' Friendship Square         2024-10: 728 rows
+  Peoples' Friendship Square         2024-11: 656 rows
+  Peoples' Friendship Square         2024-12: 561 rows
+  Peoples' Friendship Square         2025-01: 610 rows
+  Peoples' Friendship Square         2025-02: 672 rows
+  Peoples' Friendship Square         2025-03: 744 rows
+  Peoples' Friendship Square         2025-04: 720 rows
+  Peoples' Friendship Square         2025-05: 744 rows
+  Peoples' Friendship Square         2025-06: 720 rows
+  Peoples' Friendship Square         2025-07: 744 rows
+  Peoples' Friendship Square         2025-08: 744 rows
+  Peoples' Friendship Square         2025-09: 720 rows
+  Peoples' Friendship Square         2025-10: 741 rows
+  Peoples' Friendship Square         2025-11: 720 rows
+  Peoples' Friendship Square         2025-12: 744 rows
+  Yangi Uzbekistan Park              2023-06: 578 rows
+  Yangi Uzbekistan Park              2023-07: 721 rows
+  Yangi Uzbekistan Park              2023-08: 739 rows
+  Yangi Uzbekistan Park              2023-09: 668 rows
+  Yangi Uzbekistan Park              2023-10: 370 rows
+  Yangi Uzbekistan Park              2023-11: 392 rows
+  Yangi Uzbekistan Park              2023-12: 562 rows
+  Yangi Uzbekistan Park              2024-01: 536 rows
+  Yangi Uzbekistan Park              2024-02: 653 rows
+  Yangi Uzbekistan Park              2024-03: 744 rows
+  Yangi Uzbekistan Park              2024-04: 729 rows
+  Yangi Uzbekistan Park              2024-05: 735 rows
+  Yangi Uzbekistan Park              2024-06: 687 rows
+  Yangi Uzbekistan Park              2024-07: 703 rows
+  Yangi Uzbekistan Park              2024-08: 700 rows
+  Yangi Uzbekistan Park              2024-09: 685 rows
+  Yangi Uzbekistan Park              2024-10: 733 rows
+  Yangi Uzbekistan Park              2024-11: 695 rows
+  Yangi Uzbekistan Park              2024-12: 710 rows
+  Yangi Uzbekistan Park              2025-01: 744 rows
+  Yangi Uzbekistan Park              2025-02: 672 rows
+  Yangi Uzbekistan Park              2025-03: 744 rows
+  Yangi Uzbekistan Park              2025-04: 720 rows
+  Yangi Uzbekistan Park              2025-05: 744 rows
+  Yangi Uzbekistan Park              2025-06: 720 rows
+  Yangi Uzbekistan Park              2025-07: 744 rows
+  Yangi Uzbekistan Park              2025-08: 744 rows
+  Yangi Uzbekistan Park              2025-09: 720 rows
+  Yangi Uzbekistan Park              2025-10: 744 rows
+  Yangi Uzbekistan Park              2025-11: 687 rows
+  Yangi Uzbekistan Park              2025-12: 562 rows
+  Yangikhayot district school №333   2023-06: 702 rows
+  Yangikhayot district school №333   2023-07: 704 rows
+  Yangikhayot district school №333   2023-08: 722 rows
+  Yangikhayot district school №333   2023-09: 684 rows
+  Yangikhayot district school №333   2023-10: 743 rows
+  Yangikhayot district school №333   2023-11: 711 rows
+  Yangikhayot district school №333   2023-12: 590 rows
+  Yangikhayot district school №333   2024-01: 383 rows
+  Yangikhayot district school №333   2024-02: 589 rows
+  Yangikhayot district school №333   2024-03: 713 rows
+  Yangikhayot district school №333   2024-04: 728 rows
+  Yangikhayot district school №333   2024-05: 736 rows
+  Yangikhayot district school №333   2024-06: 720 rows
+  Yangikhayot district school №333   2024-07: 737 rows
+  Yangikhayot district school №333   2024-08: 735 rows
+  Yangikhayot district school №333   2024-09: 705 rows
+  Yangikhayot district school №333   2024-10: 729 rows
+  Yangikhayot district school №333   2024-11: 711 rows
+  Yangikhayot district school №333   2024-12: 569 rows
+  Yangikhayot district school №333   2025-01: 733 rows
+  Yangikhayot district school №333   2025-02: 672 rows
+  Yangikhayot district school №333   2025-03: 744 rows
+  Yangikhayot district school №333   2025-04: 720 rows
+  Yangikhayot district school №333   2025-05: 744 rows
+  Yangikhayot district school №333   2025-06: 720 rows
+  Yangikhayot district school №333   2025-07: 744 rows
+  Yangikhayot district school №333   2025-08: 744 rows
+  Yangikhayot district school №333   2025-09: 719 rows
+  Yangikhayot district school №333   2025-10: 744 rows
+  Yangikhayot district school №333   2025-12: 550 rows
+  Tuzel-1 Kindergarten №557          2023-06: 718 rows
+  Tuzel-1 Kindergarten №557          2023-07: 718 rows
+  Tuzel-1 Kindergarten №557          2023-08: 730 rows
+  Tuzel-1 Kindergarten №557          2023-09: 674 rows
+  Tuzel-1 Kindergarten №557          2023-10: 744 rows
+  Tuzel-1 Kindergarten №557          2023-11: 712 rows
+  Tuzel-1 Kindergarten №557          2023-12: 493 rows
+  Tuzel-1 Kindergarten №557          2024-01: 476 rows
+  Tuzel-1 Kindergarten №557          2024-02: 645 rows
+  Tuzel-1 Kindergarten №557          2024-03: 742 rows
+  Tuzel-1 Kindergarten №557          2024-04: 726 rows
+  Tuzel-1 Kindergarten №557          2024-05: 744 rows
+  Tuzel-1 Kindergarten №557          2024-06: 720 rows
+  Tuzel-1 Kindergarten №557          2024-07: 737 rows
+  Tuzel-1 Kindergarten №557          2024-08: 734 rows
+  Tuzel-1 Kindergarten №557          2024-09: 707 rows
+  Tuzel-1 Kindergarten №557          2024-10: 736 rows
+  Tuzel-1 Kindergarten №557          2024-11: 712 rows
+  Tuzel-1 Kindergarten №557          2024-12: 735 rows
+  Tuzel-1 Kindergarten №557          2025-01: 744 rows
+  Tuzel-1 Kindergarten №557          2025-02: 672 rows
+  Tuzel-1 Kindergarten №557          2025-03: 744 rows
+  Tuzel-1 Kindergarten №557          2025-04: 720 rows
+  Tuzel-1 Kindergarten №557          2025-05: 744 rows
+  Tuzel-1 Kindergarten №557          2025-06: 720 rows
+  Tuzel-1 Kindergarten №557          2025-07: 744 rows
+  Tuzel-1 Kindergarten №557          2025-08: 744 rows
+  Tuzel-1 Kindergarten №557          2025-09: 720 rows
+  Tuzel-1 Kindergarten №557          2025-10: 744 rows
+  Tuzel-1 Kindergarten №557          2025-12: 744 rows
+  Bektemir district, Kindergarten №5 2023-06: 720 rows
+  Bektemir district, Kindergarten №5 2023-07: 719 rows
+  Bektemir district, Kindergarten №5 2023-08: 716 rows
+  Bektemir district, Kindergarten №5 2023-09: 684 rows
+  Bektemir district, Kindergarten №5 2023-10: 742 rows
+  Bektemir district, Kindergarten №5 2023-11: 712 rows
+  Bektemir district, Kindergarten №5 2023-12: 663 rows
+  Bektemir district, Kindergarten №5 2024-01: 528 rows
+  Bektemir district, Kindergarten №5 2024-02: 664 rows
+  Bektemir district, Kindergarten №5 2024-03: 743 rows
+  Bektemir district, Kindergarten №5 2024-04: 738 rows
+  Bektemir district, Kindergarten №5 2024-05: 744 rows
+  Bektemir district, Kindergarten №5 2024-06: 720 rows
+  Bektemir district, Kindergarten №5 2024-07: 737 rows
+  Bektemir district, Kindergarten №5 2024-08: 734 rows
+  Bektemir district, Kindergarten №5 2024-09: 704 rows
+  Bektemir district, Kindergarten №5 2024-10: 736 rows
+  Bektemir district, Kindergarten №5 2024-11: 713 rows
+  Bektemir district, Kindergarten №5 2024-12: 735 rows
+  Bektemir district, Kindergarten №5 2025-01: 744 rows
+  Bektemir district, Kindergarten №5 2025-02: 672 rows
+  Bektemir district, Kindergarten №5 2025-03: 744 rows
+  Bektemir district, Kindergarten №5 2025-04: 720 rows
+  Bektemir district, Kindergarten №5 2025-05: 744 rows
+  Bektemir district, Kindergarten №5 2025-06: 687 rows
+  Bektemir district, Kindergarten №5 2025-07: 744 rows
+  Bektemir district, Kindergarten №5 2025-08: 733 rows
+  Bektemir district, Kindergarten №5 2025-09: 720 rows
+  Bektemir district, Kindergarten №5 2025-10: 744 rows
+  Bektemir district, Kindergarten №5 2025-12: 744 rows
+  Lokomotiv Park                     2023-06: 719 rows
+  Lokomotiv Park                     2023-07: 721 rows
+  Lokomotiv Park                     2023-08: 633 rows
+  Lokomotiv Park                     2023-09: 682 rows
+  Lokomotiv Park                     2023-10: 743 rows
+  Lokomotiv Park                     2023-11: 712 rows
+  Lokomotiv Park                     2023-12: 316 rows
+  Lokomotiv Park                     2024-01: 465 rows
+  Lokomotiv Park                     2024-02: 585 rows
+  Lokomotiv Park                     2024-03: 671 rows
+  Lokomotiv Park                     2024-04: 686 rows
+  Lokomotiv Park                     2024-05: 744 rows
+  Lokomotiv Park                     2024-06: 720 rows
+  Lokomotiv Park                     2024-07: 737 rows
+  Lokomotiv Park                     2024-08: 734 rows
+  Lokomotiv Park                     2024-09: 707 rows
+  Lokomotiv Park                     2024-10: 609 rows
+  Lokomotiv Park                     2024-11: 705 rows
+  Lokomotiv Park                     2024-12: 697 rows
+  Lokomotiv Park                     2025-01: 703 rows
+  Lokomotiv Park                     2025-02: 661 rows
+  Lokomotiv Park                     2025-03: 740 rows
+  Lokomotiv Park                     2025-04: 468 rows
+  Lokomotiv Park                     2025-05: 739 rows
+  Lokomotiv Park                     2025-06: 702 rows
+  Lokomotiv Park                     2025-07: 678 rows
+  Lokomotiv Park                     2025-08: 707 rows
+  Lokomotiv Park                     2025-09: 720 rows
+  Lokomotiv Park                     2025-10: 744 rows
+  Lokomotiv Park                     2025-11: 719 rows
+  Lokomotiv Park                     2025-12: 374 rows
+  Gafur Gulam Park                   2023-06: 496 rows
+  Gafur Gulam Park                   2023-07: 550 rows
+  Gafur Gulam Park                   2023-08: 400 rows
+  Gafur Gulam Park                   2023-09: 659 rows
+  Gafur Gulam Park                   2023-10: 377 rows
+  Gafur Gulam Park                   2023-11: 319 rows
+  Gafur Gulam Park                   2023-12: 499 rows
+  Gafur Gulam Park                   2024-01: 237 rows
+  Gafur Gulam Park                   2024-02: 535 rows
+  Gafur Gulam Park                   2024-03: 731 rows
+  Gafur Gulam Park                   2024-04: 729 rows
+  Gafur Gulam Park                   2024-05: 734 rows
+  Gafur Gulam Park                   2024-06: 662 rows
+  Gafur Gulam Park                   2024-07: 707 rows
+  Gafur Gulam Park                   2024-08: 733 rows
+  Gafur Gulam Park                   2024-09: 702 rows
+  Gafur Gulam Park                   2024-10: 676 rows
+  Gafur Gulam Park                   2024-11: 712 rows
+  Gafur Gulam Park                   2024-12: 735 rows
+  Gafur Gulam Park                   2025-01: 744 rows
+  Gafur Gulam Park                   2025-02: 672 rows
+  Gafur Gulam Park                   2025-03: 744 rows
+  Gafur Gulam Park                   2025-04: 720 rows
+  Gafur Gulam Park                   2025-05: 733 rows
+  Gafur Gulam Park                   2025-06: 720 rows
+  Gafur Gulam Park                   2025-07: 744 rows
+  Gafur Gulam Park                   2025-08: 744 rows
+  Gafur Gulam Park                   2025-09: 720 rows
+  Gafur Gulam Park                   2025-10: 744 rows
+  Gafur Gulam Park                   2025-11: 720 rows
+  Gafur Gulam Park                   2025-12: 744 rows
+  Almazar district Dermatology       2023-06: 576 rows
+  Almazar district Dermatology       2023-07: 535 rows
+  Almazar district Dermatology       2023-08: 575 rows
+  Almazar district Dermatology       2023-09: 549 rows
+  Almazar district Dermatology       2023-10: 519 rows
+  Almazar district Dermatology       2023-11: 397 rows
+  Almazar district Dermatology       2023-12: 388 rows
+  Almazar district Dermatology       2024-01: 289 rows
+  Almazar district Dermatology       2024-02: 108 rows
+  Almazar district Dermatology       2024-03: 744 rows
+  Almazar district Dermatology       2024-04: 735 rows
+  Almazar district Dermatology       2024-05: 744 rows
+  Almazar district Dermatology       2024-06: 712 rows
+  Almazar district Dermatology       2024-07: 737 rows
+  Almazar district Dermatology       2024-08: 735 rows
+  Almazar district Dermatology       2024-09: 706 rows
+  Almazar district Dermatology       2024-10: 736 rows
+  Almazar district Dermatology       2024-11: 712 rows
+  Almazar district Dermatology       2024-12: 655 rows
+  Almazar district Dermatology       2025-01: 744 rows
+  Almazar district Dermatology       2025-02: 672 rows
+  Almazar district Dermatology       2025-03: 744 rows
+  Almazar district Dermatology       2025-04: 720 rows
+  Almazar district Dermatology       2025-05: 733 rows
+  Almazar district Dermatology       2025-06: 720 rows
+  Almazar district Dermatology       2025-07: 744 rows
+  Almazar district Dermatology       2025-08: 724 rows
+  Almazar district Dermatology       2025-09: 720 rows
+  Almazar district Dermatology       2025-10: 394 rows
+  Almazar district Dermatology       2025-11: 720 rows
+  Almazar district Dermatology       2025-12: 744 rows
+  Almazar district Kindergarten №423 2023-06: 715 rows
+  Almazar district Kindergarten №423 2023-07: 714 rows
+  Almazar district Kindergarten №423 2023-08: 723 rows
+  Almazar district Kindergarten №423 2023-09: 670 rows
+  Almazar district Kindergarten №423 2023-10: 743 rows
+  Almazar district Kindergarten №423 2023-11: 706 rows
+  Almazar district Kindergarten №423 2023-12: 377 rows
+  Almazar district Kindergarten №423 2024-01: 439 rows
+  Almazar district Kindergarten №423 2024-02: 661 rows
+  Almazar district Kindergarten №423 2024-03: 716 rows
+  Almazar district Kindergarten №423 2024-04: 730 rows
+  Almazar district Kindergarten №423 2024-05: 744 rows
+  Almazar district Kindergarten №423 2024-06: 720 rows
+  Almazar district Kindergarten №423 2024-07: 744 rows
+  Almazar district Kindergarten №423 2024-08: 728 rows
+  Almazar district Kindergarten №423 2024-09: 671 rows
+  Almazar district Kindergarten №423 2024-10: 672 rows
+  Almazar district Kindergarten №423 2024-11: 653 rows
+  Almazar district Kindergarten №423 2024-12: 726 rows
+  Almazar district Kindergarten №423 2025-01: 744 rows
+  Almazar district Kindergarten №423 2025-02: 672 rows
+  Almazar district Kindergarten №423 2025-03: 744 rows
+  Almazar district Kindergarten №423 2025-04: 703 rows
+  Almazar district Kindergarten №423 2025-05: 729 rows
+  Almazar district Kindergarten №423 2025-06: 720 rows
+  Almazar district Kindergarten №423 2025-07: 652 rows
+  Almazar district Kindergarten №423 2025-08: 744 rows
+  Almazar district Kindergarten №423 2025-09: 720 rows
+  Almazar district Kindergarten №423 2025-10: 744 rows
+  Almazar district Kindergarten №423 2025-12: 721 rows
+  Yangikhayot district school №329   2023-06: 718 rows
+  Yangikhayot district school №329   2023-07: 721 rows
+  Yangikhayot district school №329   2023-08: 741 rows
+  Yangikhayot district school №329   2023-09: 682 rows
+  Yangikhayot district school №329   2023-10: 587 rows
+  Yangikhayot district school №329   2023-11: 248 rows
+  Yangikhayot district school №329   2023-12: 148 rows
+  Yangikhayot district school №329   2024-01: 533 rows
+  Yangikhayot district school №329   2024-02: 664 rows
+  Yangikhayot district school №329   2024-03: 744 rows
+  Yangikhayot district school №329   2024-04: 747 rows
+  Yangikhayot district school №329   2024-05: 744 rows
+  Yangikhayot district school №329   2024-06: 720 rows
+  Yangikhayot district school №329   2024-07: 689 rows
+  Yangikhayot district school №329   2024-08: 741 rows
+  Yangikhayot district school №329   2024-09: 720 rows
+  Yangikhayot district school №329   2024-10: 736 rows
+  Yangikhayot district school №329   2024-11: 713 rows
+  Yangikhayot district school №329   2024-12: 734 rows
+  Yangikhayot district school №329   2025-01: 744 rows
+  Yangikhayot district school №329   2025-02: 672 rows
+  Yangikhayot district school №329   2025-03: 744 rows
+  Yangikhayot district school №329   2025-04: 720 rows
+  Yangikhayot district school №329   2025-05: 744 rows
+  Yangikhayot district school №329   2025-06: 720 rows
+  Yangikhayot district school №329   2025-07: 744 rows
+  Yangikhayot district school №329   2025-08: 744 rows
+  Yangikhayot district school №329   2025-09: 720 rows
+  Yangikhayot district school №329   2025-10: 744 rows
+  Yangikhayot district school №329   2025-12: 718 rows
+done: +206700 rows -> C:\Users\Jack0\GitHub\Air-quality-insight-Uzbekistan\data\air_tashkent\pm25_hourly.csv

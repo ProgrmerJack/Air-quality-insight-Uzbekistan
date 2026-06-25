@@ -1,0 +1,2 @@
+analysis_date,period_start,period_end,total_measurements,mean_pm25_ugm3,median_pm25_ugm3,max_pm25_ugm3,days_analyzed,days_exceeding_who_24h,percent_exceeding_who,school_hours_mean_pm25,recommendations_count
+2026-01-06,2022-01-01,2023-06-30,13104,56.3,43.28,290.0,546,546,100.0,60.58,6

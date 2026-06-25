@@ -1,0 +1,7 @@
+city,country,pm25,asthma_incidence_u20,asthma_prevalence_u20,paf_conservative_pct,attributable_incident_cases
+Tashkent,Uzbekistan,37.9,102513,295202,22.4,22931
+Almaty,Kazakhstan,34.2,44696,131498,20.1,8996
+Astana,Kazakhstan,18.5,44696,131498,9.9,4411
+Bishkek,Kyrgyzstan,35.6,20933,63671,21.0,4392
+Dushanbe,Tajikistan,53.3,34816,89881,31.0,10809
+Ashgabat,Turkmenistan,22.8,15462,42379,12.8,1979

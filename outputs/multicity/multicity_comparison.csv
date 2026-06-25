@@ -1,0 +1,7 @@
+City,n_hourly,n_days,annual_mean,winter_mean,summer_mean,winter_summer_pct,pct_days_gt15,school_hours_mean,fold_WHO_annual,PAF_resp_pct,classroom_typical
+Dushanbe,10399,430,53.3,84.2,49.2,71,96.7,52.1,10.7,31.0,34.6
+Tashkent,8301,346,37.9,59.1,26.1,127,93.1,33.7,7.6,22.4,24.6
+Bishkek,9920,389,35.6,79.2,13.9,469,68.1,35.7,7.1,21.0,23.1
+Almaty,7774,314,34.2,66.7,12.0,455,70.1,39.5,6.8,20.2,22.3
+Ashgabat,9691,398,22.8,28.3,19.6,44,66.1,23.1,4.6,12.8,14.8
+Astana,1961,77,18.5,31.3,8.6,264,41.6,17.5,3.7,9.9,12.1
