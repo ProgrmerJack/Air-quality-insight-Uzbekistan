@@ -9,6 +9,7 @@ import numpy as np, requests, rasterio
 from rasterio.windows import from_bounds
 from shapely.geometry import LineString, Point
 from shapely.strtree import STRtree
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -40,7 +41,7 @@ def cohort_inf(y):
 summ = []
 wsf = rasterio.open(WSF)
 for city, (scsv, S, W, N, E, bg) in CITIES.items():
-    p = os.path.join(OUT, scsv)
+    p = pipeline_path(scsv)
     if not os.path.exists(p): print(city, "no school file"); continue
     sch = [(float(r["lat"]), float(r["lon"])) for r in csv.DictReader(open(p, encoding="utf-8"))]
     if not sch: print(city, "0 schools"); continue
@@ -58,7 +59,7 @@ for city, (scsv, S, W, N, E, bg) in CITIES.items():
         infil.append(cohort_inf(y))
     infil = np.array(infil)
     indoor = (bg + A*np.exp(-dist/L)) * infil
-    with open(os.path.join(OUT, f"giga_exposure_{city.lower()}.csv"), "w", newline="", encoding="utf-8") as f:
+    with open(pipeline_path(f"giga_exposure_{city.lower()}.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f); w.writerow(["lat","lon","dist_m","infiltration","indoor_pm25"])
         for i,(la,lo) in enumerate(sch): w.writerow([f"{la:.5f}",f"{lo:.5f}",f"{dist[i]:.0f}",infil[i],f"{indoor[i]:.1f}"])
     summ.append({"capital": city, "bg": bg, "n_schools": len(sch),
@@ -67,6 +68,6 @@ for city, (scsv, S, W, N, E, bg) in CITIES.items():
     print(f"  {city:9} GIGA n={len(sch):>3} Soviet {summ[-1]['pct_soviet']:>4}% <=100m {summ[-1]['pct_within_100m']:>4}% indoor {indoor.min():.1f}-{indoor.max():.1f}")
     time.sleep(1)
 wsf.close()
-with open(os.path.join(OUT, "giga_regional_exposure.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("giga_regional_exposure.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(summ[0].keys())); w.writeheader(); w.writerows(summ)
 print("saved giga_regional_exposure.csv (Dushanbe: use OSM b1d, GIGA lacks TJK)")

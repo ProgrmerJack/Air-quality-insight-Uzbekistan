@@ -8,9 +8,10 @@ functions (Anenberg 2018) imply a larger burden (cited, not computed here).
 Output: data/pipeline/health_asthma_attributable.csv
 """
 import os, csv, math
+from paths import pipeline_path
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-GBD = os.path.join(ROOT, "data", "pipeline", "IHME-GBD_2023_DATA-05fce0b4-1.csv")
-OUT = os.path.join(ROOT, "data", "pipeline", "health_asthma_attributable.csv")
+GBD = pipeline_path("IHME-GBD_2023_DATA-05fce0b4-1.csv")
+OUT = pipeline_path("health_asthma_attributable.csv")
 
 rows = list(csv.DictReader(open(GBD, encoding="utf-8")))
 def get(loc, cause, measure, metric):

@@ -6,6 +6,7 @@ Output: data/pipeline/fused_school_surface.csv
 """
 import os, csv, math
 import numpy as np
+from paths import pipeline_path
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BG = 37.9                       # reference level (FEM 8881; ACAG satellite agrees to 0.5 ug/m3)
 A, L = 5.0, 150.0
@@ -24,7 +25,7 @@ net_mean = float(np.mean([s[2] for s in stations]))
 print(f"network stations: {len(stations)} | corrected annual range {min(s[2] for s in stations):.1f}-{max(s[2] for s in stations):.1f} (mean {net_mean:.1f})")
 
 # schools (GIGA authoritative) with near-road distance from the GIGA index output
-sch = list(csv.DictReader(open(os.path.join(ROOT, "data", "pipeline", "giga_school_injustice_index.csv"), encoding="utf-8")))
+sch = list(csv.DictReader(open(pipeline_path("giga_school_injustice_index.csv"), encoding="utf-8")))
 def idw(la, lo):
     num = den = 0.0
     for sla, slo, val in stations:
@@ -43,6 +44,6 @@ for s in sch:
 fo = np.array([o["fused_outdoor_pm25"] for o in out])
 print(f"fused outdoor surface (n={len(out)} GIGA schools): {fo.min():.1f}-{fo.max():.1f} ug/m3 (mean {fo.mean():.1f})")
 print(f"  (reference-anchored level {BG}, network anomaly range {min(o['network_anomaly'] for o in out):+.1f}/{max(o['network_anomaly'] for o in out):+.1f}, + near-road)")
-with open(os.path.join(ROOT, "data", "pipeline", "fused_school_surface.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("fused_school_surface.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
 print("saved data/pipeline/fused_school_surface.csv")

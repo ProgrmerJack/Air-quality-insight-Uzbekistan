@@ -1,10 +1,11 @@
 import os, csv, math
 import numpy as np
+from paths import pipeline_path
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
 D = os.path.join(ROOT, "data", "pipeline")
 
 # --- near-road NO2 split ---
-rows = list(csv.DictReader(open(os.path.join(D, "school_no2.csv"), encoding="utf-8")))
+rows = list(csv.DictReader(open(pipeline_path("school_no2.csv"), encoding="utf-8")))
 d = np.array([float(r["dist_m"]) for r in rows])
 no2 = np.array([float(r["no2_umol_m2"]) for r in rows])
 near = no2[d <= 100]; far = no2[d > 100]
@@ -12,7 +13,7 @@ from scipy.stats import spearmanr
 print(f"NO2 schools n={len(rows)} | <=100m mean {near.mean():.0f} (n={len(near)}) | >100m mean {far.mean():.0f} | Spearman(dist,NO2) {spearmanr(d,no2).correlation:.2f}")
 
 # --- GIGA injustice index overlap (Tashkent, real child density) ---
-gi = os.path.join(D, "giga_school_injustice_index.csv")
+gi = pipeline_path("giga_school_injustice_index.csv")
 if os.path.exists(gi):
     g = list(csv.DictReader(open(gi, encoding="utf-8")))
     indoor = np.array([float(x["indoor_pm25"]) for x in g])
@@ -25,7 +26,7 @@ if os.path.exists(gi):
 # --- ERA5 inversion (monthly BLH) ---
 try:
     import xarray as xr
-    ds = xr.open_dataset(os.path.join(D, "era5_tashkent_monthly.nc"))
+    ds = xr.open_dataset(pipeline_path("era5_tashkent_monthly.nc"))
     print("ERA5 vars:", list(ds.data_vars))
     blvar = [v for v in ds.data_vars if "bl" in v.lower() or "blh" in v.lower()]
     print("ERA5 candidate BLH vars:", blvar)

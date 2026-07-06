@@ -17,6 +17,7 @@ Run:
   python scripts/pipeline/tropomi_gee.py   # opens a browser once; then exports NO2 to data/pipeline/
 """
 import os
+from paths import pipeline_path
 def load_env(p):
     d = {}
     for line in open(p, encoding="utf-8"):
@@ -51,7 +52,7 @@ def main():
         out[c] = v
         print(c, v)
     import json
-    json.dump(out, open(os.path.join(root, "data", "pipeline", "tropomi_no2_capitals_2022.json"), "w"), indent=2)
+    json.dump(out, open(pipeline_path("tropomi_no2_capitals_2022.json"), "w"), indent=2)
     print("saved data/pipeline/tropomi_no2_capitals_2022.json")
 
 if __name__ == "__main__":

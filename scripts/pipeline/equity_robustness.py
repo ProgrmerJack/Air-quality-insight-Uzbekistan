@@ -8,6 +8,7 @@ Output: data/pipeline/equity_robustness.csv
 """
 import os, csv, sys
 import numpy as np
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
@@ -25,7 +26,7 @@ SCHEMES = {  # (exposure, envelope, wealth, child)
 rng = np.random.default_rng(42)
 rows = []
 for city in CITIES:
-    p = os.path.join(OUT, f"regional_index_{city.lower()}.csv")
+    p = pipeline_path(f"regional_index_{city.lower()}.csv")
     d = list(csv.DictReader(open(p, encoding="utf-8")))
     e = norm([r["indoor_pm25"] for r in d]); f = norm([r["infiltration"] for r in d])
     w = norm([-float(r["rwi"]) for r in d]); c = norm([r["child_u20"] for r in d])
@@ -47,7 +48,7 @@ for city in CITIES:
     print(f"{city:9} k={k:>2} | equal {named['equal']:>2} expo-heavy {named['exposure-heavy']:>2} "
           f"wealth-heavy {named['wealth-heavy']:>2} child-heavy {named['child-heavy']:>2} | "
           f"random via-equity {vr.min()}-{vr.max()} | {100*frac_ge_half:.0f}% of draws >= half")
-with open(os.path.join(OUT, "equity_robustness.csv"), "w", newline="", encoding="utf-8") as fo:
+with open(pipeline_path("equity_robustness.csv"), "w", newline="", encoding="utf-8") as fo:
     wts = csv.DictWriter(fo, fieldnames=list(rows[0].keys())); wts.writeheader(); wts.writerows(rows)
 allmin = min(r["via_random_min"] for r in rows)
 print(f"\nAcross ALL schemes and 2000 random weightings in every capital, equity reprioritises a "

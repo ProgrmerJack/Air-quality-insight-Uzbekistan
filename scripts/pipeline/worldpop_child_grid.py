@@ -5,9 +5,10 @@ grid; child fraction is treated as ~uniform citywide, so relative child density 
 population density (stated as a limitation). Output: data/pipeline/tashkent_pop_grid.csv
 """
 import requests, json, time, csv, os
+from paths import pipeline_path
 H = {"User-Agent": "npjUS-research/1.0"}
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-OUT = os.path.join(ROOT, "data", "pipeline", "tashkent_pop_grid.csv")
+OUT = pipeline_path("tashkent_pop_grid.csv")
 S, W, N, E = 41.15, 69.10, 41.42, 69.45
 NX = NY = 7                      # 49 cells (~3.5 km) -> modest API load
 dx = (E - W) / NX; dy = (N - S) / NY

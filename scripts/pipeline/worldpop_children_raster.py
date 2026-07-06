@@ -7,11 +7,12 @@ Output: data/pipeline/school_child_pop.csv
 import os, csv, sys
 import numpy as np, rasterio
 from rasterio.windows import from_bounds
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 SCH = os.path.join(ROOT, "scripts", "legacy_v1", "b1_school_results.csv")
-OUT = os.path.join(ROOT, "data", "pipeline", "school_child_pop.csv")
+OUT = pipeline_path("school_child_pop.csv")
 BASE = "https://data.worldpop.org/GIS/AgeSex_structures/Global_2000_2020/2020/UZB/uzb_{s}_{a}_2020.tif"
 AGES = [0, 1, 5, 10, 15]   # 0-19
 W, S, E, N = 69.08, 41.13, 69.47, 41.44

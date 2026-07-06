@@ -14,11 +14,12 @@ Surface: indoor = (bg + A*exp(-dist/L)) * F_inf.  Index = mean of normalised
 """
 import os, csv, math, sys, itertools
 import numpy as np
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
 _child = {}
-for r in csv.DictReader(open(os.path.join(OUT, "child_regional.csv"), encoding="utf-8")):
+for r in csv.DictReader(open(pipeline_path("child_regional.csv"), encoding="utf-8")):
     _child.setdefault(r["city"], []).append(float(r["child_u20"]))
 # (exposure_csv, rwi_csv, embassy-FEM background)
 CITIES = {
@@ -32,14 +33,14 @@ CITIES = {
 def norm(x):
     x=np.asarray(x,float); return (x-x.min())/(x.max()-x.min()) if x.max()>x.min() else x*0
 def load_rwi(p):
-    rows=list(csv.DictReader(open(os.path.join(OUT,p),encoding="utf-8")))
+    rows=list(csv.DictReader(open(pipeline_path(p),encoding="utf-8")))
     return (np.array([float(r["lat"]) for r in rows]),np.array([float(r["lon"]) for r in rows]),np.array([float(r["rwi"]) for r in rows]))
 GRID=list(itertools.product([3.,5.,8.],[100.,150.,250.],[-0.10,0.0,0.10]))
 print(f"{'Capital':9}{'k':>4} | base via-eq | worst-case top-decile overlap vs base (27 settings) | via-eq range")
 print("-"*92)
 rows=[]
 for city,(ecsv,rcsv,bg) in CITIES.items():
-    ep=os.path.normpath(os.path.join(OUT,ecsv)) if str(ecsv).startswith("..") else os.path.join(OUT,ecsv)
+    ep=os.path.normpath(os.path.join(OUT,ecsv)) if str(ecsv).startswith("..") else pipeline_path(ecsv)
     sch=list(csv.DictReader(open(ep,encoding="utf-8")))
     lat=np.array([float(s["lat"]) for s in sch]); lon=np.array([float(s["lon"]) for s in sch])
     dist=np.array([float(s["dist_m"]) for s in sch]); infil=np.array([float(s["infiltration"]) for s in sch])
@@ -61,6 +62,6 @@ for city,(ecsv,rcsv,bg) in CITIES.items():
     rows.append({"capital":city,"k":k,"base_via_equity":f"{base_ve}/{k}",
                  "worst_overlap":f"{worst}/{k}","worst_overlap_pct":round(100*worst/k),
                  "via_equity_min":min(ves),"via_equity_max":max(ves)})
-with open(os.path.join(OUT,"parameter_sensitivity.csv"),"w",newline="",encoding="utf-8") as f:
+with open(pipeline_path("parameter_sensitivity.csv"),"w",newline="",encoding="utf-8") as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 print("saved parameter_sensitivity.csv")

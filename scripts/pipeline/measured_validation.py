@@ -14,6 +14,7 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.stats import spearmanr, pearsonr
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
@@ -58,7 +59,7 @@ mae = float(np.mean(np.abs(g.pm_corr - g.modelled_outdoor)))
 print(f"\nAll {len(g)} stations: Spearman(measured_corr, modelled) {rho:.2f} | mean |measured-modelled| {mae:.1f} ug/m3")
 print(f"network mean after correction {g.pm_corr.mean():.1f} vs FEM {FEM} (level agreement)")
 
-g.to_csv(os.path.join(OUT, "measured_validation.csv"), index=False)
+g.to_csv(pipeline_path("measured_validation.csv"), index=False)
 
 # figure: per-station reference-anchored means vs the FEM reference level (level validation +
 # real between-school heterogeneity). on-school stations highlighted.

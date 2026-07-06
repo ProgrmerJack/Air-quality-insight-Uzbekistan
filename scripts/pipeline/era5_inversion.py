@@ -4,12 +4,13 @@ winter-inversion mechanism quantitatively. Uses the CDS key from .env (//cds key
 Output: data/pipeline/era5_tashkent_monthly.nc  + a compact CSV summary.
 """
 import os, cdsapi
+from paths import pipeline_path
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 env = {}
 for line in open(os.path.join(ROOT, ".env"), encoding="utf-8"):
     if line.strip().startswith("url:"): env["url"] = line.split("url:", 1)[1].strip()
     if line.strip().startswith("key:"): env["key"] = line.split("key:", 1)[1].strip()
-OUT = os.path.join(ROOT, "data", "pipeline", "era5_tashkent_monthly.nc")
+OUT = pipeline_path("era5_tashkent_monthly.nc")
 
 c = cdsapi.Client(url=env["url"], key=env["key"])
 c.retrieve("reanalysis-era5-single-levels-monthly-means", {

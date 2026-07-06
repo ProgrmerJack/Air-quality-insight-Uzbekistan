@@ -17,6 +17,7 @@ import os, csv, sys, io, requests
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import geopandas as gpd
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
@@ -35,7 +36,7 @@ LMIC = {"UMC", "LMC", "LIC"}
 
 # --- OpenAQ reference-anchor coverage (iso2 -> iso3) ---
 anchor = {}; cities = {}; active = {}
-for r in csv.DictReader(open(os.path.join(OUT, "openaq_reference_coverage.csv"), encoding="utf-8")):
+for r in csv.DictReader(open(pipeline_path("openaq_reference_coverage.csv"), encoding="utf-8")):
     iso3 = iso2to3.get(r["country_code"])
     if iso3:
         anchor[iso3] = int(r["n_monitors"]); cities[iso3] = int(r["n_cities"]); active[iso3] = int(r["n_active_2023plus"])
@@ -56,7 +57,7 @@ print(f"TIER near-term (LMIC, deploy anchor): {len(near)} countries")
 print(f"TIER adaptable (high income): {len(adapt)} countries")
 print(f"Total countries with a reference anchor: {sum(1 for i in income if anchor.get(i,0)>0)}")
 
-with open(os.path.join(OUT, "global_applicability.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("global_applicability.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["iso3", "income_group", "n_ref_monitors", "n_anchor_cities", "tier"])
     nм = {3: "immediate", 2: "near_term_deploy_anchor", 1: "adaptable_high_income", 0: "unclassified"}
     for iso, g in sorted(income.items()):

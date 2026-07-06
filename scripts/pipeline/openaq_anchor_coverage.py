@@ -6,6 +6,7 @@ Output: data/pipeline/openaq_reference_coverage.csv (country_code, n_monitors, n
 """
 import os, csv, sys, time, requests
 from collections import defaultdict
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
@@ -38,7 +39,7 @@ while True:
     if len(res) < 1000: break
     page += 1; time.sleep(0.3)
 
-with open(os.path.join(OUT, "openaq_reference_coverage.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("openaq_reference_coverage.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["country_code", "n_monitors", "n_cities", "n_active_2023plus"])
     for cc in sorted(mon, key=lambda c: -mon[c]):
         w.writerow([cc, mon[cc], len(cities[cc]), active[cc]])

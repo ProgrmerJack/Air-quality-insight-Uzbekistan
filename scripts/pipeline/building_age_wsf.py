@@ -10,11 +10,12 @@ import os, csv
 import numpy as np
 import rasterio
 from rasterio.windows import from_bounds
+from paths import pipeline_path
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 COG = "https://download.geoservice.dlr.de/WSF_EVO/files/WSFevolution_cog.tif"
 SCHOOLS = os.path.join(ROOT, "scripts", "legacy_v1", "b1_school_results.csv")
-OUT = os.path.join(ROOT, "data", "pipeline", "school_building_age.csv")
+OUT = pipeline_path("school_building_age.csv")
 W, S, E, N = 69.08, 41.13, 69.47, 41.44   # Tashkent AOI (slightly padded)
 
 rows = list(csv.DictReader(open(SCHOOLS, encoding="utf-8")))

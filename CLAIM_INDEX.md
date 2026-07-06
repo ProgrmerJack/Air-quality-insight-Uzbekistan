@@ -17,6 +17,8 @@ are the only `outputs/`-sourced numbers still live in v2. Everything else is `da
 > OpenAQ `11,658` monitors / `114` countries / `109` active-2023+ = sum of `openaq_reference_coverage.csv` ✔;
 > Table 1 / S10 exposure = `giga_regional_exposure.csv` (+ Dushanbe) ✔; out-of-region `58/59, 36/60, 53/60`
 > = `out_of_region_transfer.csv` ✔; regional PAF `9.9–31.0%` & UZB asthma `102,513` = `health_asthma_attributable.csv` ✔.
+
+Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,equity,indices,validation,global_transfer,health,logs}`. File names below refer to those cataloged files; `scripts/pipeline/paths.py` resolves each filename to its folder.
 > See **§ Data-integrity notes** for three reconciled discrepancies.
 
 ---
@@ -39,6 +41,7 @@ are the only `outputs/`-sourced numbers still live in v2. Everything else is `da
 | `build_regional_index.py` | `regional_index_<capital>.csv`, **`regional_injustice_summary.csv`** | **canonical equity headline**, Table S11, Fig 2/3 |
 | `regen_figs_giga.py` | `fig_school_map.png`, `fig_school_road_distance.png`, `fig_school_exposure_surface.png`, `fig_regional_equity.png` | Fig 3, Fig S5/S6/S9 |
 | `equity_robustness.py` | `equity_robustness.csv` | Table S14 (weight robustness) |
+| `equity_benefit_comparison.py` | `equity_benefit_comparison.csv` | Table S20 (what equity targeting changes) |
 | `viirs_crosscheck_regional.py` | `viirs_crosscheck_regional.csv` | Table S16 (independent deprivation) |
 | `measured_validation.py` | `measured_validation.csv`, `fig_measured_validation.png` | Fig 4 (40.0 vs 37.9) |
 | `out_of_region_transfer.py` | `out_of_region_transfer.csv` | Table S15 (Accra/Kathmandu/Lima) |
@@ -88,6 +91,7 @@ are the only `outputs/`-sourced numbers still live in v2. Everything else is `da
 | Per-capital reprioritisation | 18/22, 14/17, 9/14, 6/12, 9/10 | `regional_injustice_summary.csv` | `build_regional_index.py` |
 | Tashkent index inputs (~1.1 M under-20 children) | — | `child_regional.csv`, `regional_index_tashkent.csv` | `worldpop_child_regional.py`, `build_regional_index.py` |
 | Robust to weights: ≥half in 60–100% of 2,000 draws | Table S14 | `equity_robustness.csv` | `equity_robustness.py` |
+| Equity top decile keeps similar exposure but shifts toward less affluent and more child-dense school neighbourhoods | Table S20 | `equity_benefit_comparison.csv` | `equity_benefit_comparison.py` |
 | VIIRS swap: index agreement Spearman 0.77–0.97 | Table S16 | `viirs_crosscheck_regional.csv` | `viirs_crosscheck_regional.py` |
 | Out-of-region: Accra 58/59, Kathmandu 36/60, Lima 53/60 | Table S15 | `out_of_region_transfer.csv` | `out_of_region_transfer.py` |
 
@@ -178,8 +182,8 @@ asthma ERFs `khreis2017exposure`, `anenberg2018global`. All 26 bibitems are cite
 
 | Weakness | Real fix (analysis, not editing) | New code / data | Manuscript |
 |---|---|---|---|
-| **Indoor modelled, not measured** | Equity index is **invariant to the indoor layer**: rebuilt on the measured-validated *outdoor* surface, indices agree ρ=0.89–1.00 and reprioritisation still 44–76% per capital. Infiltration factors re-anchored to **measured** classroom I/O (Gaffin 2016 = 0.72±0.14). | `indoor_invariance.py` | Results §equity + Discussion + Methods; **SI Table S17** |
-| **Headline layer-dependent** | Added **third** independent deprivation layer (GRDI v1, SEDAC); RWI/VIIRS/GRDI agree ρ=0.79–0.95; ≥half under all three layers in 4/6 capitals, ≥⅓ everywhere. Headline now states the layer-dependence precisely. | `grdi_crosscheck.py` → `grdi_crosscheck.csv`; GRDI raster `data/pipeline/grdi/` | Results §equity; **SI Table S18** |
+| **Indoor modelled, not measured** | Equity index is **invariant to the indoor layer**: rebuilt on the reference-anchored, independently cross-checked *outdoor* surface, indices agree ρ=0.89–1.00 and reprioritisation still 44–76% per capital. Infiltration factors re-anchored to **measured** classroom I/O (Gaffin 2016 = 0.72±0.14). | `indoor_invariance.py` | Results §equity + Discussion + Methods; **SI Table S17** |
+| **Headline layer-dependent** | Added **third** independent deprivation layer (GRDI v1, SEDAC); RWI/VIIRS/GRDI agree ρ=0.79–0.95; ≥half under all three layers in 4/6 capitals, ≥⅓ everywhere. Headline now states the layer-dependence precisely. | `grdi_crosscheck.py` → `grdi_crosscheck.csv`; GRDI raster `data/pipeline/cache/grdi/` | Results §equity; **SI Table S18** |
 | **Compounding surface-assumption uncertainty** | Low/Base/High sweep (27 settings) of near-road increment A, decay length L, infiltration → **≥81% of top-priority schools identical to base** in every capital; ranking reflects data, not parameters | `parameter_sensitivity.py` → `parameter_sensitivity.csv` | Results §equity; **SI Table S19** |
 | **Settlement age ≠ envelope quality** | Stated as a *proxy* (not condition/HVAC/window behaviour); class-level validation vs measured I/O; named SAMHE + classroom-I/O datasets as the path to measured infiltration | (limitation + Gaffin grounding) | Discussion; SI building-age § |
 | **Reference-monitor representativeness** | Added explicit justification: monitor anchors citywide *magnitude* only; spatial differentiation derived independently (built form, roads, satellite, calibrated network) | (framing) | Results §validation |

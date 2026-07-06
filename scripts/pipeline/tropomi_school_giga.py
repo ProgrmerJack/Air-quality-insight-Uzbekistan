@@ -8,13 +8,14 @@ Output: data/pipeline/school_no2_giga.csv  (+ printed near-road stats)
 import os, csv, sys
 import numpy as np
 from scipy.stats import spearmanr
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import ee
 ee.Initialize(project="project-6304b1d4-77dd-4f92-823")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-SCH = os.path.join(ROOT, "data", "pipeline", "giga_exposure_tashkent.csv")
-OUT = os.path.join(ROOT, "data", "pipeline", "school_no2_giga.csv")
+SCH = pipeline_path("giga_exposure_tashkent.csv")
+OUT = pipeline_path("school_no2_giga.csv")
 
 rows = list(csv.DictReader(open(SCH, encoding="utf-8")))
 feats = [ee.Feature(ee.Geometry.Point([float(r["lon"]), float(r["lat"])]), {"i": i})

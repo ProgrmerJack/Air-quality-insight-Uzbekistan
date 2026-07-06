@@ -9,14 +9,15 @@ import numpy as np, rasterio
 from rasterio.windows import from_bounds
 from shapely.geometry import LineString, Point
 from shapely.strtree import STRtree
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-SCH = os.path.join(ROOT, "data", "pipeline", "giga_schools_tashkent.csv")
+SCH = pipeline_path("giga_schools_tashkent.csv")
 ROADS = os.path.join(ROOT, "scripts", "legacy_v1", "tashkent_major_roads_osm.csv")
-RWIF = os.path.join(ROOT, "data", "pipeline", "tashkent_rwi.csv")
-POPF = os.path.join(ROOT, "data", "pipeline", "tashkent_pop_grid.csv")
-OUT = os.path.join(ROOT, "data", "pipeline", "giga_school_injustice_index.csv")
+RWIF = pipeline_path("tashkent_rwi.csv")
+POPF = pipeline_path("tashkent_pop_grid.csv")
+OUT = pipeline_path("giga_school_injustice_index.csv")
 BG, A, L, LAT0 = 37.9, 5.0, 150.0, 41.31
 MLAT, MLON = 111320.0, 111320.0 * math.cos(math.radians(LAT0))
 
@@ -46,7 +47,7 @@ rwi = [(float(r["lat"]), float(r["lon"]), float(r["rwi"])) for r in csv.DictRead
 def near(lst, la, lo):
     return min(lst, key=lambda t: (t[0]-la)**2 + ((t[1]-lo)*math.cos(math.radians(la)))**2)[2]
 rwi_at = np.array([near(rwi, la, lo) for la, lo in zip(lat, lon)])
-child = list(csv.DictReader(open(os.path.join(ROOT, "data", "pipeline", "school_child_pop.csv"), encoding="utf-8")))
+child = list(csv.DictReader(open(pipeline_path("school_child_pop.csv"), encoding="utf-8")))
 assert len(child) == len(sch), "child file must be school-aligned"
 dens_at = np.array([float(c["child_u20_500m"]) for c in child])   # WorldPop under-20 children within ~500 m
 

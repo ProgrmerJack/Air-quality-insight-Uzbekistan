@@ -13,8 +13,9 @@ Cost-per-DALY: GBD asthma YLDs (Uzbekistan, <20) x Tashkent child share -> attri
 cost per *attributable* DALY = annual cost / attributable YLDs (upper-bound effectiveness).
 """
 import os, csv, math
+from paths import pipeline_path
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-rows = list(csv.DictReader(open(os.path.join(ROOT, "data", "pipeline", "IHME-GBD_2023_DATA-05fce0b4-1.csv"), encoding="utf-8")))
+rows = list(csv.DictReader(open(pipeline_path("IHME-GBD_2023_DATA-05fce0b4-1.csv"), encoding="utf-8")))
 def g(loc, meas, metric, cause="Asthma"):
     for r in rows:
         if r["location_name"]==loc and r["measure_name"].startswith(meas) and r["metric_name"]==metric and r["cause_name"]==cause:
@@ -45,7 +46,7 @@ print(f"  cost per *attributable* DALY (upper-bound effectiveness) = ${COST/att_
 print(f"  (realistic cost/DALY is higher: classroom filtration averts only part of total exposure;")
 print(f"   asthma-specific ERFs would raise PAF and LOWER cost/DALY. Report as a labelled range.)")
 
-with open(os.path.join(ROOT, "data", "pipeline", "health_sensitivity.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("health_sensitivity.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["erf", "tashkent_paf_pct"])
     for k, v in panel.items(): w.writerow([k, round(100*v, 1)])
     w.writerow([]); w.writerow(["uzb_asthma_ylds_u20", round(ylds)])

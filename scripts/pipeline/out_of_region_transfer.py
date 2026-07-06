@@ -12,6 +12,7 @@ import os, csv, sys, math, requests
 import numpy as np, rasterio
 from rasterio.windows import from_bounds
 from scipy.stats import spearmanr
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import ee
 ee.Initialize(project="project-6304b1d4-77dd-4f92-823")
@@ -93,7 +94,7 @@ for city, (iso, (W, S, E, N), bg) in CITIES.items():
                  "n_schools": len(pts), "pct_soviet_era": round(100*(inf==0.80).mean(),0),
                  "k": k, "topdecile_via_equity": f"{via}/{k}", "spearman": round(rho,2)})
 
-with open(os.path.join(OUT, "out_of_region_transfer.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("out_of_region_transfer.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 print("\nsaved out_of_region_transfer.csv")
 for r in rows: print(f"  {r['city']:10} ({r['continent']:12}) n={r['n_schools']:>3} via equity {r['topdecile_via_equity']}")

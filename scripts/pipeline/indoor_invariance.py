@@ -9,11 +9,12 @@ surface + building age + deprivation + child density, not by absolute indoor val
 import os, csv, math, sys
 import numpy as np
 from scipy.stats import spearmanr
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "data", "pipeline")
 _child = {}
-for r in csv.DictReader(open(os.path.join(OUT, "child_regional.csv"), encoding="utf-8")):
+for r in csv.DictReader(open(pipeline_path("child_regional.csv"), encoding="utf-8")):
     _child.setdefault(r["city"], []).append(float(r["child_u20"]))
 CITIES = {
  "Tashkent": ("giga_exposure_tashkent.csv", "tashkent_rwi.csv"),
@@ -27,7 +28,7 @@ def norm(x):
     x = np.asarray(x, float)
     return (x-x.min())/(x.max()-x.min()) if x.max() > x.min() else x*0
 def load_rwi(p):
-    rows = list(csv.DictReader(open(os.path.join(OUT, p), encoding="utf-8")))
+    rows = list(csv.DictReader(open(pipeline_path(p), encoding="utf-8")))
     return (np.array([float(r["lat"]) for r in rows]), np.array([float(r["lon"]) for r in rows]),
             np.array([float(r["rwi"]) for r in rows]))
 def viaequity(expo, infil, rwi_at, child):
@@ -38,7 +39,7 @@ def viaequity(expo, infil, rwi_at, child):
 print(f"{'City':9} {'k':>3} | indoor via-eq | OUTDOOR via-eq | priority-set overlap (indoor vs outdoor) | rho(indoor,outdoor index)")
 print("-"*108)
 for city, (ecsv, rcsv) in CITIES.items():
-    ep = os.path.normpath(os.path.join(OUT, ecsv)) if str(ecsv).startswith("..") else os.path.join(OUT, ecsv)
+    ep = os.path.normpath(os.path.join(OUT, ecsv)) if str(ecsv).startswith("..") else pipeline_path(ecsv)
     sch = list(csv.DictReader(open(ep, encoding="utf-8")))
     lat = np.array([float(s["lat"]) for s in sch]); lon = np.array([float(s["lon"]) for s in sch])
     indoor = np.array([float(s["indoor_pm25"]) for s in sch]); infil = np.array([float(s["infiltration"]) for s in sch])

@@ -1,4 +1,5 @@
 """Fill the Dushanbe building-age gap: GIGA-200m fraction for Tashkent + WSF Evolution Soviet-era
+from paths import pipeline_path
 share at the 178 Dushanbe OSM schools (windowed remote COG read)."""
 import os, csv, sys
 import numpy as np, rasterio
@@ -8,7 +9,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 D = os.path.join(ROOT, "data", "pipeline")
 
 # Tashkent GIGA 200 m fraction
-t = list(csv.DictReader(open(os.path.join(D, "giga_exposure_tashkent.csv"), encoding="utf-8")))
+t = list(csv.DictReader(open(pipeline_path("giga_exposure_tashkent.csv"), encoding="utf-8")))
 dist = np.array([float(r["dist_m"]) for r in t])
 print(f"Tashkent GIGA: within 100 m {100*(dist<=100).mean():.1f}% | within 200 m {100*(dist<=200).mean():.1f}% | median {np.median(dist):.0f} m")
 

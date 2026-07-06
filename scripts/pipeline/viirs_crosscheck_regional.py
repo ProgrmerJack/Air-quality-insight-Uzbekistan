@@ -7,6 +7,7 @@ Output: data/pipeline/viirs_crosscheck_regional.csv
 import os, csv, sys
 import numpy as np
 from scipy.stats import spearmanr
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import ee
 ee.Initialize(project="project-6304b1d4-77dd-4f92-823")
@@ -19,7 +20,7 @@ viirs = (ee.ImageCollection("NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG").filterDate("20
 
 rows = []
 for city in CITIES:
-    d = list(csv.DictReader(open(os.path.join(OUT, f"regional_index_{city.lower()}.csv"), encoding="utf-8")))
+    d = list(csv.DictReader(open(pipeline_path(f"regional_index_{city.lower()}.csv"), encoding="utf-8")))
     lat = np.array([float(r["lat"]) for r in d]); lon = np.array([float(r["lon"]) for r in d])
     indoor = np.array([float(r["indoor_pm25"]) for r in d]); infil = np.array([float(r["infiltration"]) for r in d])
     rwi = np.array([float(r["rwi"]) for r in d]); child = np.array([float(r["child_u20"]) for r in d])
@@ -43,6 +44,6 @@ for city in CITIES:
                  "topdecile_agree": f"{agree}/{k}", "rho_rwi_viirs": round(rho_layers,2), "rho_index": round(rho_idx,2)})
     print(f"{city:9} k={k:>2} | RWI {via_rwi}/{k} | VIIRS {via_ntl}/{k} | agree {agree}/{k} | "
           f"rho(RWI,VIIRS) {rho_layers:.2f} | rho(idx) {rho_idx:.2f}")
-with open(os.path.join(OUT, "viirs_crosscheck_regional.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("viirs_crosscheck_regional.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 print("saved viirs_crosscheck_regional.csv")

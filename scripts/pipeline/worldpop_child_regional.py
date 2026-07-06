@@ -8,6 +8,7 @@ containing each school. Output: data/pipeline/child_regional.csv  (city, lat, lo
 import os, csv, sys, requests
 import numpy as np, rasterio
 from rasterio.windows import from_bounds
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -19,11 +20,11 @@ H = {"User-Agent": "npjUS-research/1.0"}
 
 # city -> (ISO, exposure_csv with lat/lon school coords)
 CITIES = {
-    "Tashkent": ("UZB", os.path.join(OUT, "giga_exposure_tashkent.csv")),
-    "Almaty":   ("KAZ", os.path.join(OUT, "giga_exposure_almaty.csv")),
-    "Astana":   ("KAZ", os.path.join(OUT, "giga_exposure_astana.csv")),
-    "Bishkek":  ("KGZ", os.path.join(OUT, "giga_exposure_bishkek.csv")),
-    "Ashgabat": ("TKM", os.path.join(OUT, "giga_exposure_ashgabat.csv")),
+    "Tashkent": ("UZB", pipeline_path("giga_exposure_tashkent.csv")),
+    "Almaty":   ("KAZ", pipeline_path("giga_exposure_almaty.csv")),
+    "Astana":   ("KAZ", pipeline_path("giga_exposure_astana.csv")),
+    "Bishkek":  ("KGZ", pipeline_path("giga_exposure_bishkek.csv")),
+    "Ashgabat": ("TKM", pipeline_path("giga_exposure_ashgabat.csv")),
     "Dushanbe": ("TJK", os.path.normpath(os.path.join(ROOT, "scripts", "legacy_v1", "b1d_dushanbe_school_exposure.csv"))),
 }
 
@@ -66,7 +67,7 @@ for iso, cities in iso_cities.items():
         print(f"  {iso} {s}-bands done")
 
 # sample under-20 at each school (cell value containing the school)
-with open(os.path.join(OUT, "child_regional.csv"), "w", newline="", encoding="utf-8") as f:
+with open(pipeline_path("child_regional.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["city", "lat", "lon", "child_u20"])
     for city in CITIES:
         la, lo = schools[city]; A = acc[city]; inv = ~trans[city]; Hh, Ww = A.shape

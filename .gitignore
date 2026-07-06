@@ -4,15 +4,6 @@ __pycache__/
 *$py.class
 .mypy_cache/
 
-# Data files - temporary/working scripts
-real_openaq_*.csv
-us_embassy_pm25_*.csv
-fetch_*.py
-clean_*.py
-download_*.py
-verify_openaq_source.py
-comprehensive_analysis.py
-
 # WHO/reference documents (too large for repo)
 *.pdf
 *.xlsx
@@ -60,3 +51,5 @@ archive/
 .remember/
 research_paper/
 scripts/publishing/
+povmap-grdi-v1.tif
+scripts/temporal

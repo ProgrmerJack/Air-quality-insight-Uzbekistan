@@ -7,6 +7,7 @@ import os, csv, math, sys
 import numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from paths import pipeline_path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -16,7 +17,7 @@ ROADS = os.path.join(ROOT, "scripts", "legacy_v1", "tashkent_major_roads_osm.csv
 LAT0 = 41.31; ASPECT = 1/math.cos(math.radians(LAT0))
 
 # --- load GIGA Tashkent schools ---
-rows = list(csv.DictReader(open(os.path.join(D, "giga_exposure_tashkent.csv"), encoding="utf-8")))
+rows = list(csv.DictReader(open(pipeline_path("giga_exposure_tashkent.csv"), encoding="utf-8")))
 lat = np.array([float(r["lat"]) for r in rows]); lon = np.array([float(r["lon"]) for r in rows])
 dist = np.array([float(r["dist_m"]) for r in rows]); indoor = np.array([float(r["indoor_pm25"]) for r in rows])
 near = dist <= 100
@@ -57,7 +58,7 @@ ax.set_title("Tashkent school-to-road distances (GIGA census, n=434)"); ax.legen
 plt.tight_layout(); plt.savefig(os.path.join(FIG, "fig_school_road_distance.png"), dpi=200); plt.close()
 
 # (4) regional equity headline (unified 4-dim numbers)
-summ = list(csv.DictReader(open(os.path.join(D, "regional_injustice_summary.csv"), encoding="utf-8")))
+summ = list(csv.DictReader(open(pipeline_path("regional_injustice_summary.csv"), encoding="utf-8")))
 caps = [s["capital"] for s in summ]
 via = [int(s["topdecile_via_equity"].split("/")[0]) for s in summ]
 tot = [int(s["topdecile_via_equity"].split("/")[1]) for s in summ]
