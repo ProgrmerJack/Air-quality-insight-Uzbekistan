@@ -8,7 +8,12 @@ import pandas as pd
 import json
 import time
 
-API_KEY = '5fbbc0ca72e78dcf70502e330f05ab29e5a2776a4a5214837ebaf687cc87aa64'
+# Key comes from OPENAQ_API_KEY (env or repo-root .env) -- see openaq_key.py.
+# The key that used to sit here inline was revoked and returns HTTP 401.
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from openaq_key import openaq_key
+API_KEY = openaq_key()
 HEADERS = {'X-API-Key': API_KEY}
 
 print("="*60)
@@ -134,8 +139,8 @@ if response.status_code == 200:
                     print(f"      {season}: Mean={season_data.mean():.1f}, Median={season_data.median():.1f}, n={len(season_data)}")
             
             # Save to files
-            df.to_csv('us_embassy_all_pm25.csv', index=False)
-            print(f"\n   Saved full dataset to: us_embassy_all_pm25.csv")
+            df.to_csv('reference_fem_openaq8881_all_pm25.csv', index=False)
+            print(f"\n   Saved full dataset to: reference_fem_openaq8881_all_pm25.csv")
             
             # Filter for 2022-2023 period specifically
             df_2022_2023 = df[(df['datetime'] >= '2022-01-01') & (df['datetime'] < '2023-07-01')]
@@ -147,8 +152,8 @@ if response.status_code == 200:
                 print(f"   Mean: {df_2022_2023['value'].mean():.2f} µg/m³")
                 print(f"   Median: {df_2022_2023['value'].median():.2f} µg/m³")
                 print(f"   Std: {df_2022_2023['value'].std():.2f} µg/m³")
-                df_2022_2023.to_csv('us_embassy_pm25_2022_2023.csv', index=False)
-                print(f"   Saved to: us_embassy_pm25_2022_2023.csv")
+                df_2022_2023.to_csv('reference_fem_openaq8881_pm25_2022_2023.csv', index=False)
+                print(f"   Saved to: reference_fem_openaq8881_pm25_2022_2023.csv")
             else:
                 print("\n   WARNING: No data found for 2022-2023 period!")
         else:

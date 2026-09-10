@@ -1,0 +1,435 @@
+﻿priority_rank,school_name,lat,lon,dist_to_major_road_m,building_era,infiltration_factor,classroom_pm25_annual,classroom_pm25_winter,exceeds_uz_national_mac_35_in_winter,x_who_guideline,neighbourhood_rwi,children_under20_nearby,injustice_index,exposure_only_rank,in_top_43,enters_top_43_via_equity_only
+1,292-sonli umumiy o’rta ta’lim maktabi,41.17738,69.24700,1233,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.58,4581.7,0.756,262,YES,YES
+2,346-sonli umumiy o'rta ta'lim maktabi,41.21623,69.32390,876,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.07,5905.3,0.753,277,YES,YES
+3,336-sonli umumiy o`rta ta'lim maktabi,41.18734,69.27654,2091,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.28,3618.9,0.751,264,YES,YES
+4,11-sonli umumiy o'rta ta'lim maktabi,41.16231,69.18798,2120,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,-0.05,2304.9,0.736,255,YES,YES
+5,"269,Tashkent,Sergeli",41.20770,69.22488,48,pre-1992 (Soviet-era),0.8,33.2,51.8,YES,6.6,1.08,4346.4,0.733,12,YES,no
+6,54-sonli umumiy o'rta ta'lim maktabi,41.18819,69.32885,147,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,0.73,3840.7,0.731,48,YES,YES
+7,38-sonli umumiy o'rta ta'lim maktabi,41.18675,69.31679,257,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,0.6,3402.1,0.714,92,YES,YES
+8,351-sonli umumiy o'rta ta'lim maktabi,41.22496,69.29034,1773,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.77,4012.3,0.709,250,YES,YES
+9,37-sonli umumiy o'rta ta'lim maktabi,41.15442,69.24867,1276,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.57,3347.7,0.704,318,YES,YES
+10,6-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.21009,69.22444,299,pre-1992 (Soviet-era),0.8,30.9,48.2,YES,6.2,1.08,4346.4,0.695,104,YES,YES
+11,264-sonli umumiy o'rta ta'lim maktabi,41.20095,69.25057,1610,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.96,4213.0,0.694,303,YES,YES
+12,2-sonli umumiy o’rta ta’lim maktabi,41.19984,69.22257,612,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.08,4531.8,0.694,222,YES,YES
+13,333-sonli umumiy o'rta ta'lim maktabi,41.18144,69.22784,1309,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.97,4237.8,0.693,287,YES,YES
+14,3-sonli umumiy o’rta ta’lim maktabi,41.19818,69.21815,595,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.08,4454.6,0.691,223,YES,YES
+15,350-sonli umumiy o'rta ta'lim maktabi,41.21695,69.24616,90,pre-1992 (Soviet-era),0.8,32.5,50.7,YES,6.5,1.08,3550.4,0.687,25,YES,no
+16,305-sonli umumiy o'rta ta'lim maktabi,41.21752,69.26434,571,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.93,3722.1,0.678,203,YES,YES
+17,104-sonli umumiy o'rta ta'lim maktabi,41.21695,69.24140,234,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.08,3818.2,0.677,79,YES,YES
+18,304-sonli umumiy o'rta ta'lim maktab,41.19529,69.21150,610,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.23,4454.6,0.672,220,YES,YES
+19,68-sonli umumiy o'rta ta'lim maktabi,41.21146,69.23195,92,pre-1992 (Soviet-era),0.8,32.5,50.7,YES,6.5,1.08,2974.0,0.663,27,YES,no
+20,7-sonli umumiy o'rta ta'lim maktabi,41.21282,69.23337,205,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.0,2974.0,0.652,68,YES,YES
+21,38-sonli  umumiy o'rta ta'lim maktabi,41.18395,69.35546,2105,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,-0.03,94.5,0.638,285,YES,YES
+22,285-sonli umumiy o’rta ta’lim maktabi,41.19825,69.20991,257,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.23,3297.1,0.633,91,YES,YES
+23,"124-INTERNAT,Urtachirchiq,Tashkent",41.15963,69.34049,1166,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.3,871.5,0.63,266,YES,YES
+24,40-sonli umumiy o'rta ta'lim maktabi,41.15751,69.27200,684,1992-2010,0.65,24.7,38.5,YES,4.9,-0.46,3624.3,0.623,382,YES,YES
+25,9-sonli umumiy o'rta ta'lim maktabi,41.37736,69.43381,80,pre-1992 (Soviet-era),0.8,32.7,51.0,YES,6.5,0.55,175.1,0.61,22,YES,no
+26,20-  sonli umumiy o`rtab ta`lim maktabi,41.22441,69.40576,273,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,0.35,156.5,0.605,101,YES,YES
+27,8-sonli umumiy o'rta ta'lim maktabi,41.20737,69.21608,372,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.08,2178.4,0.598,126,YES,YES
+28,18-sonli umumiy o'rta ta'lim maktabi,41.27806,69.44678,107,pre-1992 (Soviet-era),0.8,32.3,50.4,YES,6.5,0.59,161.9,0.598,32,YES,no
+29,145-sonli umumiy o'rta ta'lim maktabi,41.30391,69.28758,35,pre-1992 (Soviet-era),0.8,33.5,52.2,YES,6.7,0.78,182.1,0.596,5,YES,no
+30,36-sonli umumiy o'rta ta'lim maktabi,41.21819,69.16195,978,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.41,141.7,0.587,270,YES,YES
+31,1-sonli umumiy o'rta ta'lim maktabi,41.31376,69.10588,3896,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.42,181.0,0.586,311,YES,YES
+32,272-sonli umumiy o`rta ta`lim maktabi,41.35753,69.28954,41,pre-1992 (Soviet-era),0.8,33.4,52.1,YES,6.7,0.87,214.7,0.584,8,YES,no
+33,337-sonli umumiy o'rta ta'lim maktabi,41.21620,69.30413,2521,1992-2010,0.65,24.6,38.4,YES,4.9,0.46,5280.4,0.58,390,YES,YES
+34,10-sonli ayrim fanlar chuqur o‘qitiladigan sinflari mavjud umumiy o‘rta ta’lim maktabi,41.15924,69.11429,238,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,0.59,163.8,0.578,87,YES,YES
+35,348-sonli umumiy o'rta ta'lim maktabi,41.21369,69.34027,457,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.07,1725.5,0.577,171,YES,YES
+36,129-sonli umumiy o'rta ta'lim maktabi,41.30785,69.16782,43,pre-1992 (Soviet-era),0.8,33.3,51.9,YES,6.7,0.91,172.5,0.576,11,YES,no
+37,19-sonli ayrim fanlar chuqur o‘qitiladigan sinflari mavjud umumiy o‘rta ta’lim maktab,41.25578,69.42922,859,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.52,198.3,0.575,289,YES,YES
+38,156-sonli umumiy o'rta ta'lim maktabi,41.26689,69.31699,207,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,0.67,191.0,0.574,73,YES,YES
+39,27-sonli umumiy o'rta ta'lim maktabi,41.19954,69.15912,34,pre-1992 (Soviet-era),0.8,33.5,52.2,YES,6.7,0.96,143.4,0.573,4,YES,no
+40,"226,Tashkent,Yashnobod",41.27912,69.30875,96,pre-1992 (Soviet-era),0.8,32.4,50.5,YES,6.5,0.82,174.8,0.573,28,YES,no
+41,24-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.33592,69.23344,18,pre-1992 (Soviet-era),0.8,33.9,52.9,YES,6.8,1.03,191.3,0.572,1,YES,no
+42,7-sonli umumiy o'rta ta'lim maktabi,41.39106,69.39907,2214,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.57,178.0,0.568,275,YES,YES
+43,341-sonli umumiy o'rta ta'lim maktabi,41.28968,69.39062,2572,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.58,187.4,0.567,249,YES,YES
+44,271-sonli umumiy o‘rta ta'lim maktabi,41.37585,69.28659,119,pre-1992 (Soviet-era),0.8,32.1,50.1,YES,6.4,0.84,236.0,0.567,37,no,no
+45,57-sonli umumiy o'rta ta'lim maktabi,41.16106,69.10834,651,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.59,133.7,0.565,209,no,no
+46,27-sonli umumiy o'rta ta'lim maktabi,41.34158,69.33356,17,pre-1992 (Soviet-era),0.8,33.9,52.9,YES,6.8,1.12,246.8,0.564,2,no,no
+47,303-sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.22406,69.18334,298,pre-1992 (Soviet-era),0.8,30.9,48.2,YES,6.2,0.69,164.8,0.563,105,no,no
+48,123-sonli umumiy o'rta ta'lim maktabi,41.30442,69.15536,91,pre-1992 (Soviet-era),0.8,32.5,50.7,YES,6.5,0.91,176.6,0.563,26,no,no
+49,11-sonli umumiy o'rta ta'lim maktabi,41.33957,69.23244,41,pre-1992 (Soviet-era),0.8,33.4,52.1,YES,6.7,1.03,183.3,0.563,7,no,no
+50,170-sonli umumiy o'rta ta'lim maktabi,41.26915,69.31792,378,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.67,191.0,0.562,152,no,no
+51,35-sonli umumiy o'rta ta'lim maktabi,41.17372,69.15980,1828,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.62,174.5,0.562,314,no,no
+52,94-sonli umumiy o'rta ta'lim maktabi,41.29577,69.28089,181,pre-1992 (Soviet-era),0.8,31.5,49.1,YES,6.3,0.78,184.7,0.562,61,no,no
+53,"254,Tashkent,Shaykhontohur",41.32359,69.25658,76,pre-1992 (Soviet-era),0.8,32.7,51.0,YES,6.5,0.99,186.9,0.558,21,no,no
+54,63-sonli umumiy o`rta ta`lim maktabi,41.35240,69.28613,147,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,0.87,190.4,0.557,51,no,no
+55,345-sonli umumiy o'rta ta'lim maktabi,41.22027,69.33360,53,pre-1992 (Soviet-era),0.8,33.1,51.6,YES,6.6,1.07,241.4,0.557,13,no,no
+56,"28,Tashkent,Olmazor",41.33923,69.22323,63,pre-1992 (Soviet-era),0.8,32.9,51.3,YES,6.6,1.03,175.7,0.555,19,no,no
+57,"33,Yuqorichirchiq,Tashkent",41.18542,69.44025,2701,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.68,159.8,0.554,290,no,no
+58,27-sonli umumiy o'rta ta'lim maktabi,41.41582,69.42646,4066,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.69,185.2,0.554,263,no,no
+59,172-sonli umumiy o'rta ta'lim maktabi,41.26164,69.22652,34,pre-1992 (Soviet-era),0.8,33.5,52.2,YES,6.7,1.13,195.0,0.554,6,no,no
+60,319-sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.26706,69.23752,81,pre-1992 (Soviet-era),0.8,32.7,51.0,YES,6.5,1.02,182.5,0.554,23,no,no
+61,33-sonli umumiy o'rta ta'lim maktabi,41.18543,69.44025,2701,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.68,159.8,0.554,272,no,no
+62,31-sonli umumiy o'rta ta'lim maktabi,41.41380,69.19481,492,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.74,221.2,0.553,172,no,no
+63,41-sonli umumiy o'rta ta'lim maktabi,41.32663,69.22608,145,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,0.9,195.4,0.553,52,no,no
+64,293-sonli umumiy o'rta ta'lim maktabi,41.25324,69.37663,511,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.75,228.7,0.551,166,no,no
+65,82-sonli umumiy o'rta ta'lim maktabi,41.32009,69.22903,157,pre-1992 (Soviet-era),0.8,31.7,49.4,YES,6.3,0.9,193.3,0.551,55,no,no
+66,343-sonli umumiy o'rta ta'lim maktabi,41.33304,69.40699,1048,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.72,207.7,0.551,265,no,no
+67,3-sonli umumiy o'rta ta'lim maktabi,41.18630,69.44025,2745,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.68,96.3,0.551,319,no,no
+68,59-sonli xitoy va koreys tillarini chuqurlashtirib o'qitishga ixtisoslashtirilgan davlat umumta'lim maktabiat umumta'lim maktabi,41.32283,69.24758,117,pre-1992 (Soviet-era),0.8,32.2,50.2,YES,6.4,0.99,190.5,0.55,34,no,no
+69,240-sonli umumiy o`rta ta`lim maktabi,41.36971,69.28965,270,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,0.84,236.0,0.549,102,no,no
+70,213-sonli umumiy o'rta ta'lim maktabi,41.24302,69.32452,242,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,0.85,204.6,0.549,85,no,no
+71,42-sonli umumiy o'rta ta'lim maktabi,41.32614,69.24365,110,pre-1992 (Soviet-era),0.8,32.2,50.2,YES,6.4,0.99,184.7,0.549,36,no,no
+72,126-sonli umumiy o'rta ta'lim maktabi,41.26001,69.15461,270,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,0.83,159.0,0.547,99,no,no
+73,71-sonli umumiy o'rta ta'lim maktabi,41.32342,69.31796,44,pre-1992 (Soviet-era),0.8,33.3,51.9,YES,6.7,1.16,212.5,0.547,10,no,no
+74,173-sonli umumiy o'rta ta'lim maktabi,41.29320,69.22060,40,pre-1992 (Soviet-era),0.8,33.4,52.1,YES,6.7,1.17,185.6,0.547,9,no,no
+75,324-sonli umumiy o'rta ta'lim maktabi,41.31782,69.23437,191,pre-1992 (Soviet-era),0.8,31.4,49.0,YES,6.3,0.9,185.0,0.546,65,no,no
+76,70-sonli umumiy o`rta ta`lim maktabi,41.33588,69.28568,56,pre-1992 (Soviet-era),0.8,33.1,51.6,YES,6.6,1.13,185.8,0.546,15,no,no
+77,111-sonli umumiy o'rta ta'lim maktabi,41.33951,69.22337,96,pre-1992 (Soviet-era),0.8,32.4,50.5,YES,6.5,1.03,175.7,0.546,31,no,no
+78,342-sonli umumiy o'rta ta'lim maktabi,41.29824,69.39204,2334,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.77,220.2,0.546,282,no,no
+79,"118,Tashkent,Yakkasaroy",41.26931,69.23461,61,pre-1992 (Soviet-era),0.8,33.0,51.5,YES,6.6,1.13,177.1,0.545,18,no,no
+80,237-sonli umumiy o'rta ta'lim maktabi,41.25957,69.25684,90,pre-1992 (Soviet-era),0.8,32.5,50.7,YES,6.5,1.05,163.3,0.545,24,no,no
+81,141 - sonli umumiy o'rta ta'lim maktabi,41.31565,69.20885,97,pre-1992 (Soviet-era),0.8,32.4,50.5,YES,6.5,1.06,195.7,0.544,30,no,no
+82,180 - sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.30315,69.20710,149,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,0.97,186.4,0.544,49,no,no
+83,99-sonli ayrim fanlar chuqur o'qitiladigan sinflari mavjud umumiy o'rta ta'lim maktabi,41.33320,69.30405,59,pre-1992 (Soviet-era),0.8,33.0,51.5,YES,6.6,1.15,197.1,0.544,17,no,no
+84,33-sonli umumiy o'rta ta'lim maktabi,41.40700,69.30804,151,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,0.99,218.5,0.544,47,no,no
+85,69-sonli umumiy o'rta ta'lim maktabi,41.31738,69.31401,53,pre-1992 (Soviet-era),0.8,33.1,51.6,YES,6.6,1.16,211.3,0.544,16,no,no
+86,289-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.23364,69.33899,340,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,0.85,238.1,0.543,146,no,no
+87,246-sonli umumiy o`rta ta`lim maktabi,41.36734,69.29771,340,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,0.84,233.7,0.543,145,no,no
+88,45-sonli umumiy o'rta ta'lim maktabi,41.31347,69.23246,235,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,0.9,185.0,0.543,76,no,no
+89,26-sonli umumiy o'rta ta'lim maktabi,41.26950,69.23470,69,pre-1992 (Soviet-era),0.8,32.8,51.1,YES,6.6,1.13,197.1,0.542,20,no,no
+90,127-sonli umumiy o'rta ta'lim maktabi,41.26870,69.25004,130,pre-1992 (Soviet-era),0.8,32.0,49.9,YES,6.4,1.02,178.1,0.542,42,no,no
+91,121-sonli umumiy o'rta ta'lim maktabi,41.33121,69.37259,196,pre-1992 (Soviet-era),0.8,31.4,49.0,YES,6.3,0.96,217.2,0.541,63,no,no
+92,53-sonli umumiy o`rta ta`lim maktabi,41.35910,69.28360,304,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,0.87,205.1,0.54,115,no,no
+93,195-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.27470,69.20030,216,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,0.94,185.3,0.54,69,no,no
+94,164-sonli umumiy o'rta ta'lim maktabi,41.27470,69.20030,216,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,0.94,185.3,0.54,66,no,no
+95,12-sonli umumiy o'rta ta'lim maktabi,41.36960,69.29950,471,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.84,236.0,0.54,174,no,no
+96,"272,Tashkent,Yunusobod",41.35839,69.28294,344,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,0.87,205.1,0.539,141,no,no
+97,260-sonli umumiy o`rta ta`lim maktabi,41.37249,69.28061,522,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.84,242.6,0.539,218,no,no
+98,61-sonli umumiy o'rta ta'lim maktabi,41.28609,69.35582,343,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,0.87,206.3,0.539,128,no,no
+99,255-sonli umumiy o'rta ta'lim maktabi,41.29208,69.36278,405,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.87,212.8,0.538,151,no,no
+100,30-sonli umumiy o'rta ta'lim maktabi,41.28985,69.31865,1303,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.82,184.2,0.538,291,no,no
+101,328-sonli umumiy o'rta ta'lim maktabi,41.29335,69.27121,25,pre-1992 (Soviet-era),0.8,33.7,52.6,YES,6.7,1.28,182.9,0.538,3,no,no
+102,102-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.32967,69.22068,148,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,1.03,185.2,0.537,50,no,no
+103,14-sonli umumiy o'rta ta'lim maktabi,41.25291,69.15022,541,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.83,161.4,0.537,190,no,no
+104,16-sonli umumiy o'rta ta'lim maktabi,41.22255,69.10619,1862,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.81,142.5,0.537,313,no,no
+105,40-sonli umumiy o'rta ta'lim maktabi,41.32349,69.20692,129,pre-1992 (Soviet-era),0.8,32.0,49.9,YES,6.4,1.06,181.8,0.536,41,no,no
+106,58-sonli umumiy o'rta ta'lim maktabi,41.35488,69.30171,520,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.87,225.1,0.535,219,no,no
+107,13-sonli umumiy o'rta ta'lim maktabi,41.24706,69.15501,786,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.83,159.0,0.535,312,no,no
+108,119-sonli umumiy o'rta ta'lim maktabi,41.34176,69.24999,143,pre-1992 (Soviet-era),0.8,31.9,49.7,YES,6.4,1.07,191.2,0.535,44,no,no
+109,131-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.26754,69.20412,272,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,0.94,186.7,0.535,98,no,no
+110,282-sonli umumiy o'rta ta'lim maktabi,41.29351,69.36622,733,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.87,212.8,0.534,233,no,no
+111,23-sonli umumiy o'rta ta'lim maktabi,41.28205,69.36739,540,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.87,198.9,0.534,224,no,no
+112,215-sonli umumiy o'rta ta'lim maktabi,41.24528,69.33151,381,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.9,216.1,0.534,154,no,no
+113,128-sonli umumiy o'rta ta'lim maktabi,41.29915,69.22779,206,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,0.99,182.4,0.534,67,no,no
+114,26-sonli umumiy o'rta ta'lim maktabi,41.41646,69.31069,126,pre-1992 (Soviet-era),0.8,32.0,49.9,YES,6.4,1.1,230.6,0.534,40,no,no
+115,151-sonli umumiy o'rta ta'lim maktabi,41.28110,69.34694,1148,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.87,223.5,0.533,278,no,no
+116,132 - sonli umumiy o'rta ta'lim maktabi,41.33133,69.21413,174,pre-1992 (Soviet-era),0.8,31.6,49.3,YES,6.3,1.03,178.8,0.533,59,no,no
+117,Gyote nomidagi 60-sonli nemis tilini chuqurlashtirib o‘rgatishga ixtisoslashtirilgan davlat  umumta’lim maktabi,41.29693,69.27769,152,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,1.07,184.7,0.533,54,no,no
+118,232-sonli umumiy o'rta ta'lim maktabi,41.26167,69.21175,310,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,0.94,188.9,0.532,111,no,no
+119,117-sonli umumiy o`rta ta`lim maktabi,41.35197,69.29836,856,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.87,198.3,0.532,321,no,no
+120,85-sonli umumiy o'rta ta'lim maktabi,41.31318,69.22776,499,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.9,185.0,0.531,178,no,no
+121,67-sonli umumiy o'rta ta'lim maktabi,41.27531,69.34497,1393,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.89,228.5,0.531,279,no,no
+122,28-sonli umumiy o'rta ta'lim maktabi,41.40888,69.39683,4206,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.86,154.0,0.531,281,no,no
+123,19-sonli umumiy o'rta ta'lim maktabi,41.32703,69.25780,240,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,0.99,186.9,0.531,90,no,no
+124,206-sonli umumiy o'rta ta'lim maktabi,41.25313,69.34005,911,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.9,243.1,0.53,292,no,no
+125,30-sonli umumiy o'rta ta'lim maktabi,41.40848,69.19148,885,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.9,213.4,0.529,296,no,no
+126,179-sonli umumiy o'rta ta'lim maktabi,41.29540,69.20783,299,pre-1992 (Soviet-era),0.8,30.9,48.2,YES,6.2,0.97,186.0,0.529,103,no,no
+127,1-sonli umumiy o'rta ta'lim maktabi,41.32983,69.23000,214,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.03,191.3,0.529,75,no,no
+128,290-sonli umumiy o'rta ta'lim maktabi,41.23387,69.35070,1273,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.9,222.2,0.529,252,no,no
+129,37-sonli umumiy o'rta ta'lim maktabi,41.23254,69.35786,1033,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.9,202.6,0.528,274,no,no
+130,114-sonli umumiy o'rta ta'lim maktabi,41.26609,69.19431,414,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.94,183.3,0.528,156,no,no
+131,160-sonli ixtisoslashtirilgan davlat umumiy o'rta ta'lim maktabi,41.29173,69.26227,54,pre-1992 (Soviet-era),0.8,33.1,51.6,YES,6.6,1.28,187.9,0.528,14,no,no
+132,193-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.29855,69.16454,728,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.91,187.8,0.528,189,no,no
+133,157 - sonli umumiy o'rta ta'lim maktabi,41.30549,69.21184,306,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,0.97,189.9,0.528,116,no,no
+134,188-sonli umumiy o'rta ta'lim maktabi,41.26405,69.21191,478,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.94,188.9,0.527,181,no,no
+135,298-sonli umumiy o'rta ta'lim maktabi,41.33226,69.22387,228,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.03,185.2,0.527,77,no,no
+136,197-sonli umumiy o'rta ta'lim maktabi,41.29720,69.15958,735,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.91,188.3,0.526,310,no,no
+137,155-sonli umumiy o'rta ta'lim maktabi,41.28670,69.32642,1770,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.94,228.4,0.525,293,no,no
+138,153-sonli umumiy o'rta ta'lim maktabi,41.29195,69.32972,1449,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.94,234.6,0.525,283,no,no
+139,14-sonli umumiy o'rta ta'lim maktabi,41.34839,69.43244,2443,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.91,141.0,0.525,267,no,no
+140,6-sonli ayrim fanlar chuqur o`qitiladigan sinflari mavjud umumiy o`rta ta`lim maktabi umumiy orta ta’lim maktabi,41.36644,69.41250,308,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.0,206.4,0.525,119,no,no
+141,149-sonli umumiy o'rta ta'lim maktabi,41.28256,69.34405,1368,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.94,220.6,0.525,317,no,no
+142,"227,Tashkent,Yashnobod",41.28579,69.33997,1536,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.94,220.6,0.525,276,no,no
+143,47-sonli umumiy o'rta ta'lim maktabi,41.24688,69.29849,286,pre-1992 (Soviet-era),0.8,30.9,48.2,YES,6.2,1.01,181.4,0.524,107,no,no
+144,236-sonli umumiy o'rta ta'lim maktabi maktabi,41.32218,69.16142,307,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,0.99,164.9,0.524,121,no,no
+145,166-sonli umumiy o'rta ta'lim maktabi,41.29435,69.34177,746,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.96,232.3,0.523,295,no,no
+146,279-sonli umumiy o'rta ta'lim maktabi,41.34226,69.38874,977,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.96,198.1,0.522,242,no,no
+147,312-sonli umumiy o'rta ta'lim maktabi,41.29130,69.14477,424,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.99,187.7,0.522,161,no,no
+148,167 - sonli umumiy o'rta ta'lim maktabi,41.31646,69.20692,255,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,1.06,195.7,0.522,86,no,no
+149,262 - sonli umumiy o'rta ta'lim maktabi,41.33317,69.16836,427,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,0.99,171.9,0.522,160,no,no
+150,268-sonli umumiy o'rta ta'lim maktabi,41.24724,69.28484,323,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.01,154.2,0.521,122,no,no
+151,335-sonli umumiy o`rta ta'lim maktabi,41.17358,69.29476,51,1992-2010,0.65,26.9,41.9,YES,5.4,0.7,3673.4,0.521,325,no,no
+152,266-sonli umumiy o'rta ta'lim maktabi,41.24760,69.29112,364,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.01,166.3,0.52,139,no,no
+153,301-sonli umumiy o'rta ta'lim maktabi,41.22234,69.21693,424,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.0,166.7,0.52,159,no,no
+154,277-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.24759,69.28818,361,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.01,166.3,0.52,135,no,no
+155,"230,Tashkent,Yashnobod",41.31629,69.31391,156,pre-1992 (Soviet-era),0.8,31.7,49.4,YES,6.3,1.16,211.3,0.52,56,no,no
+156,338-sonli umumiy o'rta ta'lim maktabi,41.32340,69.36110,149,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,1.19,219.4,0.52,53,no,no
+157,247-sonli umumiy o`rta ta`lim maktabi,41.37813,69.30197,463,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.02,229.2,0.519,175,no,no
+158,254 - sonli umumiy o'rta ta'lim maktabi,41.30290,69.21689,531,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.99,189.9,0.519,204,no,no
+159,297-sonli umumiy o'rta ta'lim maktabi,41.28190,69.13887,734,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.99,183.8,0.519,193,no,no
+160,116-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.31534,69.16044,463,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,0.99,169.3,0.519,186,no,no
+161,62-sonli umumiy o'rta ta'lim maktabi,41.29360,69.18921,369,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.03,176.0,0.518,133,no,no
+162,284-sonli umumiy o'rta ta'lim maktabi,41.22100,69.21744,449,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.0,166.7,0.518,183,no,no
+163,150-sonli umumiy o`rta ta`lim maktabi,41.34933,69.26646,232,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.11,192.9,0.518,82,no,no
+164,265-sonli umumiy o`rta ta`lim maktabi,41.37917,69.28472,353,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.05,235.7,0.518,130,no,no
+165,97-sonli umumiy o`rta ta`lim maktabi,41.37919,69.30496,557,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.02,228.9,0.517,206,no,no
+166,225-sonli umumiy o'rta ta'lim maktabi,41.33105,69.32755,242,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,1.12,240.4,0.517,84,no,no
+167,13-sonli umumiy o'rta ta'lim maktabi,41.30940,69.22079,1035,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.99,184.4,0.517,237,no,no
+168,"245,Tashkent,Uchtepa",41.29638,69.12489,2134,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.98,161.6,0.517,306,no,no
+169,273-sonli umumiy o`rta ta`lim maktabi,41.37927,69.30388,528,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.02,228.9,0.517,229,no,no
+170,245-sonli umumiy o'rta ta'lim maktabi,41.31755,69.16470,727,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,0.99,159.2,0.517,191,no,no
+171,300-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.22189,69.21418,654,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.0,166.7,0.517,198,no,no
+172,"284,Tashkent,Sergeli",41.21762,69.21864,518,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.0,177.0,0.517,197,no,no
+173,Toshkent viloyati Zangiota tumani  MMTB  tasarrufidagi  42-sonli umumiy o'rta ta'lim maktabi,41.17923,69.13334,257,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.09,178.9,0.516,100,no,no
+174,192 - sonli umumiy o'rta ta'lim maktabi,41.32648,69.19909,316,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.06,175.6,0.516,117,no,no
+175,"298,Tashkent,Olmazor",41.34310,69.25071,304,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.07,191.2,0.516,108,no,no
+176,32-sonli umumiy o’rta ta’lim maktabi,41.23559,69.19081,170,pre-1992 (Soviet-era),0.8,31.6,49.3,YES,6.3,1.17,171.5,0.516,57,no,no
+177,9-sonli umumiy o'rta ta'lim maktabi,41.33078,69.15134,776,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.99,158.5,0.516,308,no,no
+178,109-sonli umumiy o'rta ta'lim maktabi,41.32483,69.16861,789,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,0.99,164.9,0.516,315,no,no
+179,10-sonli umumiy o'rta ta'lim maktabi,41.31621,69.19792,323,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.06,184.3,0.516,109,no,no
+180,146-sonli umumiy o'rta ta'lim maktabi,41.33699,69.24917,365,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.07,191.2,0.515,131,no,no
+181,44-sonli umumiy o'rta ta'lim maktabi,41.28657,69.17678,490,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.03,175.9,0.515,185,no,no
+182,50-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.31375,69.28288,116,pre-1992 (Soviet-era),0.8,32.2,50.2,YES,6.4,1.27,192.8,0.515,35,no,no
+183,76-sonli umumiy o'rta ta'lim maktabi,41.23195,69.20138,339,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.05,167.9,0.515,137,no,no
+184,73-sonli umumiy o'rta ta'lim tarmoq maktabi,41.29398,69.24942,103,pre-1992 (Soviet-era),0.8,32.3,50.4,YES,6.5,1.28,192.8,0.515,33,no,no
+185,159-sonli umumiy o'rta ta'lim maktabi,41.34642,69.24525,176,pre-1992 (Soviet-era),0.8,31.6,49.3,YES,6.3,1.19,189.2,0.514,58,no,no
+186,178-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.28812,69.21303,378,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.05,189.1,0.514,162,no,no
+187,349-sonli umumiy o'rta ta'lim maktabi,41.23602,69.23021,884,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.0,155.6,0.514,247,no,no
+188,136 - sonli umumiy o'rta ta'lim maktabi,41.31256,69.19818,384,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.06,184.3,0.513,149,no,no
+189,"102-MM,Tashkent,Olmazor",41.33536,69.24840,398,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.07,189.7,0.513,163,no,no
+190,38-sonli umumiy o'rta ta'lim maktabi,41.20382,69.13955,1550,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.0,115.3,0.512,268,no,no
+191,"201,Tashkent,Chilonzor",41.28596,69.22888,214,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.17,190.7,0.512,70,no,no
+192,186 - sonli umumiy o'rta ta'lim maktabi,41.31376,69.20330,450,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.06,195.7,0.512,167,no,no
+193,183-sonli umumiy o'rta ta'lim maktabi,41.29181,69.20400,465,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.05,189.0,0.512,184,no,no
+194,295-sonli umumiy o'rta ta'lim maktabi,41.26540,69.15001,233,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.15,166.8,0.511,78,no,no
+195,22-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.33585,69.24762,483,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.07,189.7,0.511,177,no,no
+196,161-sonli umumiy o'rta ta'lim maktabi,41.30104,69.30957,384,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.07,171.6,0.511,150,no,no
+197,Zangiota tuman 22-sonli umumiy o'rta ta'lim maktabi,41.17244,69.20674,285,1992-2010,0.65,25.1,39.1,YES,5.0,0.14,2587.8,0.511,344,no,no
+198,307-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.31027,69.32339,536,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.07,214.9,0.51,221,no,no
+199,89-sonli umumiy o'rta ta'lim maktabi,41.28536,69.25140,130,pre-1992 (Soviet-era),0.8,32.0,49.9,YES,6.4,1.28,188.6,0.51,43,no,no
+200,148-sonli umumiy o'rta ta'lim maktabi,41.31795,69.32198,274,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.16,231.5,0.51,96,no,no
+201,15-sonli umumiy ta'lim maktabi,41.24325,69.14555,1447,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.04,151.5,0.509,248,no,no
+202,49-sonli umumiy o'rta ta'lim maktabi,41.34838,69.35171,125,pre-1992 (Soviet-era),0.8,32.1,50.1,YES,6.4,1.32,226.5,0.509,38,no,no
+203,9-sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.33020,69.27841,366,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.11,185.8,0.509,129,no,no
+204,91-sonli ixtisoslashtrilgan davlat umumiy o'rta talim maktabi,41.29909,69.25785,670,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.07,188.7,0.509,215,no,no
+205,275-sonli umumiy o'rta ta'lim maktabi,41.31800,69.35344,235,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.19,194.0,0.509,81,no,no
+206,2-sonli umumiy o'rta ta'lim maktabi,41.33152,69.13156,2377,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.04,129.9,0.508,271,no,no
+207,115-sonli umumiy o'rta ta'lim maktabi,41.32633,69.26081,190,pre-1992 (Soviet-era),0.8,31.4,49.0,YES,6.3,1.21,186.9,0.508,64,no,no
+208,175- umumiy o'rta ta'lim maktabii,41.27571,69.28693,1119,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.06,168.6,0.508,257,no,no
+209,144-sonli umumiy o'rta ta'lim maktabi,41.28199,69.23656,138,pre-1992 (Soviet-era),0.8,31.9,49.7,YES,6.4,1.28,194.2,0.508,45,no,no
+210,56-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.27725,69.29022,1250,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.06,168.6,0.508,235,no,no
+211,154-sonli umumiy o'rta ta'lim maktabi,41.26863,69.29851,1126,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.06,165.6,0.508,256,no,no
+212,152-sonli umumiy o'rta ta'lim maktabi,41.29857,69.35950,600,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.1,243.2,0.508,225,no,no
+213,158-sonli umumiy o'rta ta'lim maktabi,41.27460,69.29539,1052,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.06,175.3,0.508,246,no,no
+214,171-sonli ayrim fanlar chuqur o'qitiladigan sinflari mavjud umumiy o'rta ta'lim maktabi,41.32914,69.33672,474,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.12,243.2,0.507,187,no,no
+215,20-sonli umumiy o'rta ta'lim maktabi,41.33939,69.26367,384,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.11,187.0,0.507,158,no,no
+216,51-sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.32925,69.28806,361,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.13,188.2,0.506,142,no,no
+217,5-sonli umumiy o‘rta ta`lim maktabi,41.31988,69.27702,217,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.21,186.5,0.506,71,no,no
+218,278-sonli umumiy o'rta ta'lim maktabi,41.36547,69.19156,537,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.1,186.8,0.505,200,no,no
+219,81-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.30680,69.18690,559,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.1,188.6,0.505,195,no,no
+220,90-sonli umumiy o'rta ta'lim maktabi,41.31005,69.24446,132,pre-1992 (Soviet-era),0.8,32.0,49.9,YES,6.4,1.33,188.2,0.504,39,no,no
+221,65-sonli umumiy o'rta ta'lim maktabi,41.28464,69.28976,781,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.09,174.0,0.504,245,no,no
+222,294-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.28182,69.28987,944,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.09,174.0,0.504,234,no,no
+223,"343,Tashkent,M.Ulug'bek",41.34361,69.36194,100,pre-1992 (Soviet-era),0.8,32.4,50.5,YES,6.5,1.39,225.1,0.504,29,no,no
+224,96-sonli umumiy o`rta ta`lim maktabi,41.34842,69.27417,796,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.11,189.5,0.503,253,no,no
+225,92-sonli umumiy o'rta ta'lim maktabi,41.33358,69.20504,224,pre-1992 (Soviet-era),0.8,31.2,48.7,YES,6.2,1.22,167.2,0.503,80,no,no
+226,270-sonli umumiy o'rta ta'lim maktabi,41.23821,69.17231,319,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.17,167.1,0.502,110,no,no
+227,100-sonli umumiy o'rta ta'lim maktabi,41.27357,69.22997,664,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.13,197.1,0.502,228,no,no
+228,80-sonli umumiy o`rta ta`lim maktabi,41.32478,69.27888,272,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.21,189.1,0.502,95,no,no
+229,168-sonli umumiy o'rta ta'lim maktabi,41.28697,69.22492,338,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.17,185.6,0.502,136,no,no
+230,39-sonli umumiy o'rta ta'lim maktabi,41.33527,69.19916,255,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,1.22,158.4,0.501,83,no,no
+231,18-sonli umumiy o'rta ta'lim maktabi,41.31732,69.29862,195,pre-1992 (Soviet-era),0.8,31.4,49.0,YES,6.3,1.27,185.7,0.501,62,no,no
+232,212-sonli umumiy o'rta ta'lim maktabi,41.25365,69.34691,685,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.15,234.1,0.501,226,no,no
+233,227-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.27610,69.35425,612,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.15,230.1,0.501,227,no,no
+234,25-sonli umumiy o'rta ta'lim maktabi,41.36015,69.34483,408,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.19,229.5,0.5,147,no,no
+235,138-sonli umumiy o'rta ta'lim maktabi,41.27618,69.21792,778,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.13,192.6,0.5,305,no,no
+236,105-sonli umumiy o`rta ta`lim maktabi,41.34350,69.30107,1101,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.13,192.5,0.5,286,no,no
+237,17-sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.31843,69.28861,212,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.27,187.6,0.5,74,no,no
+238,28-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.27407,69.22173,885,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.13,190.4,0.5,299,no,no
+239,58-sonli umumiy o'rta ta'lim maktabi,41.16871,69.21909,269,1992-2010,0.65,25.2,39.3,YES,5.0,0.64,3680.3,0.499,340,no,no
+240,142-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.32563,69.30299,509,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.16,184.0,0.499,164,no,no
+241,230-sonli umumiy o'rta ta'lim maktabi,41.26600,69.35503,776,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.15,240.5,0.499,288,no,no
+242,198-sonli umumiy o'rta ta'lim maktabi,41.27169,69.34988,1036,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.15,228.5,0.499,294,no,no
+243,187-sonli umumiy o'rta ta'lim maktabi,41.34920,69.34312,477,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.19,232.8,0.498,168,no,no
+244,113-sonli umumiy o'rta ta'lim maktabi,41.33055,69.20296,294,pre-1992 (Soviet-era),0.8,30.9,48.2,YES,6.2,1.22,167.2,0.498,106,no,no
+245,118-sonli umumiy o'rta ta'lim maktabi,41.28815,69.26018,214,pre-1992 (Soviet-era),0.8,31.3,48.8,YES,6.3,1.28,183.4,0.498,72,no,no
+246,203-sonli umumiy o'rta ta'lim maktabi,41.26898,69.15552,709,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.15,165.5,0.498,188,no,no
+247,296-sonli umumiy o'rta ta'lim maktabi,41.26845,69.15556,710,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.15,165.5,0.498,192,no,no
+248,274-sonli umumiy o`rta ta`lim maktabi,41.36698,69.32400,247,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,1.28,240.4,0.497,88,no,no
+249,103-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.28286,69.22678,591,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.17,193.2,0.497,194,no,no
+250,98-sonli umumiy o`rta ta`lim maktabi,41.35360,69.33504,661,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.19,253.2,0.497,208,no,no
+251,287-sonli umumiy o'rta ta'lim maktabi,41.27779,69.16294,1318,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.15,169.2,0.496,307,no,no
+252,281-sonli umumiy o'rta ta'lim maktabi,41.26632,69.16323,1276,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.15,165.3,0.496,238,no,no
+253,216-sonli umumiy o'rta ta'lim maktabi,41.25940,69.32063,153,pre-1992 (Soviet-era),0.8,31.8,49.6,YES,6.4,1.36,178.9,0.496,46,no,no
+254,163-sonli umumiy o'rta ta'lim maktabi,41.27848,69.22266,918,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.17,193.2,0.495,304,no,no
+255,88-sonli umumiy o`rta ta`lim maktabi,41.35735,69.32651,848,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.19,237.0,0.495,284,no,no
+256,12-sonli umumiy o'rta ta'lim maktabi,41.33561,69.11148,4115,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.16,151.1,0.495,309,no,no
+257,112-sonli xorijiy tillarni chuqur o'qitishga ixtisoslashtirilgan umumta'lim maktabi,41.32021,69.34735,745,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.19,238.0,0.495,258,no,no
+258,84-sonli umumiy o'rta ta'lim maktabi,41.30841,69.23611,177,pre-1992 (Soviet-era),0.8,31.5,49.1,YES,6.3,1.33,169.6,0.494,60,no,no
+259,83-sonli umumiy o'rta ta'lim maktabi,41.28215,69.27280,244,pre-1992 (Soviet-era),0.8,31.1,48.5,YES,6.2,1.28,179.3,0.494,89,no,no
+260,133-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.35479,69.23793,668,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.19,182.2,0.494,210,no,no
+261,64-sonli umumiy o'rta ta'lim maktabi,41.31109,69.29276,276,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.27,182.1,0.494,94,no,no
+262,291-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.25324,69.22359,527,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.2,179.5,0.493,207,no,no
+263,313-sonli umumiy o`rta ta`lim maktabi,41.39154,69.25281,704,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.21,206.9,0.493,230,no,no
+264,169 - sonli umumiy o'rta ta'lim maktabi,41.34175,69.20042,375,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.22,157.0,0.492,148,no,no
+265,48-sonli umumta'lim maktabi,41.27404,69.26331,359,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.25,174.8,0.491,140,no,no
+266,321-sonli umumiy o'rta ta'lim maktabi,41.27451,69.26303,354,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.25,174.8,0.491,127,no,no
+267,134-sonli umumiy o'rta ta'lim maktabi,41.36854,69.19868,660,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.22,186.4,0.49,213,no,no
+268,46-sonli umumiy o'rta ta'lim maktabi,41.35648,69.35407,271,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.32,222.3,0.49,93,no,no
+269,242-sonli umumiy o'rta ta'lim maktabi,41.37009,69.21076,1176,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.22,190.4,0.489,298,no,no
+270,135-sonli umumiy o'rta ta'lim maktabi,41.28917,69.24714,371,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.28,192.8,0.488,124,no,no
+271,276 - sonli ixtisoslashtirilgan davlat umumta'lim maktabi,41.33796,69.17050,509,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.25,172.3,0.488,176,no,no
+272,43-sonli umumiy o`rta ta`lim maktabi,41.32581,69.28802,417,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.27,187.7,0.488,155,no,no
+273,221-sonli umumiy o'rta ta'lim maktabi,41.35772,69.36336,309,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.32,245.4,0.488,112,no,no
+274,147-sonli umumiy o'rta ta'lim maktabi,41.27385,69.27565,454,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.25,172.9,0.488,169,no,no
+275,"315,Tashkent,Olmazor",41.36398,69.19308,746,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.22,186.8,0.488,260,no,no
+276,14-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.29142,69.15828,686,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.25,189.1,0.487,196,no,no
+277,207-sonli umumiy o'rta ta'lim maktabi,41.34646,69.36613,357,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.32,233.7,0.486,144,no,no
+278,299 - sonli umumiy o'rta ta'lim maktabi,41.33953,69.17911,1061,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.25,165.7,0.485,244,no,no
+279,194-sonli umumiy o'rta ta'lim maktabi,41.28219,69.16393,1280,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.25,179.6,0.485,300,no,no
+280,223-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.35846,69.36216,383,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.32,245.4,0.484,153,no,no
+281,201-sonli umumiy o'rta ta'lim maktabi,41.25146,69.20218,309,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.33,182.7,0.484,113,no,no
+282,314 - sonli umumiy o'rta ta'lim maktabi,41.34575,69.17551,314,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.32,166.7,0.484,114,no,no
+283,30-sonli umumiy o'rta ta'lim maktabi,41.39301,69.35281,2951,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.27,231.6,0.484,280,no,no
+284,5-sonli umumiy o'rta ta'lim maktabi,41.38411,69.35812,3112,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.27,218.5,0.484,273,no,no
+285,261-sonli umumiy o'rta ta'lim maktabi,41.35289,69.18481,340,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.32,179.3,0.483,132,no,no
+286,214-sonli umumiy o'rta ta'lim maktabi,41.25726,69.31535,332,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.36,191.0,0.48,118,no,no
+287,218-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.24662,69.31452,310,pre-1992 (Soviet-era),0.8,30.8,48.0,YES,6.2,1.36,191.0,0.48,120,no,no
+288,249-sonli umumiy o'rta ta'lim maktabi,41.35556,69.19138,644,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.32,174.0,0.478,199,no,no
+289,357-sonli umumiy o'rta ta'lim maktabi,41.25944,69.20327,516,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.33,183.8,0.477,201,no,no
+290,29-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.35826,69.18383,734,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.32,179.3,0.476,297,no,no
+291,263-sonli umumiy o'rta ta'lim maktabi,41.25054,69.30908,694,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.36,192.6,0.473,205,no,no
+292,4-sonli umumiy o'rta ta'lim maktabi,41.31593,69.18068,350,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.41,171.2,0.472,134,no,no
+293,217-sonli umumiy o'rta ta'lim maktabi,41.26814,69.17485,1837,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.36,164.4,0.471,241,no,no
+294,202-sonli umumiy o'rta ta'lim maktabi,41.26294,69.18343,916,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.36,178.4,0.471,240,no,no
+295,107-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.27673,69.17396,1473,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.36,168.3,0.471,236,no,no
+296,200-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.26312,69.18327,940,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.36,178.4,0.471,239,no,no
+297,288-sonli umumiy o`rta ta`lim maktabi,41.36930,69.31889,449,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.41,228.3,0.471,173,no,no
+298,219-sonli umumiy o'rta ta'lim maktabi,41.36985,69.21877,524,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.38,187.6,0.471,211,no,no
+299,165-sonli umumiy o'rta ta'lim maktabi,41.36396,69.23158,528,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.38,177.3,0.471,214,no,no
+300,257-sonli umumiy o`rta ta`lim maktabi,41.37563,69.31612,437,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.41,243.9,0.471,170,no,no
+301,241-sonli umumiy o'rta ta'lim maktabi,41.32732,69.34510,647,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.41,238.0,0.47,232,no,no
+302,208-sonli umumiy o'rta ta'lim maktabi,41.33532,69.36037,834,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.39,233.5,0.47,259,no,no
+303,258-sonli umumiy o`rta ta`lim maktabi,41.37472,69.31513,548,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.41,243.9,0.469,217,no,no
+304,"36,Tashkent,Olmazor",41.34464,69.21716,268,pre-1992 (Soviet-era),0.8,31.0,48.3,YES,6.2,1.48,169.1,0.468,97,no,no
+305,38-sonli umumiy o'rta ta'lim maktabi,41.31516,69.17394,464,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.41,164.0,0.468,182,no,no
+306,10-sonli  boshlang'ich ta'lim makabi,41.30748,69.13743,1169,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.38,172.6,0.468,269,no,no
+307,122-sonli umumiy o`rta ta`lim maktabi,41.36596,69.31092,911,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.41,228.3,0.467,261,no,no
+308,250-ixtisoslashtirilgan davlat umumta'lim maktabi,41.37025,69.30641,1019,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.41,234.3,0.467,320,no,no
+309,75-sonli umumiy o'rta ta'lim maktabi,41.32106,69.17344,1077,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.41,164.2,0.465,302,no,no
+310,106-sonli umumiy o'rta ta'lim maktabi,41.32325,69.18023,1065,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.41,166.4,0.465,301,no,no
+311,191-sonli umumiy o'rta ta'lim maktabi,41.35977,69.22121,350,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.48,173.1,0.463,138,no,no
+312,185-sonli umumiy o'rta ta'lim maktabi,41.35280,69.23260,384,pre-1992 (Soviet-era),0.8,30.6,47.7,YES,6.1,1.48,182.4,0.462,157,no,no
+313,196-sonli umumiy o'rta ta'lim maktabi,41.35994,69.22003,448,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.48,173.1,0.46,179,no,no
+314,224-sonli umumiy o'rta ta'lim maktabi,41.34493,69.22287,495,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.48,172.7,0.46,180,no,no
+315,326-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.35573,69.21844,604,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.48,175.1,0.458,202,no,no
+316,233-sonli umumiy o'rta ta'lim maktabi,41.35767,69.23353,561,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.48,178.8,0.458,212,no,no
+317,302-sonli umumiy o`rta ta`lim maktabi,41.36393,69.27881,343,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.55,241.1,0.458,125,no,no
+318,353-sonli umumiy o'rta ta'lim maktabi,41.23953,69.25469,534,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.49,160.4,0.457,231,no,no
+319,248-sonli umumiy o'rta ta'lim maktabi,41.35476,69.38329,342,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.59,261.3,0.454,143,no,no
+320,205-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.35788,69.36870,368,pre-1992 (Soviet-era),0.8,30.7,47.9,YES,6.1,1.59,245.4,0.453,123,no,no
+321,220-sonli umumiy o`rta ta`lim maktabi,41.36520,69.27638,567,pre-1992 (Soviet-era),0.8,30.4,47.4,YES,6.1,1.55,228.5,0.452,216,no,no
+322,86-sonli umumiy o`rta ta`lim maktabi,41.37023,69.26850,1383,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.55,230.3,0.451,254,no,no
+323,211-sonli umumiy o'rta ta'lim maktabi,41.35461,69.38813,481,pre-1992 (Soviet-era),0.8,30.5,47.6,YES,6.1,1.59,247.1,0.45,165,no,no
+324,259-sonli umumiy o`rta ta`lim maktabi,41.37724,69.27737,899,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.57,247.7,0.449,316,no,no
+325,354-sonli umumiy o'rta ta'lim maktabi,41.38716,69.26016,938,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.57,206.9,0.447,251,no,no
+326,256-sonli umumiy o'rta ta'lim maktabi,41.34840,69.38626,1093,pre-1992 (Soviet-era),0.8,30.3,47.2,YES,6.1,1.59,229.4,0.446,243,no,no
+327,8-sonli umumiy o'rta ta'lim maktabi,41.17244,69.41116,113,1992-2010,0.65,26.2,40.9,YES,5.2,0.05,82.6,0.434,328,no,no
+328,13-sonli umumiy o'rta ta'lim maktabi,41.22752,69.40245,3,1992-2010,0.65,27.8,43.4,YES,5.6,0.35,147.3,0.426,323,no,no
+329,30-sonli umumiy o'rta ta'lim maktabi,41.15641,69.42873,384,1992-2010,0.65,24.9,38.8,YES,5.0,0.15,105.2,0.401,357,no,no
+330,65-sonli umumiy o'rta ta'lim maktabi,41.15480,69.38577,2894,1992-2010,0.65,24.6,38.4,YES,4.9,0.2,107.0,0.389,418,no,no
+331,32-sonli umumiy o'rta ta'lim maktabi,41.19278,69.15203,22,1992-2010,0.65,27.4,42.7,YES,5.5,0.69,156.1,0.378,324,no,no
+332,58-sonli umumiy o'rta ta'lim maktabi,41.15820,69.34561,1619,1992-2010,0.65,24.6,38.4,YES,4.9,0.3,108.0,0.377,419,no,no
+333,36-sonli umumiy o'rta ta'lim maktabi,41.18679,69.42786,1844,1992-2010,0.65,24.6,38.4,YES,4.9,0.33,99.4,0.374,407,no,no
+334,31-sonli umumiy o'rta ta'lim maktabi,41.32355,69.44538,145,1992-2010,0.65,25.9,40.4,YES,5.2,0.55,168.4,0.371,331,no,no
+335,6-sonli umumiy o'rta ta'lim maktabi,41.31543,69.39042,550,1992-2010,0.65,24.7,38.5,YES,4.9,0.45,185.0,0.365,380,no,no
+336,344-sonli umumiy o'rta ta'lim maktabi,41.33619,69.42859,1103,1992-2010,0.65,24.6,38.4,YES,4.9,0.47,155.9,0.358,397,no,no
+337,39-sonli umumiy o'rta ta'lim maktabi,41.15785,69.35546,2430,1992-2010,0.65,24.6,38.4,YES,4.9,0.48,98.5,0.355,404,no,no
+338,334-sonli umumiy o’rta ta’lim maktabi,41.20808,69.18532,207,1992-2010,0.65,25.5,39.8,YES,5.1,0.64,105.0,0.351,336,no,no
+339,13-sonli umumiy o'rta ta'lim maktabi,41.41949,69.26739,2531,1992-2010,0.65,24.6,38.4,YES,4.9,0.58,194.3,0.347,385,no,no
+340,231-sonli umumiy o'rta ta'lim maktabi,41.27695,69.31262,303,1992-2010,0.65,25.1,39.1,YES,5.0,0.67,182.5,0.344,345,no,no
+341,27-sonli umumiy o'rta ta'lim maktabi,41.36935,69.16686,1112,1992-2010,0.65,24.6,38.4,YES,4.9,0.61,170.3,0.342,410,no,no
+342,49-sonli umumiy o'rta ta'lim maktabi,41.39896,69.33699,1902,1992-2010,0.65,24.6,38.4,YES,4.9,0.67,222.0,0.337,389,no,no
+343,33-sonli umumiy o'rta ta'lim maktabi,41.18660,69.15525,680,1992-2010,0.65,24.7,38.5,YES,4.9,0.69,143.4,0.333,363,no,no
+344,356-sonli umumiy o'rta ta'lim maktabi,41.21877,69.18939,540,1992-2010,0.65,24.7,38.5,YES,4.9,0.69,139.4,0.332,362,no,no
+345,45-sonli umumiy o'rta ta'lim maktabi,41.41606,69.36281,1377,1992-2010,0.65,24.6,38.4,YES,4.9,0.69,144.6,0.331,403,no,no
+346,251-sonli umumiy o'rta ta'lim maktabi,41.27239,69.14115,461,1992-2010,0.65,24.8,38.7,YES,5.0,0.76,168.6,0.328,359,no,no
+347,235-sonli umumiy o`rta ta`lim maktabi,41.37060,69.28365,230,1992-2010,0.65,25.3,39.5,YES,5.1,0.84,242.6,0.328,338,no,no
+348,30-sonli umumiy o'rta ta'lim maktabi,41.20587,69.12100,331,1992-2010,0.65,25.0,39.0,YES,5.0,0.8,147.0,0.325,347,no,no
+349,10-sonli umumiy o'rta ta'lim maktabi,41.38565,69.41374,1794,1992-2010,0.65,24.6,38.4,YES,4.9,0.76,162.6,0.324,388,no,no
+350,8-sonli umumiy o'rta ta'lim maktabi,41.38565,69.41374,1794,1992-2010,0.65,24.6,38.4,YES,4.9,0.76,162.6,0.324,417,no,no
+351,9-sonli umumiy o'rta ta'lim maktabi,41.39619,69.20457,62,1992-2010,0.65,26.8,41.8,YES,5.4,1.06,183.6,0.324,326,no,no
+352,340-sonli umumiy o'rta ta'lim maktabi,41.30383,69.40282,2040,1992-2010,0.65,24.6,38.4,YES,4.9,0.77,166.3,0.323,399,no,no
+353,6-sonli umumiy o'rta ta'lim maktabi,41.20746,69.10676,604,1992-2010,0.65,24.7,38.5,YES,4.9,0.8,168.1,0.321,364,no,no
+354,34-sonli umumiy o'rta ta'lim maktabi,41.20244,69.16441,147,1992-2010,0.65,25.9,40.4,YES,5.2,0.96,141.2,0.32,332,no,no
+355,44-sonli umumiy o'rta ta'lim maktabi,41.17025,69.12539,181,1992-2010,0.65,25.6,39.9,YES,5.1,0.93,168.7,0.32,333,no,no
+356,43-sonli umumiy o'rta ta'lim maktabi,41.17025,69.12539,181,1992-2010,0.65,25.6,39.9,YES,5.1,0.93,168.7,0.32,334,no,no
+357,16-sonli umumiy o'rta ta'lim maktabi,41.37272,69.23817,1102,1992-2010,0.65,24.6,38.4,YES,4.9,0.81,182.3,0.318,393,no,no
+358,Toshkent viloyati Zangiota tumani 40-sonli umumta'lim maktabi,41.22713,69.12485,1164,1992-2010,0.65,24.6,38.4,YES,4.9,0.81,147.3,0.317,414,no,no
+359,244-sonli umumiy o'rta ta'lim maktabi,41.29388,69.34653,536,1992-2010,0.65,24.7,38.5,YES,4.9,0.87,228.4,0.315,368,no,no
+360,19-sonli umumiy o'rta ta'lim maktabi,41.40564,69.26703,1065,1992-2010,0.65,24.6,38.4,YES,4.9,0.84,197.7,0.315,387,no,no
+361,11-sonli umumiy o'rta ta'lim maktabi,41.40272,69.44426,2076,1992-2010,0.65,24.6,38.4,YES,4.9,0.85,215.0,0.315,416,no,no
+362,358-sonli umumiy o'rta ta'lim maktabi,41.24120,69.36622,1310,1992-2010,0.65,24.6,38.4,YES,4.9,0.9,217.6,0.308,400,no,no
+363,308-sonli umumiy o'rta ta'lim maktabi,41.33707,69.37404,360,1992-2010,0.65,24.9,38.8,YES,5.0,0.96,216.6,0.307,356,no,no
+364,34-sonli umumiy o'rta ta'lim maktabi,41.30874,69.23511,268,1992-2010,0.65,25.2,39.3,YES,5.0,0.99,169.8,0.306,339,no,no
+365,79-sonli umumiy o'rta ta'lim maktabi,41.29465,69.21288,334,1992-2010,0.65,25.0,39.0,YES,5.0,0.97,185.5,0.305,348,no,no
+366,46-sonli umumiy o'rta ta'lim maktabi,41.33616,69.21860,201,1992-2010,0.65,25.5,39.8,YES,5.1,1.03,169.8,0.305,335,no,no
+367,226-sonli umumiy o'rta ta'lim maktabi,41.28588,69.34251,1358,1992-2010,0.65,24.6,38.4,YES,4.9,0.94,220.6,0.304,383,no,no
+368,204-sonli umumiy o'rta ta'lim maktabi,41.29465,69.34472,565,1992-2010,0.65,24.7,38.5,YES,4.9,0.96,235.0,0.304,366,no,no
+369,332-sonli umumiy o’rta ta’lim maktabi,41.21272,69.19516,212,1992-2010,0.65,25.4,39.6,YES,5.1,1.03,139.2,0.302,337,no,no
+370,4-sonli umumiy o'rta ta'lim maktabi,41.37139,69.38134,1243,1992-2010,0.65,24.6,38.4,YES,4.9,0.95,212.9,0.302,415,no,no
+371,239-sonli ayrim fanlari chuqur o'qitiladigan sinflari mavjud umumiy o'rta ta'lim maktabi,41.35082,69.31690,74,1992-2010,0.65,26.6,41.5,YES,5.3,1.21,175.7,0.302,327,no,no
+372,316 - sonli umumiy o'rta ta'lim maktabi,41.34261,69.16906,362,1992-2010,0.65,24.9,38.8,YES,5.0,0.99,178.2,0.301,351,no,no
+373,25-sonli umumiy o'rta ta'lim maktabi,41.38500,69.32184,346,1992-2010,0.65,25.0,39.0,YES,5.0,1.02,219.5,0.301,350,no,no
+374,23-sonli umumiy o'rta ta'lim maktabi,41.22998,69.37519,111,1992-2010,0.65,26.2,40.9,YES,5.2,1.18,213.9,0.301,329,no,no
+375,2-sonli umumiy o'rta ta'lim maktabi,41.18179,69.11048,1678,1992-2010,0.65,24.6,38.4,YES,4.9,0.94,132.0,0.3,411,no,no
+376,330-sonli umumiy o’rta ta’lim maktabi,41.22395,69.20345,255,1992-2010,0.65,25.2,39.3,YES,5.0,1.03,169.2,0.3,341,no,no
+377,Янгиҳаёт тумани мактабгача ва мактаб таълими бўлими тасарруфидаги 329-сонли умумий ўрта таълим мактаби,41.22270,69.20354,273,1992-2010,0.65,25.2,39.3,YES,5.0,1.03,169.2,0.3,342,no,no
+378,6-sonli umumiy o'rta ta'lim maktabi,41.30335,69.11015,3434,1992-2010,0.65,24.6,38.4,YES,4.9,0.98,190.8,0.297,402,no,no
+379,37-sonli umumiy o'rta ta'lim maktabi,41.28019,69.10251,3694,1992-2010,0.65,24.6,38.4,YES,4.9,0.97,162.8,0.297,413,no,no
+380,110-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.30436,69.27139,262,1992-2010,0.65,25.2,39.3,YES,5.0,1.07,190.0,0.297,343,no,no
+381,7-sonli umumiy o'rta ta'lim maktabi,41.27944,69.11858,2348,1992-2010,0.65,24.6,38.4,YES,4.9,0.97,124.6,0.296,396,no,no
+382,317-sonli ixtisoslashtirilgan davlat umumta’lim maktabi,41.21885,69.21581,674,1992-2010,0.65,24.7,38.5,YES,4.9,1.0,177.0,0.296,374,no,no
+383,"60,Tashkent,Mirobod",41.23654,69.23541,519,1992-2010,0.65,24.7,38.5,YES,4.9,1.0,156.4,0.295,376,no,no
+384,182-sonli umumiy o'rta ta'lim maktabi,41.28865,69.21332,397,1992-2010,0.65,24.9,38.8,YES,5.0,1.05,189.1,0.294,354,no,no
+385,Qibray tumani 42-maktab,41.37288,69.35213,1880,1992-2010,0.65,24.6,38.4,YES,4.9,1.03,221.8,0.293,398,no,no
+386,55 - sonli umumiy o'rta ta'lim maktabi,41.22867,69.20947,405,1992-2010,0.65,24.9,38.8,YES,5.0,1.05,160.7,0.293,353,no,no
+387,74-sonli umumiy o'rta ta'lim maktabi,41.27943,69.18681,546,1992-2010,0.65,24.7,38.5,YES,4.9,1.03,180.4,0.293,379,no,no
+388,10-sonli umumiy o'rta ta'lim maktabi,41.36062,69.43320,1348,1992-2010,0.65,24.6,38.4,YES,4.9,1.0,130.4,0.293,392,no,no
+389,322-sonli umumiy o'rta ta'lim maktabi,41.22657,69.21137,646,1992-2010,0.65,24.7,38.5,YES,4.9,1.03,166.7,0.292,361,no,no
+390,238-sonli umumiy o'rta ta'lim maktabi,41.29259,69.17033,588,1992-2010,0.65,24.7,38.5,YES,4.9,1.03,175.9,0.292,371,no,no
+391,243-sonli umumiy o'rta ta'lim maktabi,41.34291,69.20760,123,1992-2010,0.65,26.1,40.7,YES,5.2,1.22,158.8,0.292,330,no,no
+392,184-sonli umumiy o'rta ta'lim maktabi,41.28490,69.20160,583,1992-2010,0.65,24.7,38.5,YES,4.9,1.05,182.8,0.29,360,no,no
+393,18-umumiy o'rta ta'lim maktabi,41.40036,69.19476,738,1992-2010,0.65,24.7,38.5,YES,4.9,1.06,204.6,0.29,381,no,no
+394,315-sonli umumiy o'rta ta'lim maktabi,41.38461,69.21991,345,1992-2010,0.65,25.0,39.0,YES,5.0,1.11,205.4,0.289,349,no,no
+395,39-sonli boshlang`ich ta'lim maktabi,41.24308,69.14197,1599,1992-2010,0.65,24.6,38.4,YES,4.9,1.04,154.0,0.288,412,no,no
+396,352-sonli umumiy o'rta ta'lim maktabi,41.22902,69.28047,839,1992-2010,0.65,24.6,38.4,YES,4.9,1.09,154.0,0.283,391,no,no
+397,17-sonli umumiy o'rta ta'lim maktabi,41.40631,69.21912,1388,1992-2010,0.65,24.6,38.4,YES,4.9,1.1,200.8,0.283,384,no,no
+398,23--sonli umumiy o'rta ta'lim maktabi,41.19046,69.12672,1501,1992-2010,0.65,24.6,38.4,YES,4.9,1.09,179.7,0.283,406,no,no
+399,22-sonli umumiy o'rta ta'lim maktabi,41.40133,69.28438,1332,1992-2010,0.65,24.6,38.4,YES,4.9,1.13,201.9,0.28,386,no,no
+400,162-sonli umumiy o'rta ta'lim maktabi,41.28531,69.22226,401,1992-2010,0.65,24.9,38.8,YES,5.0,1.17,193.2,0.28,352,no,no
+401,35-sonli umumiy o'rta ta'lim maktabi,41.35980,69.38953,3,1992-2010,0.65,27.8,43.4,YES,5.6,1.59,247.1,0.28,322,no,no
+402,222-sonli umumiy o'rta ta'lim maktabi,41.32194,69.35527,452,1992-2010,0.65,24.8,38.7,YES,5.0,1.19,228.1,0.278,358,no,no
+403,280-sonli umumiy o'rta ta'lim maktabi,41.26133,69.15739,537,1992-2010,0.65,24.7,38.5,YES,4.9,1.15,165.5,0.277,373,no,no
+404,10-sonli umumiy o'rta ta'lim maktabi,41.23683,69.37180,638,1992-2010,0.65,24.7,38.5,YES,4.9,1.18,215.1,0.276,365,no,no
+405,347-sonli umumiy o'rta ta'lim maktabi,41.23706,69.37226,632,1992-2010,0.65,24.7,38.5,YES,4.9,1.18,215.1,0.276,369,no,no
+406,190-sonli ayrim fanlar chuqur o'qitiladigan sinflari mavjud umumiy o'rta ta'lim maktabi,41.34874,69.34041,623,1992-2010,0.65,24.7,38.5,YES,4.9,1.19,232.8,0.276,370,no,no
+407,267-sonli umumiy o'rta ta'lim maktabi,41.24733,69.22485,381,1992-2010,0.65,24.9,38.8,YES,5.0,1.2,179.5,0.275,355,no,no
+408,28-sonli umumiy o'rta ta'lim maktabi,41.37802,69.24239,1566,1992-2010,0.65,24.6,38.4,YES,4.9,1.21,201.8,0.271,408,no,no
+409,15-sonli umumiy o'rta ta'lim maktabi,41.36863,69.20132,794,1992-2010,0.65,24.7,38.5,YES,4.9,1.22,186.4,0.27,372,no,no
+410,234-sonli umumiy o'rta ta'lim maktabi,41.36970,69.20869,1099,1992-2010,0.65,24.6,38.4,YES,4.9,1.22,190.4,0.268,395,no,no
+411,"2,Tashkent,Yashnobod",41.21112,69.19886,569,1992-2010,0.65,24.7,38.5,YES,4.9,1.23,138.4,0.266,378,no,no
+412,331-sonli umumiy o'rta ta'lim maktabi,41.21125,69.19900,571,1992-2010,0.65,24.7,38.5,YES,4.9,1.23,139.2,0.266,367,no,no
+413,320-sonli umumiy o'rta ta'lim maktabi,41.33977,69.18095,1065,1992-2010,0.65,24.6,38.4,YES,4.9,1.25,165.7,0.264,394,no,no
+414,125-sonli umumiy o'rta ta'lim maktabi,41.24681,69.30321,280,1992-2010,0.65,25.1,39.1,YES,5.0,1.36,192.6,0.259,346,no,no
+415,31-sonli umumiy o'rta ta'lim maktabi,41.25050,69.30492,691,1992-2010,0.65,24.7,38.5,YES,4.9,1.36,192.6,0.253,377,no,no
+416,8-sonli umumiy o'rta ta'lim maktabi,41.30747,69.13324,1516,1992-2010,0.65,24.6,38.4,YES,4.9,1.38,171.4,0.248,401,no,no
+417,72-sonli umumiy o‘rta ta'lim maktabi,41.38084,69.27350,750,1992-2010,0.65,24.7,38.5,YES,4.9,1.57,233.6,0.229,375,no,no
+418,327-sonli umumiy o'rta ta'lim tarmoq maktabi,41.37762,69.26291,1597,1992-2010,0.65,24.6,38.4,YES,4.9,1.57,230.3,0.227,409,no,no
+419,120-sonli umumiy o'rta ta'lim maktabi,41.34814,69.38723,1145,1992-2010,0.65,24.6,38.4,YES,4.9,1.59,229.4,0.225,405,no,no
+420,29-sonli umumiy o'rta ta'lim maktabi,41.39937,69.36553,2948,post-2010,0.5,19.0,29.6,no,3.8,0.53,225.8,0.136,432,no,no
+421,210-sonli umumiy o'rta ta'lim maktabi,41.35946,69.39224,196,post-2010,0.5,19.6,30.6,no,3.9,0.85,247.1,0.108,421,no,no
+422,339-sonli umumiy o'rta ta'lim maktabi,41.28098,69.37031,769,post-2010,0.5,19.0,29.6,no,3.8,0.91,206.8,0.088,433,no,no
+423,181-sonli umumiy o'rta ta'lim maktabi,41.28342,69.19629,135,post-2010,0.5,20.0,31.2,no,4.0,1.05,182.8,0.086,420,no,no
+424,209-sonli umumiy o'rta ta'lim maktabi,41.33685,69.37317,424,post-2010,0.5,19.1,29.8,no,3.8,0.96,216.6,0.084,425,no,no
+425,269-sonli umumiy o'rta ta'lim maktabi,41.24663,69.25727,238,post-2010,0.5,19.5,30.4,no,3.9,1.05,163.3,0.077,422,no,no
+426,229-sonli umumiy o'rta ta'lim maktabi,41.28922,69.17671,319,post-2010,0.5,19.2,29.9,no,3.8,1.03,175.9,0.075,423,no,no
+427,355-sonli ayrim fanlar chuqur o'qitiladigan sinflari mavjud umumiy o'rta ta'lim maktabi,41.28028,69.18673,478,post-2010,0.5,19.1,29.8,no,3.8,1.03,180.4,0.074,426,no,no
+428,78-sonli umumiy o'rta ta'lim maktabi,41.28341,69.17059,1111,post-2010,0.5,19.0,29.6,no,3.8,1.03,165.3,0.071,430,no,no
+429,283-sonli umumiy o'rta ta'lim maktabi,41.28003,69.18547,568,post-2010,0.5,19.0,29.6,no,3.8,1.03,166.8,0.071,427,no,no
+430,228-sonli umumiy o'rta ta'lim maktabi,41.29559,69.18079,321,post-2010,0.5,19.2,29.9,no,3.8,1.1,180.6,0.067,424,no,no
+431,"326,Tashkent,Olmazor",41.36318,69.19750,1052,post-2010,0.5,19.0,29.6,no,3.8,1.22,186.4,0.049,428,no,no
+432,101-sonli umumiy o'rta ta'lim maktabi,41.26818,69.18397,1303,post-2010,0.5,19.0,29.6,no,3.8,1.36,178.4,0.032,431,no,no
+433,"338,Tashkent,M.Ulug'bek",41.33567,69.35325,492,post-2010,0.5,19.0,29.6,no,3.8,1.39,233.5,0.03,429,no,no
+434,24-sonli umumiy o'rta ta'lim maktabi,41.29953,69.13213,1564,post-2010,0.5,19.0,29.6,no,3.8,1.38,174.2,0.029,434,no,no

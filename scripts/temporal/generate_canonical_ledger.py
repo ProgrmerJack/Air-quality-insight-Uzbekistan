@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 # Load Station 8881 data
-df = pd.read_csv('outputs/us_embassy_2022_2023.csv')
+df = pd.read_csv('outputs/reference/reference_fem_openaq8881_2022_2023.csv')
 df['datetime_local'] = pd.to_datetime(df['datetime_local'])
 df['date'] = pd.to_datetime(df['date'])
 

@@ -8,10 +8,14 @@ Outputs: outputs/multicity/<city>_hourly.csv (cached) and outputs/multicity_comp
 import re, os, time, requests
 from datetime import datetime, timedelta
 import pandas as pd, numpy as np
+import sys as _s, os as _o
+_s.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)),
+                               *(['..', 'fetch'] if _o.path.basename(_o.path.dirname(
+                                 _o.path.abspath(__file__))) != 'fetch' else [])))
+from openaq_key import openaq_key
+KEY = openaq_key()
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-KEY = re.search(r"API_KEY\s*=\s*'([^']+)'",
-                open(os.path.join(ROOT, "scripts", "fetch", "fetch_us_embassy_2022_2023.py"), encoding="utf-8").read()).group(1)
 H = {"X-API-Key": KEY}
 OUT = os.path.join(ROOT, "outputs", "multicity"); os.makedirs(OUT, exist_ok=True)
 

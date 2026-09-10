@@ -19,7 +19,8 @@
 ```
 .
 ├── README.md, REPO_INDEX.md, CLAIM_INDEX.md   project map + claim ledger
-├── CANONICAL_NUMBERS.md, DATA_CODEBOOK.md      legacy single-city ledger / codebook
+├── CANONICAL_NUMBERS.md         ★ single source of truth for every externally quoted figure
+├── DATA_CODEBOOK.md             dataset codebook + provenance
 ├── requirements.txt, LICENSE, CITATION.cff, .gitignore
 ├── scripts/
 │   ├── pipeline/                ★ LIVE v2 pipeline (regional, GIGA-based) — see CLAIM_INDEX §1

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 NPJ = os.path.join(ROOT, "Research_paper", "npj_urban_sustainability")
-df = pd.read_csv(os.path.join(ROOT, "outputs", "reference", "us_embassy_2022_2023.csv"))
+df = pd.read_csv(os.path.join(ROOT, "outputs", "reference", "reference_fem_openaq8881_2022_2023.csv"))
 df["dt"] = pd.to_datetime(df["datetime_local"], format="mixed", errors="coerce")
 df = df.dropna(subset=["dt", "value"])
 df["ym"] = df["dt"].dt.to_period("M")

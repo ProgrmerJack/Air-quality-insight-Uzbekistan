@@ -37,6 +37,8 @@ os.makedirs(OUTDIR, exist_ok=True)
 STATIONS_CSV = os.path.join(OUTDIR, "stations.csv")
 DATA_CSV = os.path.join(OUTDIR, "pm25_hourly.csv")
 
+COMPLETE_FRAC = 0.95   # a month is "done" only at >=95 % of its possible hours
+
 SCHOOL_KW = ("school", "kindergarten", "maktab", "bog'cha", "bogcha", "gimnaziya", "lyceum", "litsey")
 FIELDS = ["station_value_id", "station_name", "is_school", "lat", "lon", "datetime",
           "pm2_5", "pm2_5_who", "pm2_5_uzb", "pm10", "pm1", "humidity", "temperature", "aqi"]
@@ -81,13 +83,29 @@ def fetch(value_id, s, e):
 
 
 def done_keys():
-    """(value_id, YYYY-MM) already in the output, for resumability."""
-    seen = set()
+    """(value_id, YYYY-MM) already COMPLETE in the output, for resumability.
+
+    A month counts as done only if it holds at least COMPLETE_FRAC of its possible hours.
+    Presence alone is not enough: a month harvested while it was still in progress leaves a
+    partial block that mere presence would mark "done" forever, so the gap never heals. That is
+    exactly what happened to November 2025 -- five stations stopped at 2025-11-07 23:00 with
+    168 rows each (7 days) and were skipped by every later backfill, losing 2,536 hours whose
+    mean PM2.5 (69.9) was more than double the archive mean (30.3). Repaired 2026-09-04.
+    """
+    counts, rows_present = {}, set()
     if os.path.exists(DATA_CSV):
         with open(DATA_CSV, encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                seen.add((row["station_value_id"], row["datetime"][:7]))
-    return seen
+                counts[(row["station_value_id"], row["datetime"][:7])] = \
+                    counts.get((row["station_value_id"], row["datetime"][:7]), 0) + 1
+                rows_present.add((row["station_value_id"], row["datetime"]))
+    seen = set()
+    for (vid, ym), n in counts.items():
+        y, m = int(ym[:4]), int(ym[5:7])
+        days = ((dt.date(y, m, 28) + dt.timedelta(days=7)).replace(day=1) - dt.date(y, m, 1)).days
+        if n >= COMPLETE_FRAC * days * 24:
+            seen.add((vid, ym))
+    return seen, rows_present
 
 
 def main():
@@ -105,7 +123,7 @@ def main():
     if a.schools_only:
         stations = [s for s in stations if s["is_school"]]
 
-    seen = done_keys()
+    seen, rows_present = done_keys()
     new = not os.path.exists(DATA_CSV)
     f = open(DATA_CSV, "a", newline="", encoding="utf-8"); w = csv.DictWriter(f, fieldnames=FIELDS)
     if new: w.writeheader()
@@ -121,7 +139,13 @@ def main():
                 nm = (dt.date(y, m, 28) + dt.timedelta(days=7)).replace(day=1)
                 e = (nm - dt.timedelta(days=1)).isoformat()
             recs = fetch(st["value_id"], s, e)
+            written = 0
             for rec in recs:
+                # Retrying a partial month must not duplicate the hours already stored.
+                if (st["value_id"], rec.get("datetime")) in rows_present:
+                    continue
+                rows_present.add((st["value_id"], rec.get("datetime")))
+                written += 1
                 w.writerow({
                     "station_value_id": st["value_id"], "station_name": st["name"],
                     "is_school": st["is_school"], "lat": st["lat"], "lon": st["lon"],
@@ -130,8 +154,9 @@ def main():
                     "pm2_5_uzb": rec.get("pm2_5_uzb"), "pm10": rec.get("pm10"), "pm1": rec.get("pm1"),
                     "humidity": rec.get("humidity"), "temperature": rec.get("temperature"),
                     "aqi": rec.get("aqi")})
-            total += len(recs)
-            print(f"  {st['name'][:34]:34} {y}-{m:02d}: {len(recs)} rows")
+            total += written
+            print(f"  {st['name'][:34]:34} {y}-{m:02d}: {written} new rows "
+                  f"({len(recs)} returned)")
             f.flush(); time.sleep(0.6)
             if a.test: break
     f.close()

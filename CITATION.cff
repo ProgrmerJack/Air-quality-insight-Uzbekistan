@@ -1,50 +1,52 @@
 cff-version: 1.2.0
 message: "If you use this dataset or code in your research, please cite it as below."
 type: dataset
-title: "Air Quality Crisis in Tashkent, Uzbekistan: PM2.5 Monitoring and Health Impact Assessment (2022-2023)"
+title: "An open environmental-justice method for prioritising protection of schoolchildren from air pollution in Central Asia — data and code"
 authors:
   - family-names: "Ashuraliyev"
     given-names: "Abduxoliq"
     orcid: "https://orcid.org/0009-0003-5482-5526"
-    affiliation: "Independent Researcher"
-version: "1.0.0"
-date-released: "2026-01-06"
-doi: "10.5281/zenodo.17792118"
+    affiliation: "Independent Researcher, Open Data Initiative, Tashkent, Uzbekistan"
+version: "2.1.0"
+date-released: "2026-08-06"
+doi: "10.5281/zenodo.20845035"
 url: "https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan"
 repository-code: "https://github.com/ProgrmerJack/Air-quality-insight-Uzbekistan"
-license: "MIT"
+license: "CC-BY-4.0"
 keywords:
   - "air quality"
   - "PM2.5"
+  - "environmental justice"
+  - "school exposure"
+  - "Central Asia"
   - "Tashkent"
   - "Uzbekistan"
-  - "Central Asia"
-  - "health impact assessment"
-  - "school exposure"
-  - "environmental monitoring"
+  - "low-cost sensor calibration"
+  - "reference anchoring"
   - "OpenAQ"
-  - "U.S. Embassy"
 abstract: >
-  First comprehensive school-exposure PM2.5 assessment for Central Asia, 
-  analyzing 8,301 hourly measurements from Tashkent, Uzbekistan (January 
-  2022 - June 2023). Study quantifies PM2.5 health impacts on 420,000 
-  school-age children and provides evidence base for World Bank-UNEP 
-  High-Level Policy Dialogue on Air Quality Management in Central Asia.
-  
-  Dataset includes: Raw hourly PM2.5 measurements from U.S. Embassy 
-  Tashkent (OpenAQ Station 8881, Federal Equivalent Method monitor), 
-  complete analysis scripts, statistical outputs, and reproducibility 
-  materials.
+  Compact derived datasets and the complete analysis pipeline for an open,
+  transferable environmental-justice method that prioritises school-level
+  air-pollution protection in data-scarce cities, demonstrated across six
+  Central Asian capitals (Tashkent, Almaty, Astana, Bishkek, Dushanbe,
+  Ashgabat) and transferred out-of-region (Accra, Kathmandu, Lima).
+
+  The archive includes the reference-anchoring procedure for municipal
+  low-cost networks, the school-level exposure and equity layers, and the
+  validation outputs. Code is MIT; data derivatives are CC-BY-4.0.
+
+  The DOI above is the concept DOI and always resolves to the latest
+  version; version 2.1.0 is 10.5281/zenodo.21824161.
 
 preferred-citation:
   type: article
-  title: "Air Quality Crisis in Tashkent, Uzbekistan: Health Impacts and Policy Imperatives from 18 Months of PM2.5 Monitoring"
+  title: "An open environmental-justice method for prioritising protection of schoolchildren from air pollution in Central Asia"
   authors:
     - family-names: "Ashuraliyev"
       given-names: "Abduxoliq"
       orcid: "https://orcid.org/0009-0003-5482-5526"
-  journal: "Environmental Monitoring and Assessment"
+  journal: "npj Urban Sustainability"
   publisher:
     name: "Springer Nature"
   year: 2026
-  status: "submitted"
+  status: "in-preparation"

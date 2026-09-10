@@ -13,3 +13,4 @@ scipy>=1.10.0
 requests>=2.31.0
 
 # Python version: 3.12 or higher recommended
+websocket-client        # scripts/publishing/eimzo_sign.py -- E-IMZO local WebSocket API

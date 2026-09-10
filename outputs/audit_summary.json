@@ -1,6 +1,6 @@
 {
   "generated": "2026-01-07T10:46:09.199389",
-  "source_file": "outputs\\us_embassy_2022_2023.csv",
+  "source_file": "outputs\\reference_fem_openaq8881_2022_2023.csv",
   "station_id": 8881,
   "station_name": "U.S. Embassy Tashkent",
   "temporal_coverage": {

@@ -7,7 +7,12 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = '5fbbc0ca72e78dcf70502e330f05ab29e5a2776a4a5214837ebaf687cc87aa64'
+# Key comes from OPENAQ_API_KEY (env or repo-root .env) -- see openaq_key.py.
+# The key that used to sit here inline was revoked and returns HTTP 401.
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from openaq_key import openaq_key
+API_KEY = openaq_key()
 HEADERS = {'X-API-Key': API_KEY}
 
 print("="*70)
@@ -96,8 +101,8 @@ if all_data:
     print(f"P95:    {df['value'].quantile(0.95):.2f} µg/m³")
     
     # Save full dataset
-    df.to_csv('us_embassy_pm25_ALL.csv', index=False)
-    print(f"\nSaved full dataset: us_embassy_pm25_ALL.csv")
+    df.to_csv('reference_fem_openaq8881_2018_2020_ALL.csv', index=False)
+    print(f"\nSaved full dataset: reference_fem_openaq8881_2018_2020_ALL.csv")
     
     # Annual breakdown
     df['year'] = df['datetime'].dt.year
@@ -153,14 +158,14 @@ if all_data:
                 print(f"   {season}: n={len(season_data):5d}, Mean={season_data.mean():6.1f}, Median={season_data.median():6.1f}")
         
         # Save manuscript period data
-        df_2022_2023.to_csv('us_embassy_pm25_2022_2023.csv', index=False)
-        print(f"\nSaved: us_embassy_pm25_2022_2023.csv")
+        df_2022_2023.to_csv('reference_fem_openaq8881_pm25_2022_2023.csv', index=False)
+        print(f"\nSaved: reference_fem_openaq8881_pm25_2022_2023.csv")
         
         # Daily means
         daily_df = daily_means.reset_index()
         daily_df.columns = ['date', 'pm25_mean']
-        daily_df.to_csv('us_embassy_daily_means_2022_2023.csv', index=False)
-        print(f"Saved: us_embassy_daily_means_2022_2023.csv")
+        daily_df.to_csv('reference_fem_openaq8881_daily_means_2022_2023.csv', index=False)
+        print(f"Saved: reference_fem_openaq8881_daily_means_2022_2023.csv")
     else:
         print("WARNING: No data available for 2022-2023 period!")
     

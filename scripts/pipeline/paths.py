@@ -52,6 +52,7 @@ _DIRS = {
         "regional_index_bishkek.csv",
         "regional_index_dushanbe.csv",
         "regional_index_tashkent.csv",
+        "tashkent_school_priority_named.csv",
         "regional_injustice_summary.csv",
     },
     "validation": {

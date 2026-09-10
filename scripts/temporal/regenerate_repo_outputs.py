@@ -1,6 +1,6 @@
 """
 Regenerate the repository's temporal-analysis outputs from the MANUSCRIPT dataset
-(us_embassy_2022_2023.csv, n=8,301, Station 8881) so the public repo reproduces the
+(reference_fem_openaq8881_2022_2023.csv, n=8,301, Station 8881) so the public repo reproduces the
 paper. The existing outputs/pm25_period_summary.csv, pm25_diurnal_profile.csv and
 seasonal_analysis.csv were computed on the multi-year 2018+ file and do NOT match
 the manuscript; they are backed up to outputs/_superseded_multiyear/ first.
@@ -14,7 +14,7 @@ TMP = os.path.join(OUT, "temporal"); os.makedirs(TMP, exist_ok=True)
 BAK = os.path.join(OUT, "_superseded_multiyear")
 os.makedirs(BAK, exist_ok=True)
 
-df = pd.read_csv(os.path.join(OUT, "reference", "us_embassy_2022_2023.csv"))
+df = pd.read_csv(os.path.join(OUT, "reference", "reference_fem_openaq8881_2022_2023.csv"))
 df["dt"] = pd.to_datetime(df["datetime_local"], format="mixed")
 df["hour"] = df["dt"].dt.hour
 df["dow"] = df["dt"].dt.dayofweek

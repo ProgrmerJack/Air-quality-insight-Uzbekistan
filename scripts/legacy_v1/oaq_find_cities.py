@@ -1,9 +1,14 @@
 """Discover OpenAQ v3 PM2.5 reference locations for Central Asian capitals (key reused from repo)."""
 import re, os, requests, time
+import sys as _s, os as _o
+_s.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)),
+                               *(['..', 'fetch'] if _o.path.basename(_o.path.dirname(
+                                 _o.path.abspath(__file__))) != 'fetch' else [])))
+from openaq_key import openaq_key
+KEY = openaq_key()
 
 root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-src = open(os.path.join(root, "scripts", "fetch", "fetch_us_embassy_2022_2023.py"), encoding="utf-8").read()
-KEY = re.search(r"API_KEY\s*=\s*'([^']+)'", src).group(1)
+src = open(os.path.join(root, "scripts", "fetch", "fetch_reference_fem_2022_2023.py"), encoding="utf-8").read()
 H = {"X-API-Key": KEY}
 
 CAPS = {

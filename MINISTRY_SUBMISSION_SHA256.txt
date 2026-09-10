@@ -1,0 +1,25 @@
+# Ministry submission set — SHA-256 manifest
+
+The E-IMZO signatures carry NO trusted timestamp: E-IMZO Standard has no `attach_timestamp`
+method, so `signingTime` is self-asserted from the signing machine's clock. Committing this
+manifest to a public repository puts the hashes under a timestamp the author does not control,
+which is the evidence the missing TSA token would otherwise have provided.
+
+Signed with key DS505020869300480002
+(cn = ashuraliyev abduxoliq akmal o‘g‘li).
+
+Verify:  sha256sum -c MINISTRY_SUBMISSION_SHA256.txt   (run from docs/ministry/pdf/)
+
+Each PDF is accompanied by a detached E-IMZO signature (.p7s) over these exact
+bytes. Any change to a PDF voids its .p7s.
+
+42e3d916d3a8977a3c7ac12fc2cfad70effc252899f4024cf5783c378a829c5d  01_bias_correction_note_EN.pdf
+208dd57f652ad7948fd10277d8ecc4170271f0055502cc7169801ad14628a10a  01_bias_correction_note_EN.pdf.p7s
+f11b1a8cb6f937e67c67b249391927e4924b395da9e538c48033cef640da7183  01_bias_correction_note_RU.pdf
+e60eaab2a8feedd97ddddd6ae1282737608caa2b8151cfee7a9c3f9926603112  01_bias_correction_note_RU.pdf.p7s
+2214c01f4f2951a8357a2a52ffc1a2f3b9c8504d8a2857f0c51cb7cdb8aa3be4  01_bias_correction_note_UZ.pdf
+4d6cde2062c530497e2cfeba37c217a19f628738c33be4d316863de12e22b9c1  01_bias_correction_note_UZ.pdf.p7s
+734bf236c9edc9099b2fe508b53cc73cabff57344c13ba3946a2e7569f519d97  02_taklif_RU.pdf
+beb9479a226e37be0832b5c9c737b0a1108e4a12fda07ad69bb8d77754e7845e  02_taklif_RU.pdf.p7s
+57a159cbaf91dfd7e2947d984cd624365651c34713767a4be3926ac816475ad0  02_taklif_UZ.pdf
+54580a0dcd271e959682f580e5217a534df7a51a90228744730a6c20c209210b  02_taklif_UZ.pdf.p7s

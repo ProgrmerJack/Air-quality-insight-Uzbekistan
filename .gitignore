@@ -53,3 +53,7 @@ research_paper/
 scripts/publishing/
 povmap-grdi-v1.tif
 scripts/temporal
+# watch_regulation.py runtime state
+scripts/monitoring/.regulation_seen.json
+scripts/monitoring/watch.log
+FAILURES.md

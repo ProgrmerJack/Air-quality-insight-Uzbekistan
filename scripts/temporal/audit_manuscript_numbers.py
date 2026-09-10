@@ -16,7 +16,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-CSV_PATH = Path("outputs/us_embassy_2022_2023.csv")
+CSV_PATH = Path("outputs/reference/reference_fem_openaq8881_2022_2023.csv")
 OUTPUT_JSON = Path("audit_summary.json")
 OUTPUT_MD = Path("CANONICAL_NUMBERS.md")
 

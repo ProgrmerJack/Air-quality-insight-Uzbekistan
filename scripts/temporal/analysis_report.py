@@ -11,10 +11,13 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 
-DATA_PATH = Path(__file__).resolve().parent
+# Paths are repo-root relative: this script moved into scripts/temporal/ during the 2026-06
+# reorganisation but kept __file__.parent, so it silently pointed at a directory that does not
+# exist -- which is why outputs/temporal/ still held pre-8881 (Sputnik-4) results.
+ROOT = Path(__file__).resolve().parents[2]
 # Use verified U.S. Embassy Station 8881 data (StateAir program)
-INPUT_FILE = DATA_PATH / "us_embassy_2022_2023.csv"
-OUTPUT_DIR = DATA_PATH / "outputs"
+INPUT_FILE = ROOT / "outputs" / "reference" / "reference_fem_openaq8881_2022_2023.csv"
+OUTPUT_DIR = ROOT / "outputs" / "temporal"
 
 
 def load_processed_data():

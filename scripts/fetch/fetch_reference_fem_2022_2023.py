@@ -8,8 +8,12 @@ from datetime import datetime, timedelta
 import json
 import time
 
-API_KEY = '5fbbc0ca72e78dcf70502e330f05ab29e5a2776a4a5214837ebaf687cc87aa64'
-headers = {'X-API-Key': API_KEY}
+# Key comes from OPENAQ_API_KEY (env or repo-root .env) -- see openaq_key.py.
+# The key that used to sit here inline was revoked and returns HTTP 401.
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from openaq_key import openaq_headers
+headers = openaq_headers()
 
 # Station 8881 = US Diplomatic Post: Tashkent (StateAir)
 # PM2.5 sensor ID: 25916
@@ -131,13 +135,13 @@ if all_measurements:
     print(seasonal)
     
     # Save data
-    df_clean.to_csv('us_embassy_2022_2023.csv', index=False)
-    print(f"\nSaved to: us_embassy_2022_2023.csv")
+    df_clean.to_csv('reference_fem_openaq8881_2022_2023.csv', index=False)
+    print(f"\nSaved to: reference_fem_openaq8881_2022_2023.csv")
     
     # Save daily means
     daily_df = daily_means.reset_index()
     daily_df.columns = ['date', 'pm25_mean']
-    daily_df.to_csv('us_embassy_2022_2023_daily.csv', index=False)
-    print(f"Saved daily means to: us_embassy_2022_2023_daily.csv")
+    daily_df.to_csv('reference_fem_openaq8881_2022_2023_daily.csv', index=False)
+    print(f"Saved daily means to: reference_fem_openaq8881_2022_2023_daily.csv")
 else:
     print("No data retrieved!")

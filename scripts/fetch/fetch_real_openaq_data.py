@@ -9,7 +9,12 @@ import json
 from datetime import datetime, timedelta
 import time
 
-API_KEY = '5fbbc0ca72e78dcf70502e330f05ab29e5a2776a4a5214837ebaf687cc87aa64'
+# Key comes from OPENAQ_API_KEY (env or repo-root .env) -- see openaq_key.py.
+# The key that used to sit here inline was revoked and returns HTTP 401.
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from openaq_key import openaq_key
+API_KEY = openaq_key()
 HEADERS = {'X-API-Key': API_KEY}
 
 def get_tashkent_stations():

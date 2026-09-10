@@ -35,7 +35,7 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 | `tropomi_gee.py` | `tropomi_no2_capitals_2022.json` | city-level NO₂ (Table S12) |
 | `satellite_process.py` | `acag_tashkent_2022.csv` (from `acag/*.nc`) | ACAG 37.4 cross-check |
 | `era5_inversion.py` | `era5_tashkent_monthly.nc` | BLH 134 m / 790 m, winter inversion |
-| `bias_correction.py` | (stdout) | municipal network ~20–25% under-read, r≈0.65 |
+| `bias_correction.py` | (stdout) | 12,243 co-located pairs; under-read 25%, r=0.61; RH form R²=0.38 |
 | `fusion_surface.py` | `fused_school_surface.csv` | formal fused surface (Methods "sensitivity product") |
 | `worldpop_child_regional.py` | `child_regional.csv` | under-20 child density, all 6 capitals |
 | `build_regional_index.py` | `regional_index_<capital>.csv`, **`regional_injustice_summary.csv`** | **canonical equity headline**, Table S11, Fig 2/3 |
@@ -43,7 +43,7 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 | `equity_robustness.py` | `equity_robustness.csv` | Table S14 (weight robustness) |
 | `equity_benefit_comparison.py` | `equity_benefit_comparison.csv` | Table S20 (what equity targeting changes) |
 | `viirs_crosscheck_regional.py` | `viirs_crosscheck_regional.csv` | Table S16 (independent deprivation) |
-| `measured_validation.py` | `measured_validation.csv`, `fig_measured_validation.png` | Fig 4 (40.0 vs 37.9) |
+| `measured_validation.py` | `measured_validation.csv`, `fig_measured_validation.png` | Fig 4 (40.6 vs 37.9) |
 | `out_of_region_transfer.py` | `out_of_region_transfer.csv` | Table S15 (Accra/Kathmandu/Lima) |
 | `global_applicability.py` | `global_applicability.csv`, `fig_global_applicability.png` | Fig 1 |
 | `openaq_anchor_coverage.py` | `openaq_reference_coverage.csv` | 11,658 / 114 / 57 / 72 |
@@ -53,7 +53,7 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 
 **Tashkent temporal carryover (v1 pipeline, still live in v2):**
 `scripts/temporal/comprehensive_analysis.py` + `scripts/temporal/regenerate_repo_outputs.py`
-→ `outputs/reference/us_embassy_2022_2023.csv`, `outputs/temporal/seasonal_analysis.csv`, `outputs/temporal/pm25_period_summary.csv`,
+→ `outputs/reference/reference_fem_openaq8881_2022_2023.csv`, `outputs/temporal/seasonal_analysis.csv`, `outputs/temporal/pm25_period_summary.csv`,
 `outputs/temporal/pm25_diurnal_profile.csv`. Reference annual means per capital (Table 1 "Reference" column) =
 `scripts/temporal/b6_multicity_fetch_analyze.py` → `outputs/multicity/multicity_comparison.csv`.
 
@@ -64,14 +64,16 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 ### 2.1 Reference & municipal monitoring / validation (Results §"reproducible, validated pipeline")
 | Claim | Value | Source data | Source code | External source |
 |---|---|---|---|---|
-| Tashkent reference annual mean | 37.9 µg/m³ | `outputs/reference/us_embassy_2022_2023.csv` | analysis + `regenerate_repo_outputs.py` | OpenAQ Station 8881 (US Embassy FEM) |
+| Tashkent reference annual mean | 37.9 µg/m³ | `outputs/reference/reference_fem_openaq8881_2022_2023.csv` | analysis + `regenerate_repo_outputs.py` | OpenAQ Station 8881 (US Embassy FEM) |
 | ACAG satellite agreement | 37.4 vs 37.9 (≤0.5) | `acag_tashkent_2022.csv` | `satellite_process.py` | ACAG SatPM2.5 V5.GL.05.02 |
-| Municipal network under-read | ~20–25%, r≈0.65, 12,243 pairs | `data/air_tashkent/pm25_hourly.csv` | `bias_correction.py` | Air Tashkent (opendata.tashkent.uz) |
+| Municipal network under-read | 25% (27.5 vs 36.7 µg/m³); anchor ×1.325–1.336 | `data/air_tashkent/pm25_hourly.csv` | `measured_validation.py` | Air Tashkent (opendata.tashkent.uz) |
+| Hour-matched overlap | **12,243 pairs, r = 0.61** (Jun 2023 – Feb 2025) | + `outputs/reference/reference_fem_openaq8881_2023_2025.csv` | `bias_correction.py` / `reconcile_pairing.py` | OpenAQ 8881 (FEM) |
+| Station 8881 actual 2024 annual mean | **34.8 µg/m³** at 90.0% completeness (cf. published 52.3; heating-season Oct–Mar = 49.9) | `outputs/reference/reference_fem_openaq8881_2023_2025.csv` | `refresh_reference_series.py` | OpenAQ 8881 |
 | Near-road NO₂ gradient | 254 vs 238 µmol/m², ρ=−0.27 | `school_no2_giga.csv` | `tropomi_school_giga.py` | Sentinel-5P/TROPOMI (GEE) |
 | % schools ≤100 m of road | 8.5% (37/434) | `school_no2_giga.csv` / road join | `tropomi_school_giga.py`, `regen_figs_giga.py` | OpenStreetMap roads |
 | Winter boundary-layer collapse | 77–192 m (~134) vs ~790 m | `era5_tashkent_monthly.nc` | `era5_inversion.py` | ERA5 (Copernicus CDS) |
-| Measured network mean after anchoring | 40.0 vs 37.9 (within 2) | `measured_validation.csv` | `measured_validation.py` | Air Tashkent + Station 8881 |
-| On-school measured spread | 33–55 µg/m³ | `measured_validation.csv` | `measured_validation.py` | Air Tashkent on-school stations |
+| Measured network mean after anchoring | 40.6 vs 37.9 (within 3) | `measured_validation.csv` | `measured_validation.py` | Air Tashkent + Station 8881 |
+| On-school measured spread | 33–56 µg/m³ | `measured_validation.csv` | `measured_validation.py` | Air Tashkent on-school stations |
 
 ### 2.2 Regional exposure — Table 1 (`tab:regional`) and Results §"severe and region-wide"
 | Claim | Value | Source data | Source code |
@@ -80,7 +82,7 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 | Exceed WHO guideline 4.6–10.7× (5 of 6) | derived | `giga_regional_exposure.csv` | `multicity_giga_spatial.py` |
 | School-hours range across capitals | 17.5–52.1 µg/m³ | `outputs/multicity/multicity_comparison.csv` | `b6_multicity_fetch_analyze.py` |
 | Tashkent outdoor school-hours mean | 34.1 | `outputs/temporal/pm25_period_summary.csv` | `regenerate_repo_outputs.py` |
-| Days > WHO 24-h | 93% | `outputs/reference/us_embassy_2022_2023_daily.csv` | `regenerate_repo_outputs.py` |
+| Days > WHO 24-h | 93% | `outputs/reference/reference_fem_openaq8881_2022_2023_daily.csv` | `regenerate_repo_outputs.py` |
 | Winter / summer means; Kruskal–Wallis | 59.1 / 26.1; H=847.3, p<0.001 | `outputs/temporal/seasonal_analysis.csv` | `comprehensive_analysis.py` |
 | 60–79% schools on pre-1992 stock; Dushanbe 79; Astana 38 | Table 1 / S10 | `school_building_age.csv`, `giga_regional_exposure.csv`, `dushanbe_wsf_age.py` | `building_age_wsf.py`, `dushanbe_wsf_age.py` |
 
@@ -142,7 +144,7 @@ Pipeline data are physically cataloged under `data/pipeline/{schools,exposure,eq
 
 ## 4. Cover letter — claim traceability
 All cover-letter numbers re-use main/SI sources: one-sentence advance & "32/43 in Tashkent" →
-`regional_injustice_summary.csv`; "4.6–10.7-fold", "40.0 vs 37.9" → as §2.1/2.2; "129 LMICs / 57 / 11,658
+`regional_injustice_summary.csv`; "4.6–10.7-fold", "40.6 vs 37.9" → as §2.1/2.2; "129 LMICs / 57 / 11,658
 / 114" → `openaq_reference_coverage.csv` + `global_applicability.csv`; Accra/Kathmandu/Lima →
 `out_of_region_transfer.csv`. **No cover-letter claim lacks a manuscript-backed source.**
 

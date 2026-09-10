@@ -42,7 +42,7 @@ See `REPO_INDEX.md` for the full catalog. **Run scripts from the repo root**, e.
 - **World Bank (2024)** *Air Quality Assessment for Tashkent* — authoritative ambient/health baseline.
 - **WHO 2021 AQG** — annual 5 µg/m³, 24-hour 15 µg/m³.
 
-Reproducibility archive: Zenodo concept DOI **10.5281/zenodo.17792118** (resolves to the current reference-grade version).
+Reproducibility archive: Zenodo concept DOI **10.5281/zenodo.20845035** (resolves to the current version; v2.1.0 is `10.5281/zenodo.21824161`).
 
 ## Reproducibility
 
@@ -62,8 +62,9 @@ python scripts/temporal/b6_multicity_fetch_analyze.py      # 6-capital compariso
 Code MIT; data derivatives CC-BY-4.0; OpenAQ source data public domain. Suggested citation:
 
 ```
-Ashuraliyev, A. (2025). Air Quality Insight — Central Asia: school-age PM2.5 exposure and
-classroom protection across six capitals. Zenodo. https://doi.org/10.5281/zenodo.17792118
+Ashuraliyev, A. (2026). An open environmental-justice method for prioritising protection of
+schoolchildren from air pollution in Central Asia — data and code (v2.1.0). Zenodo.
+https://doi.org/10.5281/zenodo.20845035
 ```
 
 ## Acknowledgments

@@ -10,10 +10,13 @@ Affiliation: Air Quality Research - Uzbekistan
 import pandas as pd
 from pathlib import Path
 
-DATA_PATH = Path(__file__).resolve().parent
+# Repo-root relative -- see the note in analysis_report.py; __file__.parent broke after the
+# 2026-06 reorganisation and left stale pre-8881 outputs in place.
+ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = ROOT / "outputs" / "temporal"
 # Use verified U.S. Embassy Station 8881 data (StateAir program)
-INPUT_FILE = DATA_PATH / "us_embassy_2022_2023.csv"
-WHO_FILE = DATA_PATH / "who_ambient_air_quality_database_version_2024_(v6.1).xlsx"
+INPUT_FILE = ROOT / "outputs" / "reference" / "reference_fem_openaq8881_2022_2023.csv"
+WHO_FILE = ROOT / "outputs" / "who_db" / "who_ambient_air_quality_database_version_2024_(v6.1).xlsx"
 
 
 def load_openaq():
@@ -53,7 +56,7 @@ def save_diurnal_profiles(df: pd.DataFrame):
     )
     diurnal["hour_label"] = diurnal["hour"].map(lambda h: f"{h:02d}:00")
     diurnal = diurnal[["parameter", "hour", "hour_label", "weekday_mean", "weekend_mean"]]
-    diurnal.to_csv(DATA_PATH / "outputs" / "pm25_diurnal_profile.csv", index=False)
+    diurnal.to_csv(OUTPUT_DIR / "pm25_diurnal_profile.csv", index=False)
 
 
 def save_school_hour_windows(df: pd.DataFrame):
@@ -70,7 +73,7 @@ def save_school_hour_windows(df: pd.DataFrame):
     )
     windows.columns = ["_".join(col).strip() for col in windows.columns.to_flat_index()]
     windows = windows.reset_index()
-    windows.to_csv(DATA_PATH / "outputs" / "pm25_period_summary.csv", index=False)
+    windows.to_csv(OUTPUT_DIR / "pm25_period_summary.csv", index=False)
 
 
 def save_weekday_box(df: pd.DataFrame):
@@ -81,7 +84,7 @@ def save_weekday_box(df: pd.DataFrame):
         .reset_index()
         .rename(columns={"value": "daily_mean"})
     )
-    daily.to_csv(DATA_PATH / "outputs" / "pm25_daily_means.csv", index=False)
+    daily.to_csv(OUTPUT_DIR / "pm25_daily_means.csv", index=False)
 
 
 def extract_who_context():
@@ -98,12 +101,11 @@ def extract_who_context():
     ]
     who = who[keep_cols]
     who = who[who["country_name"].str.contains("Uzbekistan", na=False)]
-    who.to_csv(DATA_PATH / "outputs" / "who_pm25_context.csv", index=False)
+    who.to_csv(OUTPUT_DIR / "who_pm25_context.csv", index=False)
 
 
 def ensure_output_dir():
-    out_dir = DATA_PATH / "outputs"
-    out_dir.mkdir(exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def main():

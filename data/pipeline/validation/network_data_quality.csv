@@ -1,0 +1,15 @@
+defect,hours_affected,pct_of_valid,stations_affected
+"D12 pm1 == pm2_5 exactly, channel echo (POST-HOC)",33510,16.305,7
+D3 pm1 > pm2_5 (PM1 is a subset of PM2.5),33164,16.137,7
+D8 completeness shortfall (mean across stations),21285,9.385,4
+D9 temperature exactly 0.0,3053,1.486,10
+D6 stuck sensor (>= 24 identical consecutive hours),2078,1.011,10
+D11 pm10 frozen >=3h while pm2_5 varies (POST-HOC),1991,0.969,10
+D2 pm2_5 > pm10 (PM2.5 is a subset of PM10),293,0.143,8
+D7 duplicate station-hour,216,0.105,10
+D10 pm10 > 1000 ug/m3 (POST-HOC),21,0.01,1
+D13 temperature > 50 C (POST-HOC),1,0.0,1
+D5 pm2_5 <= 0,0,0.0,0
+D4b pm2_5_uzb != pm2_5/35,0,0.0,0
+D4a pm2_5_who != pm2_5/5,0,0.0,0
+D1 pm2_5 > 1000 ug/m3 (implausible),0,0.0,0
